@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  equipo_id: 1
+  nombre: MyString
+  apellidos: MyString
+  apodo: MyString
+  foto: MyString
+  precio: 1.5
+
+two:
+  equipo_id: 1
+  nombre: MyString
+  apellidos: MyString
+  apodo: MyString
+  foto: MyString
+  precio: 1.5
