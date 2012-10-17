@@ -1,11 +1,34 @@
+.navbar {
+  .navbar-inner {
+    background-color: #61B7CF;
+    background-image: linear-gradient(to bottom, #057D9F, #025167);
+  }
+  .brand {
+    color: #FFFFFF;
+  }
+  .nav {
+    li {
+      a {
+        color: #FFFFFF;
+        text-shadow: 0 1px 0 #61B7CF;
+        &:hover {
+          color: #FFBA73;
+          text-shadow: 0 1px 0 #A65400;
+        }
+      }
+    }
+  }
+}
+
 .content {
-  background-color: #eee;
+  background-color: #61B7CF;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
+
