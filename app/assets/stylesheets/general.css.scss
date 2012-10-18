@@ -1,25 +1,3 @@
-.navbar {
-  .navbar-inner {
-    background-color: #61B7CF;
-    background-image: linear-gradient(to bottom, #057D9F, #025167);
-  }
-  .brand {
-    color: #FFFFFF;
-  }
-  .nav {
-    li {
-      a {
-        color: #FFFFFF;
-        text-shadow: 0 1px 0 #61B7CF;
-        &:hover {
-          color: #FFBA73;
-          text-shadow: 0 1px 0 #A65400;
-        }
-      }
-    }
-  }
-}
-
 .content {
   background-color: #61B7CF;
   padding: 20px;
@@ -30,6 +8,7 @@
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
   box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+
 }
 
 .modal-header{
@@ -42,3 +21,20 @@
   background-color: #FFBA73;
 }
 
+#central{
+  float: left;
+}
+
+#lateral{
+  float: right;
+  background-color: #FFFFFF;
+  padding: 5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px #025167;
+  -moz-box-shadow: 0 1px 2px #025167;
+  box-shadow: 0 1px 2px #025167;
+
+  font-size: 80%;
+}

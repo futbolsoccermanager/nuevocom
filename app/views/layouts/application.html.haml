@@ -21,5 +21,8 @@
           .row
             .span12
               = render 'layouts/messages'
-              = yield
+              #central.span8
+                = yield
+              #lateral.span3
+                = render 'layouts/lateral'
           %footer
