@@ -1,3 +1,8 @@
+//aqui se redefinen variables de estilos de bootstrap sass : _variables.scss
+// los nombre se pueden ver en http://twitter.github.com/bootstrap/customize.html
+$linkColor : #025167;
+
 @import "bootstrap";
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
+

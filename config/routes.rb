@@ -3,6 +3,8 @@ Nuevocom::Application.routes.draw do
 
   get "home/index"
 
+  match "home/prueba" => 'home#prueba', :as => :prueba
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
