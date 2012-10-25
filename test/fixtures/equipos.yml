@@ -1,9 +1,121 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  nombre: MyString
-  logo: MyString
-
-two:
-  nombre: MyString
-  logo: MyString
+--- 
+equipos_001: 
+  id: 14
+  nombre: athletic
+  logo: 
+  created_at: 2012-10-25 17:17:51 Z
+  updated_at: 2012-10-25 17:17:51 Z
+equipos_002: 
+  id: 15
+  nombre: atletico
+  logo: 
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+equipos_003: 
+  id: 16
+  nombre: barcelona
+  logo: 
+  created_at: 2012-10-25 17:18:35 Z
+  updated_at: 2012-10-25 17:18:35 Z
+equipos_004: 
+  id: 17
+  nombre: betis
+  logo: 
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+equipos_005: 
+  id: 18
+  nombre: celta
+  logo: 
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+equipos_006: 
+  id: 19
+  nombre: deportivo
+  logo: 
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+equipos_007: 
+  id: 20
+  nombre: espanyol
+  logo: 
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+equipos_008: 
+  id: 21
+  nombre: getafe
+  logo: 
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+equipos_009: 
+  id: 22
+  nombre: granada
+  logo: 
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+equipos_010: 
+  id: 23
+  nombre: levante
+  logo: 
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+equipos_011: 
+  id: 24
+  nombre: malaga
+  logo: 
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+equipos_012: 
+  id: 25
+  nombre: mallorca
+  logo: 
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+equipos_013: 
+  id: 26
+  nombre: osasuna
+  logo: 
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+equipos_014: 
+  id: 27
+  nombre: rayo
+  logo: 
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+equipos_015: 
+  id: 28
+  nombre: real-madrid
+  logo: 
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+equipos_016: 
+  id: 29
+  nombre: real-sociedad
+  logo: 
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+equipos_017: 
+  id: 30
+  nombre: sevilla
+  logo: 
+  created_at: 2012-10-25 17:23:42 Z
+  updated_at: 2012-10-25 17:23:42 Z
+equipos_018: 
+  id: 31
+  nombre: valencia
+  logo: 
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+equipos_019: 
+  id: 32
+  nombre: valladolid
+  logo: 
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+equipos_020: 
+  id: 33
+  nombre: zaragoza
+  logo: 
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z

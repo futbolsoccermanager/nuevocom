@@ -40,3 +40,6 @@ gem 'bootstrap-sass'
 
 # To use debugger
 # gem 'debugger'
+group :development, :test do
+  gem 'anemone'
+end

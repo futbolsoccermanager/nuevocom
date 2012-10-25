@@ -7,7 +7,8 @@ class CreateJugadores < ActiveRecord::Migration
       t.string :apodo
       t.string :foto
       t.float :precio
-
+      t.integer :dorsal
+      t.string :posicion
       t.timestamps
     end
   end

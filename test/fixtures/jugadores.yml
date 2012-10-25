@@ -1,17 +1,6169 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  equipo_id: 1
-  nombre: MyString
-  apellidos: MyString
-  apodo: MyString
-  foto: MyString
-  precio: 1.5
-
-two:
-  equipo_id: 1
-  nombre: MyString
-  apellidos: MyString
-  apodo: MyString
-  foto: MyString
-  precio: 1.5
+--- 
+jugadores_001: 
+  id: 396
+  equipo_id: 14
+  nombre: Arrizabalaga
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Portero
+  created_at: 2012-10-25 17:18:11 Z
+  updated_at: 2012-10-25 17:18:11 Z
+jugadores_002: 
+  id: 397
+  equipo_id: 14
+  nombre: Iraizoz
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_003: 
+  id: 398
+  equipo_id: 14
+  nombre: "Ra\xC3\xBAl Fern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_004: 
+  id: 399
+  equipo_id: 14
+  nombre: Amorebieta
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_005: 
+  id: 400
+  equipo_id: 14
+  nombre: Aurtenetxe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_006: 
+  id: 401
+  equipo_id: 14
+  nombre: Ekiza
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_007: 
+  id: 402
+  equipo_id: 14
+  nombre: Etxeberria
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_008: 
+  id: 403
+  equipo_id: 14
+  nombre: Iraola
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_009: 
+  id: 404
+  equipo_id: 14
+  nombre: Ramalho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_010: 
+  id: 405
+  equipo_id: 14
+  nombre: "San Jos\xC3\xA9"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_011: 
+  id: 406
+  equipo_id: 14
+  nombre: Xabi Castillo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_012: 
+  id: 407
+  equipo_id: 14
+  nombre: Ander
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_013: 
+  id: 408
+  equipo_id: 14
+  nombre: De Marcos
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_014: 
+  id: 409
+  equipo_id: 14
+  nombre: Gurpegi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_015: 
+  id: 410
+  equipo_id: 14
+  nombre: "Ibai G\xC3\xB3mez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:18:12 Z
+  updated_at: 2012-10-25 17:18:12 Z
+jugadores_016: 
+  id: 411
+  equipo_id: 14
+  nombre: "Igor Mart\xC3\xADnez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Medio
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_017: 
+  id: 412
+  equipo_id: 14
+  nombre: "I\xC3\xB1igo P\xC3\xA9rez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_018: 
+  id: 413
+  equipo_id: 14
+  nombre: Iturraspe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_019: 
+  id: 414
+  equipo_id: 14
+  nombre: Ruiz de Galarreta
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Medio
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_020: 
+  id: 415
+  equipo_id: 14
+  nombre: Susaeta
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_021: 
+  id: 416
+  equipo_id: 14
+  nombre: Aduriz
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_022: 
+  id: 417
+  equipo_id: 14
+  nombre: Fernando Llorente
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_023: 
+  id: 418
+  equipo_id: 14
+  nombre: "Isma L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_024: 
+  id: 419
+  equipo_id: 14
+  nombre: Muniain
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_025: 
+  id: 420
+  equipo_id: 14
+  nombre: Toquero
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:13 Z
+  updated_at: 2012-10-25 17:18:13 Z
+jugadores_026: 
+  id: 421
+  equipo_id: 15
+  nombre: Courtois
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:18:33 Z
+  updated_at: 2012-10-25 17:18:33 Z
+jugadores_027: 
+  id: 422
+  equipo_id: 15
+  nombre: Joel
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Portero
+  created_at: 2012-10-25 17:18:33 Z
+  updated_at: 2012-10-25 17:18:33 Z
+jugadores_028: 
+  id: 423
+  equipo_id: 15
+  nombre: Sergio Asenjo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:18:33 Z
+  updated_at: 2012-10-25 17:18:33 Z
+jugadores_029: 
+  id: 424
+  equipo_id: 15
+  nombre: "Cata D\xC3\xADaz"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:33 Z
+  updated_at: 2012-10-25 17:18:33 Z
+jugadores_030: 
+  id: 425
+  equipo_id: 15
+  nombre: Cisma
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_031: 
+  id: 426
+  equipo_id: 15
+  nombre: Filipe Luis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_032: 
+  id: 427
+  equipo_id: 15
+  nombre: "God\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_033: 
+  id: 428
+  equipo_id: 15
+  nombre: Juanfran
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_034: 
+  id: 429
+  equipo_id: 15
+  nombre: Kader
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 42
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_035: 
+  id: 430
+  equipo_id: 15
+  nombre: Manquillo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_036: 
+  id: 431
+  equipo_id: 15
+  nombre: Miranda
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_037: 
+  id: 432
+  equipo_id: 15
+  nombre: Pulido
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_038: 
+  id: 433
+  equipo_id: 15
+  nombre: "S\xC3\xADlvio"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_039: 
+  id: 434
+  equipo_id: 15
+  nombre: Arda Turan
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_040: 
+  id: 435
+  equipo_id: 15
+  nombre: "Cristian Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_041: 
+  id: 436
+  equipo_id: 15
+  nombre: Emre
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_042: 
+  id: 437
+  equipo_id: 15
+  nombre: Gabi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_043: 
+  id: 438
+  equipo_id: 15
+  nombre: Koke
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_044: 
+  id: 439
+  equipo_id: 15
+  nombre: "Mario Su\xC3\xA1rez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_045: 
+  id: 440
+  equipo_id: 15
+  nombre: "\xC3\x93liver Torres"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_046: 
+  id: 441
+  equipo_id: 15
+  nombre: "Ra\xC3\xBAl Garc\xC3\xADa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_047: 
+  id: 442
+  equipo_id: 15
+  nombre: "Sa\xC3\xBAl"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_048: 
+  id: 443
+  equipo_id: 15
+  nombre: Tiago
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:18:34 Z
+  updated_at: 2012-10-25 17:18:34 Z
+jugadores_049: 
+  id: 444
+  equipo_id: 15
+  nombre: "Adri\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:35 Z
+  updated_at: 2012-10-25 17:18:35 Z
+jugadores_050: 
+  id: 445
+  equipo_id: 15
+  nombre: Diego Costa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:35 Z
+  updated_at: 2012-10-25 17:18:35 Z
+jugadores_051: 
+  id: 446
+  equipo_id: 15
+  nombre: Falcao
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:35 Z
+  updated_at: 2012-10-25 17:18:35 Z
+jugadores_052: 
+  id: 447
+  equipo_id: 15
+  nombre: "Pedro Mart\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:35 Z
+  updated_at: 2012-10-25 17:18:35 Z
+jugadores_053: 
+  id: 448
+  equipo_id: 16
+  nombre: Pinto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_054: 
+  id: 449
+  equipo_id: 16
+  nombre: "V\xC3\xADctor Vald\xC3\xA9s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_055: 
+  id: 450
+  equipo_id: 16
+  nombre: Bartra
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_056: 
+  id: 451
+  equipo_id: 16
+  nombre: Dani Alves
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_057: 
+  id: 452
+  equipo_id: 16
+  nombre: "Font\xC3\xA1s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_058: 
+  id: 453
+  equipo_id: 16
+  nombre: Jordi Alba
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_059: 
+  id: 454
+  equipo_id: 16
+  nombre: Mascherano
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_060: 
+  id: 455
+  equipo_id: 16
+  nombre: Montoya
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_061: 
+  id: 456
+  equipo_id: 16
+  nombre: "Piqu\xC3\xA9"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_062: 
+  id: 457
+  equipo_id: 16
+  nombre: Puyol
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_063: 
+  id: 458
+  equipo_id: 16
+  nombre: Adriano
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_064: 
+  id: 459
+  equipo_id: 16
+  nombre: Alex Song
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Medio
+  created_at: 2012-10-25 17:18:55 Z
+  updated_at: 2012-10-25 17:18:55 Z
+jugadores_065: 
+  id: 460
+  equipo_id: 16
+  nombre: Busquets
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_066: 
+  id: 461
+  equipo_id: 16
+  nombre: "F\xC3\xA1bregas"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_067: 
+  id: 462
+  equipo_id: 16
+  nombre: Iniesta
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_068: 
+  id: 463
+  equipo_id: 16
+  nombre: Jonathan dos Santos
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_069: 
+  id: 464
+  equipo_id: 16
+  nombre: Sergi Roberto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_070: 
+  id: 465
+  equipo_id: 16
+  nombre: Tello
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 37
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_071: 
+  id: 466
+  equipo_id: 16
+  nombre: Thiago
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_072: 
+  id: 467
+  equipo_id: 16
+  nombre: Xavi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_073: 
+  id: 468
+  equipo_id: 16
+  nombre: Alexis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_074: 
+  id: 469
+  equipo_id: 16
+  nombre: Cuenca
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_075: 
+  id: 470
+  equipo_id: 16
+  nombre: Deulofeu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_076: 
+  id: 471
+  equipo_id: 16
+  nombre: Messi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_077: 
+  id: 472
+  equipo_id: 16
+  nombre: Pedro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_078: 
+  id: 473
+  equipo_id: 16
+  nombre: Villa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:18:56 Z
+  updated_at: 2012-10-25 17:18:56 Z
+jugadores_079: 
+  id: 474
+  equipo_id: 17
+  nombre: "Adri\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:19:16 Z
+  updated_at: 2012-10-25 17:19:16 Z
+jugadores_080: 
+  id: 475
+  equipo_id: 17
+  nombre: Casto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_081: 
+  id: 476
+  equipo_id: 17
+  nombre: Fabricio
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Portero
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_082: 
+  id: 477
+  equipo_id: 17
+  nombre: "\xC3\x81lex Mart\xC3\xADnez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_083: 
+  id: 478
+  equipo_id: 17
+  nombre: Amaya
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_084: 
+  id: 479
+  equipo_id: 17
+  nombre: "\xC3\x81ngel L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_085: 
+  id: 480
+  equipo_id: 17
+  nombre: Chechu Dorado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_086: 
+  id: 481
+  equipo_id: 17
+  nombre: Chica
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_087: 
+  id: 482
+  equipo_id: 17
+  nombre: Mario
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_088: 
+  id: 483
+  equipo_id: 17
+  nombre: Nacho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_089: 
+  id: 484
+  equipo_id: 17
+  nombre: Nelson
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_090: 
+  id: 485
+  equipo_id: 17
+  nombre: Paulao
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_091: 
+  id: 486
+  equipo_id: 17
+  nombre: Perquis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_092: 
+  id: 487
+  equipo_id: 17
+  nombre: "Be\xC3\xB1at"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_093: 
+  id: 488
+  equipo_id: 17
+  nombre: "Ca\xC3\xB1as"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_094: 
+  id: 489
+  equipo_id: 17
+  nombre: Juan Carlos
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_095: 
+  id: 490
+  equipo_id: 17
+  nombre: Nono
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Medio
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_096: 
+  id: 491
+  equipo_id: 17
+  nombre: Nosa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:19:17 Z
+  updated_at: 2012-10-25 17:19:17 Z
+jugadores_097: 
+  id: 492
+  equipo_id: 17
+  nombre: "Rub\xC3\xA9n P\xC3\xA9rez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_098: 
+  id: 493
+  equipo_id: 17
+  nombre: Salva Sevilla
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_099: 
+  id: 494
+  equipo_id: 17
+  nombre: "Sergio Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 39
+  posicion: Medio
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_100: 
+  id: 495
+  equipo_id: 17
+  nombre: Agra
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_101: 
+  id: 496
+  equipo_id: 17
+  nombre: J. Pereira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_102: 
+  id: 497
+  equipo_id: 17
+  nombre: Joel Campbell
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_103: 
+  id: 498
+  equipo_id: 17
+  nombre: Jorge Molina
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_104: 
+  id: 499
+  equipo_id: 17
+  nombre: Pozuelo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_105: 
+  id: 500
+  equipo_id: 17
+  nombre: "Rub\xC3\xA9n Castro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:18 Z
+  updated_at: 2012-10-25 17:19:18 Z
+jugadores_106: 
+  id: 501
+  equipo_id: 18
+  nombre: Blanco
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:19:38 Z
+  updated_at: 2012-10-25 17:19:38 Z
+jugadores_107: 
+  id: 502
+  equipo_id: 18
+  nombre: Javi Varas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:19:38 Z
+  updated_at: 2012-10-25 17:19:38 Z
+jugadores_108: 
+  id: 503
+  equipo_id: 18
+  nombre: "Sergio \xC3\x81lvarez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_109: 
+  id: 504
+  equipo_id: 18
+  nombre: Cabral
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_110: 
+  id: 505
+  equipo_id: 18
+  nombre: Hugo Mallo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_111: 
+  id: 506
+  equipo_id: 18
+  nombre: Jonny
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_112: 
+  id: 507
+  equipo_id: 18
+  nombre: Roberto Lago
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_113: 
+  id: 508
+  equipo_id: 18
+  nombre: Samuel
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_114: 
+  id: 509
+  equipo_id: 18
+  nombre: "T\xC3\xBA\xC3\xB1ez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:19:39 Z
+  updated_at: 2012-10-25 17:19:39 Z
+jugadores_115: 
+  id: 510
+  equipo_id: 18
+  nombre: "\xC3\x81lex L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_116: 
+  id: 511
+  equipo_id: 18
+  nombre: "Augusto Fern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_117: 
+  id: 512
+  equipo_id: 18
+  nombre: Bellvis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_118: 
+  id: 513
+  equipo_id: 18
+  nombre: Cristian Bustos
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_119: 
+  id: 514
+  equipo_id: 18
+  nombre: Dani Abalo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_120: 
+  id: 515
+  equipo_id: 18
+  nombre: De Lucas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:19:40 Z
+  updated_at: 2012-10-25 17:19:40 Z
+jugadores_121: 
+  id: 516
+  equipo_id: 18
+  nombre: Jonathan Vila
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_122: 
+  id: 517
+  equipo_id: 18
+  nombre: Krohn-Dehli
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_123: 
+  id: 518
+  equipo_id: 18
+  nombre: Natxo Insa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Medio
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_124: 
+  id: 519
+  equipo_id: 18
+  nombre: "Oubi\xC3\xB1a"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_125: 
+  id: 520
+  equipo_id: 18
+  nombre: Toni
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_126: 
+  id: 521
+  equipo_id: 18
+  nombre: Iago Aspas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_127: 
+  id: 522
+  equipo_id: 18
+  nombre: "Joan Tom\xC3\xA1s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_128: 
+  id: 523
+  equipo_id: 18
+  nombre: Mario Bermejo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_129: 
+  id: 524
+  equipo_id: 18
+  nombre: Park Chu-Young
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Delantero
+  created_at: 2012-10-25 17:19:41 Z
+  updated_at: 2012-10-25 17:19:41 Z
+jugadores_130: 
+  id: 525
+  equipo_id: 19
+  nombre: Aranzubia
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:20:01 Z
+  updated_at: 2012-10-25 17:20:01 Z
+jugadores_131: 
+  id: 526
+  equipo_id: 19
+  nombre: Lux
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:20:01 Z
+  updated_at: 2012-10-25 17:20:01 Z
+jugadores_132: 
+  id: 527
+  equipo_id: 19
+  nombre: Ayoze
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:01 Z
+  updated_at: 2012-10-25 17:20:01 Z
+jugadores_133: 
+  id: 528
+  equipo_id: 19
+  nombre: Aythami
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_134: 
+  id: 529
+  equipo_id: 19
+  nombre: Evaldo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_135: 
+  id: 530
+  equipo_id: 19
+  nombre: Laure
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_136: 
+  id: 531
+  equipo_id: 19
+  nombre: Manuel Pablo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_137: 
+  id: 532
+  equipo_id: 19
+  nombre: Marchena
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_138: 
+  id: 533
+  equipo_id: 19
+  nombre: Roderick
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_139: 
+  id: 534
+  equipo_id: 19
+  nombre: Seoane
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 33
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_140: 
+  id: 535
+  equipo_id: 19
+  nombre: "Z\xC3\xA9 Castro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_141: 
+  id: 536
+  equipo_id: 19
+  nombre: Abel Aguilar
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_142: 
+  id: 537
+  equipo_id: 19
+  nombre: "\xC3\x81lex Berganti\xC3\xB1os"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_143: 
+  id: 538
+  equipo_id: 19
+  nombre: "Andr\xC3\xA9 Santos"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_144: 
+  id: 539
+  equipo_id: 19
+  nombre: Bruno Gama
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_145: 
+  id: 540
+  equipo_id: 19
+  nombre: "Camu\xC3\xB1as"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:20:02 Z
+  updated_at: 2012-10-25 17:20:02 Z
+jugadores_146: 
+  id: 541
+  equipo_id: 19
+  nombre: "Jes\xC3\xBAs V\xC3\xA1zquez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_147: 
+  id: 542
+  equipo_id: 19
+  nombre: "Juan Dom\xC3\xADnguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_148: 
+  id: 543
+  equipo_id: 19
+  nombre: Salomao
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_149: 
+  id: 544
+  equipo_id: 19
+  nombre: "Sa\xC3\xBAl"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_150: 
+  id: 545
+  equipo_id: 19
+  nombre: "Valer\xC3\xB3n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_151: 
+  id: 546
+  equipo_id: 19
+  nombre: Bodipo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_152: 
+  id: 547
+  equipo_id: 19
+  nombre: Nelson Oliveira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_153: 
+  id: 548
+  equipo_id: 19
+  nombre: Pizzi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_154: 
+  id: 549
+  equipo_id: 19
+  nombre: Riki
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:03 Z
+  updated_at: 2012-10-25 17:20:03 Z
+jugadores_155: 
+  id: 550
+  equipo_id: 20
+  nombre: Casilla
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_156: 
+  id: 551
+  equipo_id: 20
+  nombre: "Cristian \xC3\x81lvarez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_157: 
+  id: 552
+  equipo_id: 20
+  nombre: Edgar
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_158: 
+  id: 553
+  equipo_id: 20
+  nombre: Capdevila
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_159: 
+  id: 554
+  equipo_id: 20
+  nombre: Colotto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_160: 
+  id: 555
+  equipo_id: 20
+  nombre: "Forl\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_161: 
+  id: 556
+  equipo_id: 20
+  nombre: "Gal\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:23 Z
+  updated_at: 2012-10-25 17:20:23 Z
+jugadores_162: 
+  id: 557
+  equipo_id: 20
+  nombre: "H\xC3\xA9ctor Moreno"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_163: 
+  id: 558
+  equipo_id: 20
+  nombre: "Javi L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_164: 
+  id: 559
+  equipo_id: 20
+  nombre: Mattioni
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_165: 
+  id: 560
+  equipo_id: 20
+  nombre: "Ra\xC3\xBAl Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_166: 
+  id: 561
+  equipo_id: 20
+  nombre: "V\xC3\xADctor \xC3\x81lvarez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_167: 
+  id: 562
+  equipo_id: 20
+  nombre: Baena
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_168: 
+  id: 563
+  equipo_id: 20
+  nombre: Cristian Alfonso
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_169: 
+  id: 564
+  equipo_id: 20
+  nombre: "Cristian G\xC3\xB3mez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_170: 
+  id: 565
+  equipo_id: 20
+  nombre: Fran Miranda
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_171: 
+  id: 566
+  equipo_id: 20
+  nombre: Longo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_172: 
+  id: 567
+  equipo_id: 20
+  nombre: Simao
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_173: 
+  id: 568
+  equipo_id: 20
+  nombre: Tejera
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_174: 
+  id: 569
+  equipo_id: 20
+  nombre: "Verd\xC3\xBA"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_175: 
+  id: 570
+  equipo_id: 20
+  nombre: "V\xC3\xADctor S\xC3\xA1nchez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_176: 
+  id: 571
+  equipo_id: 20
+  nombre: Wakaso
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_177: 
+  id: 572
+  equipo_id: 20
+  nombre: "Alb\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_178: 
+  id: 573
+  equipo_id: 20
+  nombre: Rui Fonte
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_179: 
+  id: 574
+  equipo_id: 20
+  nombre: "Sergio Garc\xC3\xADa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_180: 
+  id: 575
+  equipo_id: 20
+  nombre: Stuani
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:24 Z
+  updated_at: 2012-10-25 17:20:24 Z
+jugadores_181: 
+  id: 576
+  equipo_id: 21
+  nombre: Codina
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_182: 
+  id: 577
+  equipo_id: 21
+  nombre: "Moy\xC3\xA1"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_183: 
+  id: 578
+  equipo_id: 21
+  nombre: Abraham
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_184: 
+  id: 579
+  equipo_id: 21
+  nombre: Alexis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_185: 
+  id: 580
+  equipo_id: 21
+  nombre: Lopo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_186: 
+  id: 581
+  equipo_id: 21
+  nombre: "Man\xC3\xA9"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_187: 
+  id: 582
+  equipo_id: 21
+  nombre: Miguel Torres
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_188: 
+  id: 583
+  equipo_id: 21
+  nombre: Rafa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_189: 
+  id: 584
+  equipo_id: 21
+  nombre: Valera
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Defensa
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_190: 
+  id: 585
+  equipo_id: 21
+  nombre: Barrada
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Medio
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_191: 
+  id: 586
+  equipo_id: 21
+  nombre: Borja
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_192: 
+  id: 587
+  equipo_id: 21
+  nombre: Diego Castro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_193: 
+  id: 588
+  equipo_id: 21
+  nombre: "Gavil\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:20:45 Z
+  updated_at: 2012-10-25 17:20:45 Z
+jugadores_194: 
+  id: 589
+  equipo_id: 21
+  nombre: "Juan Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_195: 
+  id: 590
+  equipo_id: 21
+  nombre: Lacen
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_196: 
+  id: 591
+  equipo_id: 21
+  nombre: Lafita
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_197: 
+  id: 592
+  equipo_id: 21
+  nombre: "M\xC3\xADchel"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_198: 
+  id: 593
+  equipo_id: 21
+  nombre: "Pedro Le\xC3\xB3n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_199: 
+  id: 594
+  equipo_id: 21
+  nombre: Sarabia
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_200: 
+  id: 595
+  equipo_id: 21
+  nombre: Xavi Torres
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Medio
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_201: 
+  id: 596
+  equipo_id: 21
+  nombre: "\xC3\x81lvaro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_202: 
+  id: 597
+  equipo_id: 21
+  nombre: Colunga
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_203: 
+  id: 598
+  equipo_id: 21
+  nombre: "Dani G\xC3\xBCiza"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_204: 
+  id: 599
+  equipo_id: 21
+  nombre: Hugo Fraile
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_205: 
+  id: 600
+  equipo_id: 21
+  nombre: "Paco Alc\xC3\xA1cer"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Delantero
+  created_at: 2012-10-25 17:20:46 Z
+  updated_at: 2012-10-25 17:20:46 Z
+jugadores_206: 
+  id: 601
+  equipo_id: 22
+  nombre: "Jorge S\xC3\xA1nchez Colacio"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:21:06 Z
+  updated_at: 2012-10-25 17:21:06 Z
+jugadores_207: 
+  id: 602
+  equipo_id: 22
+  nombre: Roberto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_208: 
+  id: 603
+  equipo_id: 22
+  nombre: "To\xC3\xB1o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_209: 
+  id: 604
+  equipo_id: 22
+  nombre: "Borja G\xC3\xB3mez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_210: 
+  id: 605
+  equipo_id: 22
+  nombre: Brayan Angulo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_211: 
+  id: 606
+  equipo_id: 22
+  nombre: "Diakhat\xC3\xA9"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_212: 
+  id: 607
+  equipo_id: 22
+  nombre: "I\xC3\xB1igo L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_213: 
+  id: 608
+  equipo_id: 22
+  nombre: Juanma Ortiz
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_214: 
+  id: 609
+  equipo_id: 22
+  nombre: Mainz
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_215: 
+  id: 610
+  equipo_id: 22
+  nombre: Nyom
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_216: 
+  id: 611
+  equipo_id: 22
+  nombre: Siqueira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_217: 
+  id: 612
+  equipo_id: 22
+  nombre: Brahimi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Medio
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_218: 
+  id: 613
+  equipo_id: 22
+  nombre: "Dani Ben\xC3\xADtez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_219: 
+  id: 614
+  equipo_id: 22
+  nombre: Fran Rico
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:21:07 Z
+  updated_at: 2012-10-25 17:21:07 Z
+jugadores_220: 
+  id: 615
+  equipo_id: 22
+  nombre: Iriney
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_221: 
+  id: 616
+  equipo_id: 22
+  nombre: Jaime
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_222: 
+  id: 617
+  equipo_id: 22
+  nombre: Lucena
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_223: 
+  id: 618
+  equipo_id: 22
+  nombre: Mikel Rico
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_224: 
+  id: 619
+  equipo_id: 22
+  nombre: "Mois\xC3\xA9s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_225: 
+  id: 620
+  equipo_id: 22
+  nombre: Torje
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_226: 
+  id: 621
+  equipo_id: 22
+  nombre: El Arabi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_227: 
+  id: 622
+  equipo_id: 22
+  nombre: Floro Flores
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_228: 
+  id: 623
+  equipo_id: 22
+  nombre: Ighalo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_229: 
+  id: 624
+  equipo_id: 22
+  nombre: "Mach\xC3\xADs"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_230: 
+  id: 625
+  equipo_id: 22
+  nombre: Orellana
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:08 Z
+  updated_at: 2012-10-25 17:21:08 Z
+jugadores_231: 
+  id: 626
+  equipo_id: 23
+  nombre: Garabato
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:21:28 Z
+  updated_at: 2012-10-25 17:21:28 Z
+jugadores_232: 
+  id: 627
+  equipo_id: 23
+  nombre: Keylor Navas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_233: 
+  id: 628
+  equipo_id: 23
+  nombre: "Mun\xC3\xBAa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_234: 
+  id: 629
+  equipo_id: 23
+  nombre: Ballesteros
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_235: 
+  id: 630
+  equipo_id: 23
+  nombre: David Navarro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_236: 
+  id: 631
+  equipo_id: 23
+  nombre: "H\xC3\xA9ctor Rodas"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_237: 
+  id: 632
+  equipo_id: 23
+  nombre: Juanfran
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_238: 
+  id: 633
+  equipo_id: 23
+  nombre: Karabelas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_239: 
+  id: 634
+  equipo_id: 23
+  nombre: Lell
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_240: 
+  id: 635
+  equipo_id: 23
+  nombre: "Pedro L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_241: 
+  id: 636
+  equipo_id: 23
+  nombre: Volta
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_242: 
+  id: 637
+  equipo_id: 23
+  nombre: Barkero
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_243: 
+  id: 638
+  equipo_id: 23
+  nombre: Dudka
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_244: 
+  id: 639
+  equipo_id: 23
+  nombre: El Zhar
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_245: 
+  id: 640
+  equipo_id: 23
+  nombre: Iborra
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:21:29 Z
+  updated_at: 2012-10-25 17:21:29 Z
+jugadores_246: 
+  id: 641
+  equipo_id: 23
+  nombre: Juanlu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_247: 
+  id: 642
+  equipo_id: 23
+  nombre: "\xC3\x93scar Serrano"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_248: 
+  id: 643
+  equipo_id: 23
+  nombre: "Pallard\xC3\xB3"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_249: 
+  id: 644
+  equipo_id: 23
+  nombre: Papa Diop
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_250: 
+  id: 645
+  equipo_id: 23
+  nombre: "Pedro R\xC3\xADos"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_251: 
+  id: 646
+  equipo_id: 23
+  nombre: "Rub\xC3\xA9n Garc\xC3\xADa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Medio
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_252: 
+  id: 647
+  equipo_id: 23
+  nombre: "\xC3\x81ngel"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_253: 
+  id: 648
+  equipo_id: 23
+  nombre: Gekas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_254: 
+  id: 649
+  equipo_id: 23
+  nombre: Martins
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_255: 
+  id: 650
+  equipo_id: 23
+  nombre: "M\xC3\xADchel"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_256: 
+  id: 651
+  equipo_id: 23
+  nombre: Roger
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:30 Z
+  updated_at: 2012-10-25 17:21:30 Z
+jugadores_257: 
+  id: 652
+  equipo_id: 24
+  nombre: Kameni
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_258: 
+  id: 653
+  equipo_id: 24
+  nombre: Pol
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 32
+  posicion: Portero
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_259: 
+  id: 654
+  equipo_id: 24
+  nombre: Willy Caballero
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_260: 
+  id: 655
+  equipo_id: 24
+  nombre: Demichelis
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_261: 
+  id: 656
+  equipo_id: 24
+  nombre: Eliseu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_262: 
+  id: 657
+  equipo_id: 24
+  nombre: "Jes\xC3\xBAs G\xC3\xA1mez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_263: 
+  id: 658
+  equipo_id: 24
+  nombre: Jurado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_264: 
+  id: 659
+  equipo_id: 24
+  nombre: Monreal
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_265: 
+  id: 660
+  equipo_id: 24
+  nombre: Onyewu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_266: 
+  id: 661
+  equipo_id: 24
+  nombre: "Sergio S\xC3\xA1nchez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_267: 
+  id: 662
+  equipo_id: 24
+  nombre: Weligton
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_268: 
+  id: 663
+  equipo_id: 24
+  nombre: Buonanotte
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_269: 
+  id: 664
+  equipo_id: 24
+  nombre: Duda
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_270: 
+  id: 665
+  equipo_id: 24
+  nombre: Ignacio Camacho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_271: 
+  id: 666
+  equipo_id: 24
+  nombre: Isco
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:21:51 Z
+  updated_at: 2012-10-25 17:21:51 Z
+jugadores_272: 
+  id: 667
+  equipo_id: 24
+  nombre: Iturra
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_273: 
+  id: 668
+  equipo_id: 24
+  nombre: "Joaqu\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_274: 
+  id: 669
+  equipo_id: 24
+  nombre: Recio
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Medio
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_275: 
+  id: 670
+  equipo_id: 24
+  nombre: Toulalan
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_276: 
+  id: 671
+  equipo_id: 24
+  nombre: Fabrice
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 45
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_277: 
+  id: 672
+  equipo_id: 24
+  nombre: Juanmi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_278: 
+  id: 673
+  equipo_id: 24
+  nombre: Julio Baptista
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_279: 
+  id: 674
+  equipo_id: 24
+  nombre: Portillo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_280: 
+  id: 675
+  equipo_id: 24
+  nombre: Santa Cruz
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_281: 
+  id: 676
+  equipo_id: 24
+  nombre: Saviola
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_282: 
+  id: 677
+  equipo_id: 24
+  nombre: "Seba Fern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:21:52 Z
+  updated_at: 2012-10-25 17:21:52 Z
+jugadores_283: 
+  id: 678
+  equipo_id: 25
+  nombre: Aouate
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:22:12 Z
+  updated_at: 2012-10-25 17:22:12 Z
+jugadores_284: 
+  id: 679
+  equipo_id: 25
+  nombre: Calatayud
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:22:12 Z
+  updated_at: 2012-10-25 17:22:12 Z
+jugadores_285: 
+  id: 680
+  equipo_id: 25
+  nombre: "Mi\xC3\xB1o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Portero
+  created_at: 2012-10-25 17:22:12 Z
+  updated_at: 2012-10-25 17:22:12 Z
+jugadores_286: 
+  id: 681
+  equipo_id: 25
+  nombre: Yeray
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:22:12 Z
+  updated_at: 2012-10-25 17:22:12 Z
+jugadores_287: 
+  id: 682
+  equipo_id: 25
+  nombre: "Anderson Concei\xC3\xA7ao"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_288: 
+  id: 683
+  equipo_id: 25
+  nombre: "Antonio L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_289: 
+  id: 684
+  equipo_id: 25
+  nombre: Bigas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_290: 
+  id: 685
+  equipo_id: 25
+  nombre: Company
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 37
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_291: 
+  id: 686
+  equipo_id: 25
+  nombre: "Font\xC3\xA1s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_292: 
+  id: 687
+  equipo_id: 25
+  nombre: Geromel
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_293: 
+  id: 688
+  equipo_id: 25
+  nombre: Kevin
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_294: 
+  id: 689
+  equipo_id: 25
+  nombre: Nunes
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_295: 
+  id: 690
+  equipo_id: 25
+  nombre: "Pablo Mar\xC3\xAD"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 34
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_296: 
+  id: 691
+  equipo_id: 25
+  nombre: Ximo Navarro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_297: 
+  id: 692
+  equipo_id: 25
+  nombre: Alfaro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_298: 
+  id: 693
+  equipo_id: 25
+  nombre: Charlie
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 32
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_299: 
+  id: 694
+  equipo_id: 25
+  nombre: "Javi M\xC3\xA1rquez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_300: 
+  id: 695
+  equipo_id: 25
+  nombre: "Jo\xC3\xA3o Victor"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_301: 
+  id: 696
+  equipo_id: 25
+  nombre: "Marc Fern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 35
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_302: 
+  id: 697
+  equipo_id: 25
+  nombre: "Mart\xC3\xAD"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_303: 
+  id: 698
+  equipo_id: 25
+  nombre: Pereira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_304: 
+  id: 699
+  equipo_id: 25
+  nombre: Pina
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_305: 
+  id: 700
+  equipo_id: 25
+  nombre: "Abd\xC3\xB3n Prats"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 33
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_306: 
+  id: 701
+  equipo_id: 25
+  nombre: "\xC3\x81lvaro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:13 Z
+  updated_at: 2012-10-25 17:22:13 Z
+jugadores_307: 
+  id: 702
+  equipo_id: 25
+  nombre: Arizmendi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+jugadores_308: 
+  id: 703
+  equipo_id: 25
+  nombre: Giovani
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+jugadores_309: 
+  id: 704
+  equipo_id: 25
+  nombre: Hemed
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+jugadores_310: 
+  id: 705
+  equipo_id: 25
+  nombre: Nsue
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+jugadores_311: 
+  id: 706
+  equipo_id: 25
+  nombre: "V\xC3\xADctor"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:14 Z
+  updated_at: 2012-10-25 17:22:14 Z
+jugadores_312: 
+  id: 707
+  equipo_id: 26
+  nombre: "Andr\xC3\xA9s Fern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_313: 
+  id: 708
+  equipo_id: 26
+  nombre: Imanol
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_314: 
+  id: 709
+  equipo_id: 26
+  nombre: Riesgo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_315: 
+  id: 710
+  equipo_id: 26
+  nombre: Arribas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_316: 
+  id: 711
+  equipo_id: 26
+  nombre: "Dami\xC3\xA1"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_317: 
+  id: 712
+  equipo_id: 26
+  nombre: Echaide
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_318: 
+  id: 713
+  equipo_id: 26
+  nombre: "Marc Bertr\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_319: 
+  id: 714
+  equipo_id: 26
+  nombre: "Miguel Fla\xC3\xB1o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_320: 
+  id: 715
+  equipo_id: 26
+  nombre: Oier
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_321: 
+  id: 716
+  equipo_id: 26
+  nombre: "Rub\xC3\xA9n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_322: 
+  id: 717
+  equipo_id: 26
+  nombre: "\xC3\x81lvaro Cejudo"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_323: 
+  id: 718
+  equipo_id: 26
+  nombre: Annan
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Medio
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_324: 
+  id: 719
+  equipo_id: 26
+  nombre: Armenteros
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Medio
+  created_at: 2012-10-25 17:22:35 Z
+  updated_at: 2012-10-25 17:22:35 Z
+jugadores_325: 
+  id: 720
+  equipo_id: 26
+  nombre: Lamah
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_326: 
+  id: 721
+  equipo_id: 26
+  nombre: Lolo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_327: 
+  id: 722
+  equipo_id: 26
+  nombre: Masoud
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_328: 
+  id: 723
+  equipo_id: 26
+  nombre: Nano
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_329: 
+  id: 724
+  equipo_id: 26
+  nombre: "Pu\xC3\xB1al"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_330: 
+  id: 725
+  equipo_id: 26
+  nombre: Raoul Loe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_331: 
+  id: 726
+  equipo_id: 26
+  nombre: Roberto Torres
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_332: 
+  id: 727
+  equipo_id: 26
+  nombre: Sisi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_333: 
+  id: 728
+  equipo_id: 26
+  nombre: Timor
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_334: 
+  id: 729
+  equipo_id: 26
+  nombre: Joseba Llorente
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_335: 
+  id: 730
+  equipo_id: 26
+  nombre: Kike Sola
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_336: 
+  id: 731
+  equipo_id: 26
+  nombre: Nino
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_337: 
+  id: 732
+  equipo_id: 26
+  nombre: Omwu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:36 Z
+  updated_at: 2012-10-25 17:22:36 Z
+jugadores_338: 
+  id: 733
+  equipo_id: 27
+  nombre: "Cobe\xC3\xB1o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Portero
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_339: 
+  id: 734
+  equipo_id: 27
+  nombre: Dani
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_340: 
+  id: 735
+  equipo_id: 27
+  nombre: Ismael
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_341: 
+  id: 736
+  equipo_id: 27
+  nombre: "Rub\xC3\xA9n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_342: 
+  id: 737
+  equipo_id: 27
+  nombre: "Alca\xC3\xB1iz"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_343: 
+  id: 738
+  equipo_id: 27
+  nombre: Casado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_344: 
+  id: 739
+  equipo_id: 27
+  nombre: "G\xC3\xA1lvez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_345: 
+  id: 740
+  equipo_id: 27
+  nombre: Jordi Amat
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_346: 
+  id: 741
+  equipo_id: 27
+  nombre: Labaka
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_347: 
+  id: 742
+  equipo_id: 27
+  nombre: Roberto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 38
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_348: 
+  id: 743
+  equipo_id: 27
+  nombre: "Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_349: 
+  id: 744
+  equipo_id: 27
+  nombre: Sueliton
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_350: 
+  id: 745
+  equipo_id: 27
+  nombre: Tito
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_351: 
+  id: 746
+  equipo_id: 27
+  nombre: Abu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:22:57 Z
+  updated_at: 2012-10-25 17:22:57 Z
+jugadores_352: 
+  id: 747
+  equipo_id: 27
+  nombre: "Adri\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_353: 
+  id: 748
+  equipo_id: 27
+  nombre: Alberto Perea
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_354: 
+  id: 749
+  equipo_id: 27
+  nombre: Arana
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_355: 
+  id: 750
+  equipo_id: 27
+  nombre: "Franco V\xC3\xA1zquez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_356: 
+  id: 751
+  equipo_id: 27
+  nombre: Javi Fuego
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_357: 
+  id: 752
+  equipo_id: 27
+  nombre: Trashorras
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_358: 
+  id: 753
+  equipo_id: 27
+  nombre: Delibasic
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_359: 
+  id: 754
+  equipo_id: 27
+  nombre: "Dom\xC3\xADnguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_360: 
+  id: 755
+  equipo_id: 27
+  nombre: "Jos\xC3\xA9 Carlos"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_361: 
+  id: 756
+  equipo_id: 27
+  nombre: Lass
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_362: 
+  id: 757
+  equipo_id: 27
+  nombre: Leo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_363: 
+  id: 758
+  equipo_id: 27
+  nombre: Nickie Billie
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_364: 
+  id: 759
+  equipo_id: 27
+  nombre: Nono
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 32
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_365: 
+  id: 760
+  equipo_id: 27
+  nombre: Piti
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_366: 
+  id: 761
+  equipo_id: 27
+  nombre: "Rub\xC3\xA9n Ramiro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 37
+  posicion: Delantero
+  created_at: 2012-10-25 17:22:58 Z
+  updated_at: 2012-10-25 17:22:58 Z
+jugadores_367: 
+  id: 762
+  equipo_id: 28
+  nombre: "Ad\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_368: 
+  id: 763
+  equipo_id: 28
+  nombre: Casillas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_369: 
+  id: 764
+  equipo_id: 28
+  nombre: Albiol
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_370: 
+  id: 765
+  equipo_id: 28
+  nombre: Arbeloa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_371: 
+  id: 766
+  equipo_id: 28
+  nombre: Marcelo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_372: 
+  id: 767
+  equipo_id: 28
+  nombre: Nacho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_373: 
+  id: 768
+  equipo_id: 28
+  nombre: Pepe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_374: 
+  id: 769
+  equipo_id: 28
+  nombre: Ricardo Carvalho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_375: 
+  id: 770
+  equipo_id: 28
+  nombre: Sergio Ramos
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_376: 
+  id: 771
+  equipo_id: 28
+  nombre: Varane
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_377: 
+  id: 772
+  equipo_id: 28
+  nombre: Essien
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Medio
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_378: 
+  id: 773
+  equipo_id: 28
+  nombre: "F\xC3\xA1bio Coentr\xC3\xA3o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_379: 
+  id: 774
+  equipo_id: 28
+  nombre: "Kak\xC3\xA1"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_380: 
+  id: 775
+  equipo_id: 28
+  nombre: Khedira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_381: 
+  id: 776
+  equipo_id: 28
+  nombre: Modric
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Medio
+  created_at: 2012-10-25 17:23:19 Z
+  updated_at: 2012-10-25 17:23:19 Z
+jugadores_382: 
+  id: 777
+  equipo_id: 28
+  nombre: "\xC3\x96zil"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_383: 
+  id: 778
+  equipo_id: 28
+  nombre: Xabi Alonso
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_384: 
+  id: 779
+  equipo_id: 28
+  nombre: Benzema
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_385: 
+  id: 780
+  equipo_id: 28
+  nombre: "Callej\xC3\xB3n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_386: 
+  id: 781
+  equipo_id: 28
+  nombre: Cristiano Ronaldo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_387: 
+  id: 782
+  equipo_id: 28
+  nombre: "Di Mar\xC3\xADa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_388: 
+  id: 783
+  equipo_id: 28
+  nombre: "Higua\xC3\xADn"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:20 Z
+  updated_at: 2012-10-25 17:23:20 Z
+jugadores_389: 
+  id: 784
+  equipo_id: 29
+  nombre: Bravo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_390: 
+  id: 785
+  equipo_id: 29
+  nombre: Royo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_391: 
+  id: 786
+  equipo_id: 29
+  nombre: Zubikarai
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_392: 
+  id: 787
+  equipo_id: 29
+  nombre: Ansotegi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_393: 
+  id: 788
+  equipo_id: 29
+  nombre: Cadamuro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_394: 
+  id: 789
+  equipo_id: 29
+  nombre: "Carlos Mart\xC3\xADnez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:40 Z
+  updated_at: 2012-10-25 17:23:40 Z
+jugadores_395: 
+  id: 790
+  equipo_id: 29
+  nombre: De la Bella
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_396: 
+  id: 791
+  equipo_id: 29
+  nombre: "I\xC3\xB1igo Mart\xC3\xADnez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_397: 
+  id: 792
+  equipo_id: 29
+  nombre: "Jos\xC3\xA9 \xC3\x81ngel"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_398: 
+  id: 793
+  equipo_id: 29
+  nombre: "Mikel Gonz\xC3\xA1lez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_399: 
+  id: 794
+  equipo_id: 29
+  nombre: Bergara
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_400: 
+  id: 795
+  equipo_id: 29
+  nombre: Elustondo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_401: 
+  id: 796
+  equipo_id: 29
+  nombre: Estrada
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_402: 
+  id: 797
+  equipo_id: 29
+  nombre: Illarramendi
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_403: 
+  id: 798
+  equipo_id: 29
+  nombre: Javi Ros
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_404: 
+  id: 799
+  equipo_id: 29
+  nombre: "Rub\xC3\xA9n Pardo"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_405: 
+  id: 800
+  equipo_id: 29
+  nombre: Xabi Prieto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_406: 
+  id: 801
+  equipo_id: 29
+  nombre: Zurutuza
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_407: 
+  id: 802
+  equipo_id: 29
+  nombre: Agirretxe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_408: 
+  id: 803
+  equipo_id: 29
+  nombre: Carlos Vela
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_409: 
+  id: 804
+  equipo_id: 29
+  nombre: Castro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_410: 
+  id: 805
+  equipo_id: 29
+  nombre: "Diego Ifr\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:41 Z
+  updated_at: 2012-10-25 17:23:41 Z
+jugadores_411: 
+  id: 806
+  equipo_id: 29
+  nombre: Griezmann
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:23:42 Z
+  updated_at: 2012-10-25 17:23:42 Z
+jugadores_412: 
+  id: 807
+  equipo_id: 30
+  nombre: "Diego L\xC3\xB3pez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_413: 
+  id: 808
+  equipo_id: 30
+  nombre: Palop
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_414: 
+  id: 809
+  equipo_id: 30
+  nombre: Bernardo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_415: 
+  id: 810
+  equipo_id: 30
+  nombre: "Bot\xC3\xADa"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_416: 
+  id: 811
+  equipo_id: 30
+  nombre: Cala
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_417: 
+  id: 812
+  equipo_id: 30
+  nombre: Cicinho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_418: 
+  id: 813
+  equipo_id: 30
+  nombre: Coke
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_419: 
+  id: 814
+  equipo_id: 30
+  nombre: F. Navarro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_420: 
+  id: 815
+  equipo_id: 30
+  nombre: Fazio
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_421: 
+  id: 816
+  equipo_id: 30
+  nombre: Luna
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_422: 
+  id: 817
+  equipo_id: 30
+  nombre: Spahic
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_423: 
+  id: 818
+  equipo_id: 30
+  nombre: Bryan Rabello
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Medio
+  created_at: 2012-10-25 17:24:02 Z
+  updated_at: 2012-10-25 17:24:02 Z
+jugadores_424: 
+  id: 819
+  equipo_id: 30
+  nombre: "Campa\xC3\xB1a"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_425: 
+  id: 820
+  equipo_id: 30
+  nombre: "Javi Herv\xC3\xA1s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_426: 
+  id: 821
+  equipo_id: 30
+  nombre: "Jes\xC3\xBAs Navas"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_427: 
+  id: 822
+  equipo_id: 30
+  nombre: Kondogbia
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_428: 
+  id: 823
+  equipo_id: 30
+  nombre: Maduro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_429: 
+  id: 824
+  equipo_id: 30
+  nombre: Medel
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_430: 
+  id: 825
+  equipo_id: 30
+  nombre: Rakitic
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_431: 
+  id: 826
+  equipo_id: 30
+  nombre: Reyes
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_432: 
+  id: 827
+  equipo_id: 30
+  nombre: Trochowski
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Medio
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_433: 
+  id: 828
+  equipo_id: 30
+  nombre: "\xC3\x81lex Rubio"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_434: 
+  id: 829
+  equipo_id: 30
+  nombre: "Bab\xC3\xA1"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_435: 
+  id: 830
+  equipo_id: 30
+  nombre: Manu del Moral
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_436: 
+  id: 831
+  equipo_id: 30
+  nombre: Negredo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_437: 
+  id: 832
+  equipo_id: 30
+  nombre: Perotti
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:03 Z
+  updated_at: 2012-10-25 17:24:03 Z
+jugadores_438: 
+  id: 833
+  equipo_id: 31
+  nombre: Diego Alves
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:24:23 Z
+  updated_at: 2012-10-25 17:24:23 Z
+jugadores_439: 
+  id: 834
+  equipo_id: 31
+  nombre: Felipe
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:24:24 Z
+  updated_at: 2012-10-25 17:24:24 Z
+jugadores_440: 
+  id: 835
+  equipo_id: 31
+  nombre: Guaita
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:24:24 Z
+  updated_at: 2012-10-25 17:24:24 Z
+jugadores_441: 
+  id: 836
+  equipo_id: 31
+  nombre: "Barrag\xC3\xA1n"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:24 Z
+  updated_at: 2012-10-25 17:24:24 Z
+jugadores_442: 
+  id: 837
+  equipo_id: 31
+  nombre: Cissokho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:24 Z
+  updated_at: 2012-10-25 17:24:24 Z
+jugadores_443: 
+  id: 838
+  equipo_id: 31
+  nombre: Delgado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_444: 
+  id: 839
+  equipo_id: 31
+  nombre: "Jo\xC3\xA3o Pereira"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_445: 
+  id: 840
+  equipo_id: 31
+  nombre: Mathieu
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_446: 
+  id: 841
+  equipo_id: 31
+  nombre: Rami
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_447: 
+  id: 842
+  equipo_id: 31
+  nombre: Ricardo Costa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_448: 
+  id: 843
+  equipo_id: 31
+  nombre: "V\xC3\xADctor Ruiz"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_449: 
+  id: 844
+  equipo_id: 31
+  nombre: Albelda
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_450: 
+  id: 845
+  equipo_id: 31
+  nombre: Banega
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_451: 
+  id: 846
+  equipo_id: 31
+  nombre: Canales
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_452: 
+  id: 847
+  equipo_id: 31
+  nombre: Feghouli
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_453: 
+  id: 848
+  equipo_id: 31
+  nombre: Gago
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_454: 
+  id: 849
+  equipo_id: 31
+  nombre: Guardado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_455: 
+  id: 850
+  equipo_id: 31
+  nombre: Juan Bernat
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_456: 
+  id: 851
+  equipo_id: 31
+  nombre: Parejo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_457: 
+  id: 852
+  equipo_id: 31
+  nombre: Tino Costa
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Medio
+  created_at: 2012-10-25 17:24:25 Z
+  updated_at: 2012-10-25 17:24:25 Z
+jugadores_458: 
+  id: 853
+  equipo_id: 31
+  nombre: Jonas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+jugadores_459: 
+  id: 854
+  equipo_id: 31
+  nombre: Jonathan Viera
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+jugadores_460: 
+  id: 855
+  equipo_id: 31
+  nombre: Nelson Valdez
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+jugadores_461: 
+  id: 856
+  equipo_id: 31
+  nombre: Piatti
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+jugadores_462: 
+  id: 857
+  equipo_id: 31
+  nombre: Soldado
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:26 Z
+  updated_at: 2012-10-25 17:24:26 Z
+jugadores_463: 
+  id: 858
+  equipo_id: 32
+  nombre: "Dani Hern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_464: 
+  id: 859
+  equipo_id: 32
+  nombre: Jaime
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_465: 
+  id: 860
+  equipo_id: 32
+  nombre: Villanueva
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Portero
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_466: 
+  id: 861
+  equipo_id: 32
+  nombre: Balenziaga
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_467: 
+  id: 862
+  equipo_id: 32
+  nombre: "Jes\xC3\xBAs Rueda"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_468: 
+  id: 863
+  equipo_id: 32
+  nombre: Marc Valiente
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:46 Z
+  updated_at: 2012-10-25 17:24:46 Z
+jugadores_469: 
+  id: 864
+  equipo_id: 32
+  nombre: "Pe\xC3\xB1a"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_470: 
+  id: 865
+  equipo_id: 32
+  nombre: Rukavina
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_471: 
+  id: 866
+  equipo_id: 32
+  nombre: Sereno
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_472: 
+  id: 867
+  equipo_id: 32
+  nombre: Tekio
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 29
+  posicion: Defensa
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_473: 
+  id: 868
+  equipo_id: 32
+  nombre: "\xC3\x81lvaro Rubio"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_474: 
+  id: 869
+  equipo_id: 32
+  nombre: Baraja
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_475: 
+  id: 870
+  equipo_id: 32
+  nombre: Ebert
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_476: 
+  id: 871
+  equipo_id: 32
+  nombre: Javi Navas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_477: 
+  id: 872
+  equipo_id: 32
+  nombre: Lluis Sastre
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_478: 
+  id: 873
+  equipo_id: 32
+  nombre: Omar
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 14
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_479: 
+  id: 874
+  equipo_id: 32
+  nombre: "\xC3\x93scar"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_480: 
+  id: 875
+  equipo_id: 32
+  nombre: "Rub\xC3\xA9n Pe\xC3\xB1a"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 28
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_481: 
+  id: 876
+  equipo_id: 32
+  nombre: "V\xC3\xADctor P\xC3\xA9rez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Medio
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_482: 
+  id: 877
+  equipo_id: 32
+  nombre: Bueno
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:47 Z
+  updated_at: 2012-10-25 17:24:47 Z
+jugadores_483: 
+  id: 878
+  equipo_id: 32
+  nombre: Javi Guerra
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z
+jugadores_484: 
+  id: 879
+  equipo_id: 32
+  nombre: Lolo
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 27
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z
+jugadores_485: 
+  id: 880
+  equipo_id: 32
+  nombre: Manucho
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z
+jugadores_486: 
+  id: 881
+  equipo_id: 32
+  nombre: Neira
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z
+jugadores_487: 
+  id: 882
+  equipo_id: 32
+  nombre: Quique
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 30
+  posicion: Delantero
+  created_at: 2012-10-25 17:24:48 Z
+  updated_at: 2012-10-25 17:24:48 Z
+jugadores_488: 
+  id: 883
+  equipo_id: 33
+  nombre: Leo Franco
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 25
+  posicion: Portero
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_489: 
+  id: 884
+  equipo_id: 33
+  nombre: Roberto
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 1
+  posicion: Portero
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_490: 
+  id: 885
+  equipo_id: 33
+  nombre: Toni Doblas
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 13
+  posicion: Portero
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_491: 
+  id: 886
+  equipo_id: 33
+  nombre: Abraham
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 21
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_492: 
+  id: 887
+  equipo_id: 33
+  nombre: "\xC3\x81lvaro"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 4
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_493: 
+  id: 888
+  equipo_id: 33
+  nombre: "Carlos Hern\xC3\xA1ndez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 31
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:08 Z
+  updated_at: 2012-10-25 17:25:08 Z
+jugadores_494: 
+  id: 889
+  equipo_id: 33
+  nombre: Lanzaro
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 5
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_495: 
+  id: 890
+  equipo_id: 33
+  nombre: Loovens
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 16
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_496: 
+  id: 891
+  equipo_id: 33
+  nombre: Obradovic
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 24
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_497: 
+  id: 892
+  equipo_id: 33
+  nombre: Paredes
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 3
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_498: 
+  id: 893
+  equipo_id: 33
+  nombre: "Pint\xC3\xA9r"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 22
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_499: 
+  id: 894
+  equipo_id: 33
+  nombre: "Ra\xC3\xBAl Goni"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 6
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_500: 
+  id: 895
+  equipo_id: 33
+  nombre: Sapunaru
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 19
+  posicion: Defensa
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_501: 
+  id: 896
+  equipo_id: 33
+  nombre: "Apo\xC3\xB1o"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 10
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_502: 
+  id: 897
+  equipo_id: 33
+  nombre: Babovic
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 17
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_503: 
+  id: 898
+  equipo_id: 33
+  nombre: Franco Zuculini
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 20
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_504: 
+  id: 899
+  equipo_id: 33
+  nombre: "H\xC3\xA9lder Postiga"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 9
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_505: 
+  id: 900
+  equipo_id: 33
+  nombre: "Jos\xC3\xA9 Mari"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 15
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_506: 
+  id: 901
+  equipo_id: 33
+  nombre: Movilla
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 2
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_507: 
+  id: 902
+  equipo_id: 33
+  nombre: "Paco Monta\xC3\xB1\xC3\xA9s"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 11
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_508: 
+  id: 903
+  equipo_id: 33
+  nombre: Romaric
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 12
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_509: 
+  id: 904
+  equipo_id: 33
+  nombre: Wilchez
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 18
+  posicion: Medio
+  created_at: 2012-10-25 17:25:09 Z
+  updated_at: 2012-10-25 17:25:09 Z
+jugadores_510: 
+  id: 905
+  equipo_id: 33
+  nombre: Aranda
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 7
+  posicion: Delantero
+  created_at: 2012-10-25 17:25:10 Z
+  updated_at: 2012-10-25 17:25:10 Z
+jugadores_511: 
+  id: 906
+  equipo_id: 33
+  nombre: Edu Oriol
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 8
+  posicion: Delantero
+  created_at: 2012-10-25 17:25:10 Z
+  updated_at: 2012-10-25 17:25:10 Z
+jugadores_512: 
+  id: 907
+  equipo_id: 33
+  nombre: "Javi \xC3\x81lamo"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 23
+  posicion: Delantero
+  created_at: 2012-10-25 17:25:10 Z
+  updated_at: 2012-10-25 17:25:10 Z
+jugadores_513: 
+  id: 908
+  equipo_id: 33
+  nombre: "Ort\xC3\xAD"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 26
+  posicion: Delantero
+  created_at: 2012-10-25 17:25:10 Z
+  updated_at: 2012-10-25 17:25:10 Z
+jugadores_514: 
+  id: 909
+  equipo_id: 33
+  nombre: "V\xC3\xADctor Rodr\xC3\xADguez"
+  apellidos: 
+  apodo: 
+  foto: 
+  precio: 
+  dorsal: 32
+  posicion: Delantero
+  created_at: 2012-10-25 17:25:10 Z
+  updated_at: 2012-10-25 17:25:10 Z

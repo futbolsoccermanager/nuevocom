@@ -11,7 +11,44 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121004123831) do
+ActiveRecord::Schema.define(:version => 20121010180436) do
+
+  create_table "equipos", :force => true do |t|
+    t.string   "nombre"
+    t.string   "logo"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "jugadores", :force => true do |t|
+    t.integer  "equipo_id"
+    t.string   "nombre"
+    t.string   "apellidos"
+    t.string   "apodo"
+    t.string   "foto"
+    t.float    "precio"
+    t.integer  "dorsal"
+    t.string   "posicion"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "ligas", :force => true do |t|
+    t.string   "nombre"
+    t.integer  "creador"
+    t.string   "logo"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "selecciones", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "nombre"
+    t.string   "escudo"
+    t.integer  "liga_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
