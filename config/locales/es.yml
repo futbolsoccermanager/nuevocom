@@ -4,3 +4,31 @@
 es:
   login:
     titulo: 'Acceso a la aplicación'
+    email: 'e-mail'
+    login: 'Usuario o e-mail'
+    username: 'Nombre de usuario'
+    password: 'Password'
+    password_confirmation: 'Confirma el password'
+    signin: "Acceder"
+    signup: "Alta"
+    signup_tit: "Alta de usuario"
+    olvido_pwd: "¿Olvidaste la password?"
+    no_instrucciones_conf: "¿No has recibido las instrucciones para confirmar?"
+    no_instrucciones_unblock: "¿No has recibido las instrucciones para desbloquear?"
+
+  menus:
+    logout: "Salir"
+    signup: 'Nuevo usuario'
+    edit_account: "Cuenta"
+    crear_equipo: 'Crear equipo'
+    mi_equipo: 'Mi equipo'
+
+  seleccion:
+    nombre: "Nombre del equipo"
+
+  ligas:
+    elegir: "¿En qué liga quieres inscribir el equipo?"
+    tipos:
+      abierta: "Liga abierta existente"
+      privada: "Liga privada"
+      nueva: "Crea tu propia liga"

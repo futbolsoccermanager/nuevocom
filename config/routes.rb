@@ -5,6 +5,8 @@ Nuevocom::Application.routes.draw do
 
   match "home/prueba" => 'home#prueba', :as => :prueba
 
+  resource :selecciones
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

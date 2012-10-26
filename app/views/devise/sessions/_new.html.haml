@@ -4,12 +4,10 @@
   .modal-body
     = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
       %div
-        = f.label :email
-        %br/
-        = f.email_field :email
+        = f.label :login, t('login.login')
+        = f.text_field :login
       %div
         = f.label :password
-        %br/
         = f.password_field :password
       - if devise_mapping.rememberable?
         %div

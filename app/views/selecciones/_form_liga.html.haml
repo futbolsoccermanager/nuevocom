@@ -1,0 +1,12 @@
+= form_tag '#'
+%p= t 'ligas.elegir'
+.radios
+  %p
+    = radio_button_tag :tipo, 'abierta'
+    = label_tag :tipo_abierta, t('ligas.tipos.abierta')
+  %p
+    = radio_button_tag :tipo, 'privada'
+    = label_tag :tipo_privada, t('ligas.tipos.privada')
+  %p
+    = radio_button_tag :tipo, 'nueva'
+    = label_tag :tipo_nueva, t('ligas.tipos.nueva')
