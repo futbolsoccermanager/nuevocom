@@ -3,3 +3,28 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
   true
+
+Informa = {
+  init: ->
+    this.initializePlaceholders
+    true
+
+
+
+  initializePlaceholders: ->
+    true if !$.fn.placeholder
+
+    $('.text').placeholder()
+    $("form").submit ->
+      elements = $(this).find ".text[placeholder]"
+      elements.each ->
+        placeholder = $(this).attr 'placeholder'
+        if  placeholder == $(this).val
+          $(this).val ''
+      true
+
+    true
+}
+
+
+Informa.init()

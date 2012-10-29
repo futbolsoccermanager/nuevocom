@@ -12,7 +12,7 @@
       - if devise_mapping.rememberable?
         %div
           = f.check_box :remember_me
-          = f.label :remember_me
-      %div= f.submit "Sign in", :class => 'btn btn-primary'
+          = f.label :remember_me, t('login.remember')
+      %div= f.submit t('login.signin'), :class => 'btn btn-primary'
   .modal-footer
     = render "devise/shared/links"

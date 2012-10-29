@@ -4,9 +4,13 @@
   %p
     = radio_button_tag :tipo, 'abierta'
     = label_tag :tipo_abierta, t('ligas.tipos.abierta')
+    = text_field_tag :busca_liga, '', :placeholder => t('ligas.buscador.placeholder')
   %p
     = radio_button_tag :tipo, 'privada'
     = label_tag :tipo_privada, t('ligas.tipos.privada')
+    = text_field_tag :liga_privada, '', :placeholder => t('ligas.privada.placeholder')
   %p
     = radio_button_tag :tipo, 'nueva'
     = label_tag :tipo_nueva, t('ligas.tipos.nueva')
+    =# button_tag t('ligas.nueva_liga.crear'), :class => 'btn btn-primary'
+    = link_to t('ligas.nueva_liga.crear'), new_ligas_path, :class => 'btn btn-primary'

@@ -1,0 +1,2 @@
+module LigasHelper
+end

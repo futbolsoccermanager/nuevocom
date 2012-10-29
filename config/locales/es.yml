@@ -15,6 +15,7 @@ es:
     olvido_pwd: "¿Olvidaste la password?"
     no_instrucciones_conf: "¿No has recibido las instrucciones para confirmar?"
     no_instrucciones_unblock: "¿No has recibido las instrucciones para desbloquear?"
+    remember: "No cerrar sesión"
 
   menus:
     logout: "Salir"
@@ -32,3 +33,14 @@ es:
       abierta: "Liga abierta existente"
       privada: "Liga privada"
       nueva: "Crea tu propia liga"
+    buscador:
+      placeholder: "Busca una liga ... "
+    privada:
+      placeholder: "Introduce el código de la liga"
+    nueva_liga:
+      crear: "Crear liga"
+      config: "Configura la nueva liga"
+      general: "General"
+      equipos: "Miembros"
+      mercado: "Mercado de fichajes"
+

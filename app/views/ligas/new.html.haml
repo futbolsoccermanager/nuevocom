@@ -1,0 +1,39 @@
+%h1= t('ligas.nueva_liga.crear')
+%p= t('ligas.nueva_liga.config')
+
+%ul#tab_nliga.nav.nav-tabs
+  %li.active
+    = link_to t('ligas.nueva_liga.general'), '#general', "data-toggle" => 'tab'
+  %li
+    = link_to t('ligas.nueva_liga.equipos'), '#equipos', "data-toggle" => 'tab'
+  %li
+    = link_to t('ligas.nueva_liga.mercado'), '#mercado', "data-toggle" => 'tab'
+
+= form_for @liga do |f|
+  #contenttabliga.tab-content
+    #general.tab-pane.fade.in.active
+      %p
+        = f.label :privacidad
+        = f.radio_button  :privacidad, 'A'
+        = f.radio_button  :privacidad, 'P'
+        = f.radio_button  :privacidad, 'R'
+      %p
+        = f.label :nombre
+        = f.text_field :nombre
+      %p
+        = f.label :password
+        = f.password_field :password
+    #equipos.tab-pane.fade
+      %p
+        = f.label :maximo_miembros
+        = f.text_field :maximo_miembros
+      %p
+        = f.label :emails_invitacion
+        = f.text_area :emails_invitacion
+    #mercado.tab-pane.fade
+      %p
+        = f.label :presupuesto_inicial
+        = f.text_field :presupuesto_inicial
+      %p
+        = f.label :num_jugadores_mercado
+        = f.text_field :num_jugadores_mercado
