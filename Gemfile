@@ -43,3 +43,8 @@ gem 'bootstrap-sass'
 group :development, :test do
   gem 'anemone'
 end
+
+group :production do
+  gem 'pg'
+end
+
