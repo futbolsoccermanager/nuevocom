@@ -43,4 +43,6 @@ es:
       general: "General"
       equipos: "Miembros"
       mercado: "Mercado de fichajes"
+      sbm_crear: "Crear liga"
+      ok_crear: "Liga creada"
 
