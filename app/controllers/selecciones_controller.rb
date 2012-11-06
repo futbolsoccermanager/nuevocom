@@ -11,6 +11,7 @@ class SeleccionesController < ApplicationController
   def create
     session[:liga_eq] = nil
     @seleccion = Seleccion.new params[:seleccion]
+    @seleccion.user_id = current_user.id
 
     @seleccion.save
     if @seleccion.errors.present?

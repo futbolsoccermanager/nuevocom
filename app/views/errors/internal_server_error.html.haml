@@ -1,0 +1,21 @@
+#errores-sistema
+  %p= link_to t('page_sistema.back'), :back
+  %h1.title= t('page_sistema.servicio_no_disponible')
+#marketing.box
+  .inner
+    %p= t('page_sistema.error500')
+    %ul.error500-left
+      %li
+        %p= t('page_sistema.temporal500')
+      %li
+        %p= t('page_sistema.incidencia500')
+    %br
+    %p
+      = t('page_sistema.help500')
+      = mail_to(Settings.email_atencion_cliente)
+    .footer-errores-sistema
+      %span.error-left
+        =link_to t('page_sistema.button_back'), root_path, :class => "btn"
+      %span.error-right
+        =link_to t('page_sistema.button_notifica'), contacta_path(:origen => 'internal_server_error_500'), :class => "btn map lb", :title => t('page_sistema.title_500')
+

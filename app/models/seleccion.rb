@@ -14,7 +14,7 @@
 class Seleccion < ActiveRecord::Base
   attr_accessible :escudo, :user_id, :liga_id, :nombre
 
-  validates_presence_of :liga_id
+  validates_presence_of :liga_id, :user_id
 
   belongs_to :user
   belongs_to :liga

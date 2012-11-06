@@ -1,0 +1,17 @@
+#errores-sistema
+  %p= link_to t('page_sistema.back'), :back
+  %h1.title= t('page_sistema.acceso_denegado.title')
+#marketing.box
+  .inner
+    %p
+      = t('page_sistema.acceso_denegado.comment_1')
+    %p
+      = t('page_sistema.acceso_denegado.comment_2')
+      %b= t('page_sistema.acceso_denegado.atencion_cliente')
+
+    .footer-errores-sistema
+      %span.error-left
+        =link_to t('page_sistema.button_back'), root_path, :class => "btn"
+      %span.error-right
+        =link_to t('page_sistema.acceso_denegado.solicitar_acceso'), contacta_path(:origen => t('page_sistema.acceso_denegado.title')), :class => "btn map lb", :title => t('page_sistema.acceso_denegado.title')
+
