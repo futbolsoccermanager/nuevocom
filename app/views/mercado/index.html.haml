@@ -1,0 +1,7 @@
+%h1 Mercado#index
+%p Find me in app/views/mercado/index.html.haml
+
+- @jugadores_mercado.each do |jm|
+  %p
+    %strong= jm.jugador.nombre
+    = jm.jugador.equipo.nombre

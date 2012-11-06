@@ -1,5 +1,7 @@
 Nuevocom::Application.routes.draw do
 
+  match "mercado/:id_seleccion/index" => 'mercado#index', :as => :mercado
+
   devise_for :users
 
   get "home/index"

@@ -23,7 +23,7 @@ class Liga < ActiveRecord::Base
   NUM_PLAYERS = {:max => 25, :default => 15, :min => 8}
 
   validates_presence_of :nombre
-  validates_inclusion_of :privacidad, :in => PRIVACIDAD.keys
+  validates_inclusion_of :privacidad, :in => PRIVACIDAD.values
   validates_presence_of :password, :if => :need_pwd?
   validates_numericality_of :maximo_miembros, :greater_than_or_equal_to =>  NUM_MEMBERS[:min], :less_than_or_equal_to => NUM_MEMBERS[:max]
   validates_numericality_of :num_jugadores_mercado, :greater_than_or_equal_to =>  NUM_PLAYERS[:min], :less_than_or_equal_to => NUM_PLAYERS[:max]
@@ -39,6 +39,8 @@ class Liga < ActiveRecord::Base
   attr_accessible :emails_invitacion
 
   belongs_to :creador, :foreign_key => :creador, :class_name => User
+
+  has_many :mercados
 
   def need_pwd?
     privacidad != PRIVACIDAD[:publica]

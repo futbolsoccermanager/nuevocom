@@ -1,2 +1,2 @@
 #tipo_liga
-  = render 'form_liga'
+  = render @seleccion.liga.present? ?  'form_equipo' : 'form_liga'
