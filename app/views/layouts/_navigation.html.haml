@@ -1,4 +1,5 @@
 = link_to "Home", root_path, :class => 'brand'
+
 %ul.nav
   - if user_signed_in?
     -# opciones....
@@ -22,3 +23,14 @@
       = link_to(t('menus.signup'), new_user_registration_path)
 
 
+- if @mis_equipos.present?
+  .btn-group
+    %button.btn.dropdown-toggle{'data-toggle' => "dropdown"}
+      = @mis_equipos.first.nombre
+      %span.caret
+    %ul.dropdown-menu{:role => "menu", :style => 'left :0'}
+      - @mis_equipos.each do |e|
+        %li
+          = link_to e.nombre
+
+      =# select_tag :equipo, options_from_collection_for_select(@mis_equipos, 'id', 'nombre'), :style => 'height: 25px;margin-top: 5px;font-size:12px;' if @mis_equipos.present?
