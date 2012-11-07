@@ -45,3 +45,10 @@ es:
       mercado: "Mercado de fichajes"
       sbm_crear: "Crear liga"
       ok_crear: "Liga creada"
+
+  index:
+    titulo: "Fútbol Soccer Manager"
+    parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos"
+    parrafo2: "Alta disponibilidad. Olvídate de problemas de sobrecarga, lentitud de páginas, ..."
+    parrafo3: "Crea tu equipo, entra en una liga, y accede al mercado de fichajes para pujar por un equipo competitivo. Además, necesitarás un entrenador para dirigir el equipo."
+    parrafo3: "Además, interactúa con tus amigos y entérate de las últimas noticias del mundo del fútbol"
