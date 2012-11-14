@@ -42,7 +42,7 @@ class SeleccionesController < ApplicationController
   end
 
   def plantilla
-    jugadores = Seleccion.find(params[:id]).jugadores
+    jugadores = Seleccion.find(params[:id_seleccion]).jugadores
 
     @porteros = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact!
     @defensas = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:defensa]}.compact!
