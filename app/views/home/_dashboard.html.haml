@@ -1,0 +1,5 @@
+- HomeHelper::ACC_DASHBOARD.each do |fila|
+  .fila
+    - fila.each do |columna|
+      .columna.span2
+        = link_to t("menus.dashboard.#{columna}.tit"), '#', :class => 'btn', :title=> t("menus.dashboard.#{columna}.alt")

@@ -1,3 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.dashboard{
+  background-image: linear-gradient(to bottom, #057D9F, #025167);
+  background-color: #61B7CF;
+  .fila{
+    padding: 20px;
+    overflow: auto;
+    .columna{
+      #background-color: #61B7CF;
+      float: left;
+    }
+  }
+}

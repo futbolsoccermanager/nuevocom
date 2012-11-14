@@ -1,4 +1,8 @@
-%h1= t('index.titulo')
-%p= t('index.parrafo1')
-%p= t('index.parrafo2')
-%p= t('index.parrafo3')
+- if user_signed_in?
+  .dashboard
+    = render 'dashboard'
+- else
+  %h1= t('index.titulo')
+  %p= t('index.parrafo1')
+  %p= t('index.parrafo2')
+  %p= t('index.parrafo3')

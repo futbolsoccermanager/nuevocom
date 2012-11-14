@@ -23,6 +23,23 @@ es:
     edit_account: "Cuenta"
     crear_equipo: 'Crear equipo'
     mi_equipo: 'Mi equipo'
+    dashboard:
+      fichajes:
+        tit: 'Fichar'
+        alt: 'Ver el mercado de fichajes'
+      alineacion:
+        tit: 'Alineación'
+        alt: 'Prepara tu alineación'
+      miliga:
+        tit: 'Mi Liga'
+        alt: 'Comprueba el estado de tus competidores'
+      clasificacion:
+        tit: 'Clasificaciones'
+        alt: 'Clasificaciones globales'
+      amigos:
+        tit: 'Amigos'
+        alt: 'Ver y buscar amigos'
+
 
   seleccion:
     change_ok: "Ahora estás usando: %{equipo}"
