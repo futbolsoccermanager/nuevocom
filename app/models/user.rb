@@ -46,4 +46,11 @@ class User < ActiveRecord::Base
     selecciones.empty?
   end
 
+  def mis_selecciones
+    selecciones.order(:fecha_visto)
+  end
+
+  def current_seleccion(session, nueva=nil)
+    nueva.present? ? session[:current_seleccion] = nueva : session[:current_seleccion]
+  end
 end

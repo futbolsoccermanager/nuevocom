@@ -9,6 +9,6 @@ class ApplicationController < ActionController::Base
 
 
   def mis_equipos
-    @mis_equipos = current_user.selecciones if current_user
+    @mis_equipos = current_user.mis_selecciones if current_user
   end
 end

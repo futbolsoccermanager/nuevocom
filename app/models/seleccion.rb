@@ -13,7 +13,7 @@
 #
 
 class Seleccion < ActiveRecord::Base
-  attr_accessible :escudo, :user_id, :liga_id, :nombre
+  attr_accessible :escudo, :user_id, :liga_id, :nombre, :fecha_visto
 
   validates_presence_of :liga_id, :user_id
 

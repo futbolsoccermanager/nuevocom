@@ -1,5 +1,6 @@
 class SeleccionesController < ApplicationController
 
+  skip_before_filter :mis_equipos, :only => [:change_seleccion]
   def new
     @seleccion = Seleccion.new(:user_id => current_user.id)
     liga = session[:liga_eq]
@@ -23,6 +24,20 @@ class SeleccionesController < ApplicationController
       render 'new'
     else
       redirect_to mercado_path(@seleccion.id)
+    end
+  end
+
+
+  def change_seleccion
+    seleccion = Seleccion.find params["id_seleccion"]
+    not_found if current_user != seleccion.user
+
+    current_user.current_seleccion(session, seleccion)
+    seleccion.fecha_visto = Time.now
+    mis_equipos
+    respond_to do |format|
+      flash[:notice] = t('seleccion.change_ok', :equipo => seleccion.nombre )
+      format.js
     end
   end
 end

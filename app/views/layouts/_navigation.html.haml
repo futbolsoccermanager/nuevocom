@@ -26,11 +26,11 @@
 - if @mis_equipos.present?
   .btn-group
     %button.btn.dropdown-toggle{'data-toggle' => "dropdown"}
-      = @mis_equipos.first.nombre
+      = current_user.current_seleccion(session).try(:nombre) || @mis_equipos.first.nombre
       %span.caret
     %ul.dropdown-menu{:role => "menu", :style => 'left :0'}
       - @mis_equipos.each do |e|
         %li
-          = link_to e.nombre
+          = link_to e.nombre, change_selecciones_path(e.id), :remote => true
 
       =# select_tag :equipo, options_from_collection_for_select(@mis_equipos, 'id', 'nombre'), :style => 'height: 25px;margin-top: 5px;font-size:12px;' if @mis_equipos.present?

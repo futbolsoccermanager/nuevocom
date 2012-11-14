@@ -8,7 +8,10 @@ Nuevocom::Application.routes.draw do
 
   match "home/prueba" => 'home#prueba', :as => :prueba
 
-  resource :selecciones
+  resource :selecciones do
+    match 'change/:id_seleccion' => 'selecciones#change_seleccion', :as => :change
+  end
+
   resource :ligas
 
   # The priority is based upon order of creation:

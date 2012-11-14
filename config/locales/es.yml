@@ -25,6 +25,7 @@ es:
     mi_equipo: 'Mi equipo'
 
   seleccion:
+    change_ok: "Ahora estás usando: %{equipo}"
     nombre: "Nombre del equipo"
 
   ligas:
