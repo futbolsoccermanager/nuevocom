@@ -26,7 +26,7 @@
 - if @mis_equipos.present?
   .btn-group
     %button.btn.dropdown-toggle{'data-toggle' => "dropdown"}
-      = current_user.current_seleccion(session).try(:nombre) || @mis_equipos.first.nombre
+      = current_user.current_seleccion(session).try(:nombre) || current_user.current_seleccion(session, @mis_equipos.first).nombre
       %span.caret
     %ul.dropdown-menu{:role => "menu", :style => 'left :0'}
       - @mis_equipos.each do |e|

@@ -47,7 +47,7 @@ class User < ActiveRecord::Base
   end
 
   def mis_selecciones
-    selecciones.order(:fecha_visto)
+    selecciones.order('fecha_visto desc')
   end
 
   def current_seleccion(session, nueva=nil)

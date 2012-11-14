@@ -2,4 +2,4 @@
   .fila
     - fila.each do |columna|
       .columna.span2
-        = link_to t("menus.dashboard.#{columna}.tit"), '#', :class => 'btn', :title=> t("menus.dashboard.#{columna}.alt")
+        = link_to t("menus.dashboard.#{columna}.tit"), dashboard_action(columna), :class => 'btn', :title=> t("menus.dashboard.#{columna}.alt")

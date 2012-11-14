@@ -34,6 +34,7 @@ class SeleccionesController < ApplicationController
 
     current_user.current_seleccion(session, seleccion)
     seleccion.fecha_visto = Time.now
+    seleccion.save
     mis_equipos
     respond_to do |format|
       flash[:notice] = t('seleccion.change_ok', :equipo => seleccion.nombre )
