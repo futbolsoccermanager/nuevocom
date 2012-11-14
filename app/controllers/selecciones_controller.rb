@@ -40,4 +40,15 @@ class SeleccionesController < ApplicationController
       format.js
     end
   end
+
+  def plantilla
+    jugadores = Seleccion.find(params[:id]).jugadores
+
+    @porteros = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact!
+    @defensas = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:defensa]}.compact!
+    @medios = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:medio]}.compact!
+    @delanteros = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:delantero]}.compact!
+  end
+
+
 end

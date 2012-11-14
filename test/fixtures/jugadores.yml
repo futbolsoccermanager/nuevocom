@@ -25,7 +25,7 @@ jugadores_001:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:11 Z
   updated_at: 2012-10-25 17:18:11 Z
 jugadores_002: 
@@ -37,7 +37,7 @@ jugadores_002:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_003: 
@@ -49,7 +49,7 @@ jugadores_003:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_004: 
@@ -61,7 +61,7 @@ jugadores_004:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_005: 
@@ -73,7 +73,7 @@ jugadores_005:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_006: 
@@ -85,7 +85,7 @@ jugadores_006:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_007: 
@@ -97,7 +97,7 @@ jugadores_007:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_008: 
@@ -109,7 +109,7 @@ jugadores_008:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_009: 
@@ -121,7 +121,7 @@ jugadores_009:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_010: 
@@ -133,7 +133,7 @@ jugadores_010:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_011: 
@@ -145,7 +145,7 @@ jugadores_011:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_012: 
@@ -157,7 +157,7 @@ jugadores_012:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_013: 
@@ -169,7 +169,7 @@ jugadores_013:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_014: 
@@ -181,7 +181,7 @@ jugadores_014:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_015: 
@@ -193,7 +193,7 @@ jugadores_015:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:12 Z
   updated_at: 2012-10-25 17:18:12 Z
 jugadores_016: 
@@ -217,7 +217,7 @@ jugadores_017:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_018: 
@@ -229,7 +229,7 @@ jugadores_018:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_019: 
@@ -241,7 +241,7 @@ jugadores_019:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_020: 
@@ -253,7 +253,7 @@ jugadores_020:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_021: 
@@ -265,7 +265,7 @@ jugadores_021:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_022: 
@@ -277,7 +277,7 @@ jugadores_022:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_023: 
@@ -289,7 +289,7 @@ jugadores_023:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_024: 
@@ -301,7 +301,7 @@ jugadores_024:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_025: 
@@ -313,7 +313,7 @@ jugadores_025:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:13 Z
   updated_at: 2012-10-25 17:18:13 Z
 jugadores_026: 
@@ -325,7 +325,7 @@ jugadores_026:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:33 Z
   updated_at: 2012-10-25 17:18:33 Z
 jugadores_027: 
@@ -337,7 +337,7 @@ jugadores_027:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:33 Z
   updated_at: 2012-10-25 17:18:33 Z
 jugadores_028: 
@@ -349,7 +349,7 @@ jugadores_028:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:33 Z
   updated_at: 2012-10-25 17:18:33 Z
 jugadores_029: 
@@ -361,7 +361,7 @@ jugadores_029:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:33 Z
   updated_at: 2012-10-25 17:18:33 Z
 jugadores_030: 
@@ -373,7 +373,7 @@ jugadores_030:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_031: 
@@ -385,7 +385,7 @@ jugadores_031:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_032: 
@@ -397,7 +397,7 @@ jugadores_032:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_033: 
@@ -409,7 +409,7 @@ jugadores_033:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_034: 
@@ -421,7 +421,7 @@ jugadores_034:
   foto: 
   precio: 
   dorsal: 42
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_035: 
@@ -433,7 +433,7 @@ jugadores_035:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_036: 
@@ -445,7 +445,7 @@ jugadores_036:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_037: 
@@ -457,7 +457,7 @@ jugadores_037:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_038: 
@@ -469,7 +469,7 @@ jugadores_038:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_039: 
@@ -481,7 +481,7 @@ jugadores_039:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_040: 
@@ -493,7 +493,7 @@ jugadores_040:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_041: 
@@ -505,7 +505,7 @@ jugadores_041:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_042: 
@@ -517,7 +517,7 @@ jugadores_042:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_043: 
@@ -529,7 +529,7 @@ jugadores_043:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_044: 
@@ -541,7 +541,7 @@ jugadores_044:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_045: 
@@ -553,7 +553,7 @@ jugadores_045:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_046: 
@@ -565,7 +565,7 @@ jugadores_046:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_047: 
@@ -577,7 +577,7 @@ jugadores_047:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_048: 
@@ -589,7 +589,7 @@ jugadores_048:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:34 Z
   updated_at: 2012-10-25 17:18:34 Z
 jugadores_049: 
@@ -601,7 +601,7 @@ jugadores_049:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:35 Z
   updated_at: 2012-10-25 17:18:35 Z
 jugadores_050: 
@@ -613,7 +613,7 @@ jugadores_050:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:35 Z
   updated_at: 2012-10-25 17:18:35 Z
 jugadores_051: 
@@ -625,7 +625,7 @@ jugadores_051:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:35 Z
   updated_at: 2012-10-25 17:18:35 Z
 jugadores_052: 
@@ -637,7 +637,7 @@ jugadores_052:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:35 Z
   updated_at: 2012-10-25 17:18:35 Z
 jugadores_053: 
@@ -649,7 +649,7 @@ jugadores_053:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_054: 
@@ -661,7 +661,7 @@ jugadores_054:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_055: 
@@ -673,7 +673,7 @@ jugadores_055:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_056: 
@@ -685,7 +685,7 @@ jugadores_056:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_057: 
@@ -697,7 +697,7 @@ jugadores_057:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_058: 
@@ -709,7 +709,7 @@ jugadores_058:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_059: 
@@ -721,7 +721,7 @@ jugadores_059:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_060: 
@@ -733,7 +733,7 @@ jugadores_060:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_061: 
@@ -745,7 +745,7 @@ jugadores_061:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_062: 
@@ -757,7 +757,7 @@ jugadores_062:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_063: 
@@ -769,7 +769,7 @@ jugadores_063:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_064: 
@@ -781,7 +781,7 @@ jugadores_064:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:55 Z
   updated_at: 2012-10-25 17:18:55 Z
 jugadores_065: 
@@ -793,7 +793,7 @@ jugadores_065:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_066: 
@@ -805,7 +805,7 @@ jugadores_066:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_067: 
@@ -817,7 +817,7 @@ jugadores_067:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_068: 
@@ -829,7 +829,7 @@ jugadores_068:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_069: 
@@ -841,7 +841,7 @@ jugadores_069:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_070: 
@@ -853,7 +853,7 @@ jugadores_070:
   foto: 
   precio: 
   dorsal: 37
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_071: 
@@ -865,7 +865,7 @@ jugadores_071:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_072: 
@@ -877,7 +877,7 @@ jugadores_072:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_073: 
@@ -889,7 +889,7 @@ jugadores_073:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_074: 
@@ -901,7 +901,7 @@ jugadores_074:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_075: 
@@ -913,7 +913,7 @@ jugadores_075:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_076: 
@@ -925,7 +925,7 @@ jugadores_076:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_077: 
@@ -937,7 +937,7 @@ jugadores_077:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_078: 
@@ -949,7 +949,7 @@ jugadores_078:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:18:56 Z
   updated_at: 2012-10-25 17:18:56 Z
 jugadores_079: 
@@ -961,7 +961,7 @@ jugadores_079:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:16 Z
   updated_at: 2012-10-25 17:19:16 Z
 jugadores_080: 
@@ -973,7 +973,7 @@ jugadores_080:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_081: 
@@ -985,7 +985,7 @@ jugadores_081:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_082: 
@@ -997,7 +997,7 @@ jugadores_082:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_083: 
@@ -1009,7 +1009,7 @@ jugadores_083:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_084: 
@@ -1021,7 +1021,7 @@ jugadores_084:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_085: 
@@ -1033,7 +1033,7 @@ jugadores_085:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_086: 
@@ -1045,7 +1045,7 @@ jugadores_086:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_087: 
@@ -1057,7 +1057,7 @@ jugadores_087:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_088: 
@@ -1069,7 +1069,7 @@ jugadores_088:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_089: 
@@ -1081,7 +1081,7 @@ jugadores_089:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_090: 
@@ -1093,7 +1093,7 @@ jugadores_090:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_091: 
@@ -1105,7 +1105,7 @@ jugadores_091:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_092: 
@@ -1117,7 +1117,7 @@ jugadores_092:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_093: 
@@ -1129,7 +1129,7 @@ jugadores_093:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_094: 
@@ -1141,7 +1141,7 @@ jugadores_094:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_095: 
@@ -1153,7 +1153,7 @@ jugadores_095:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_096: 
@@ -1165,7 +1165,7 @@ jugadores_096:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:17 Z
   updated_at: 2012-10-25 17:19:17 Z
 jugadores_097: 
@@ -1177,7 +1177,7 @@ jugadores_097:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_098: 
@@ -1189,7 +1189,7 @@ jugadores_098:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_099: 
@@ -1201,7 +1201,7 @@ jugadores_099:
   foto: 
   precio: 
   dorsal: 39
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_100: 
@@ -1213,7 +1213,7 @@ jugadores_100:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_101: 
@@ -1225,7 +1225,7 @@ jugadores_101:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_102: 
@@ -1237,7 +1237,7 @@ jugadores_102:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_103: 
@@ -1249,7 +1249,7 @@ jugadores_103:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_104: 
@@ -1261,7 +1261,7 @@ jugadores_104:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_105: 
@@ -1273,7 +1273,7 @@ jugadores_105:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:18 Z
   updated_at: 2012-10-25 17:19:18 Z
 jugadores_106: 
@@ -1285,7 +1285,7 @@ jugadores_106:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:38 Z
   updated_at: 2012-10-25 17:19:38 Z
 jugadores_107: 
@@ -1297,7 +1297,7 @@ jugadores_107:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:38 Z
   updated_at: 2012-10-25 17:19:38 Z
 jugadores_108: 
@@ -1309,7 +1309,7 @@ jugadores_108:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_109: 
@@ -1321,7 +1321,7 @@ jugadores_109:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_110: 
@@ -1333,7 +1333,7 @@ jugadores_110:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_111: 
@@ -1345,7 +1345,7 @@ jugadores_111:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_112: 
@@ -1357,7 +1357,7 @@ jugadores_112:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_113: 
@@ -1369,7 +1369,7 @@ jugadores_113:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_114: 
@@ -1381,7 +1381,7 @@ jugadores_114:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:19:39 Z
   updated_at: 2012-10-25 17:19:39 Z
 jugadores_115: 
@@ -1393,7 +1393,7 @@ jugadores_115:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_116: 
@@ -1405,7 +1405,7 @@ jugadores_116:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_117: 
@@ -1417,7 +1417,7 @@ jugadores_117:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_118: 
@@ -1429,7 +1429,7 @@ jugadores_118:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_119: 
@@ -1441,7 +1441,7 @@ jugadores_119:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_120: 
@@ -1453,7 +1453,7 @@ jugadores_120:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:40 Z
   updated_at: 2012-10-25 17:19:40 Z
 jugadores_121: 
@@ -1465,7 +1465,7 @@ jugadores_121:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_122: 
@@ -1477,7 +1477,7 @@ jugadores_122:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_123: 
@@ -1489,7 +1489,7 @@ jugadores_123:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_124: 
@@ -1501,7 +1501,7 @@ jugadores_124:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_125: 
@@ -1513,7 +1513,7 @@ jugadores_125:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_126: 
@@ -1525,7 +1525,7 @@ jugadores_126:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_127: 
@@ -1537,7 +1537,7 @@ jugadores_127:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_128: 
@@ -1549,7 +1549,7 @@ jugadores_128:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_129: 
@@ -1561,7 +1561,7 @@ jugadores_129:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:19:41 Z
   updated_at: 2012-10-25 17:19:41 Z
 jugadores_130: 
@@ -1573,7 +1573,7 @@ jugadores_130:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:01 Z
   updated_at: 2012-10-25 17:20:01 Z
 jugadores_131: 
@@ -1585,7 +1585,7 @@ jugadores_131:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:01 Z
   updated_at: 2012-10-25 17:20:01 Z
 jugadores_132: 
@@ -1597,7 +1597,7 @@ jugadores_132:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:01 Z
   updated_at: 2012-10-25 17:20:01 Z
 jugadores_133: 
@@ -1609,7 +1609,7 @@ jugadores_133:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_134: 
@@ -1621,7 +1621,7 @@ jugadores_134:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_135: 
@@ -1633,7 +1633,7 @@ jugadores_135:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_136: 
@@ -1645,7 +1645,7 @@ jugadores_136:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_137: 
@@ -1657,7 +1657,7 @@ jugadores_137:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_138: 
@@ -1669,7 +1669,7 @@ jugadores_138:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_139: 
@@ -1681,7 +1681,7 @@ jugadores_139:
   foto: 
   precio: 
   dorsal: 33
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_140: 
@@ -1693,7 +1693,7 @@ jugadores_140:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_141: 
@@ -1705,7 +1705,7 @@ jugadores_141:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_142: 
@@ -1717,7 +1717,7 @@ jugadores_142:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_143: 
@@ -1729,7 +1729,7 @@ jugadores_143:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_144: 
@@ -1741,7 +1741,7 @@ jugadores_144:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_145: 
@@ -1753,7 +1753,7 @@ jugadores_145:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:02 Z
   updated_at: 2012-10-25 17:20:02 Z
 jugadores_146: 
@@ -1765,7 +1765,7 @@ jugadores_146:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_147: 
@@ -1777,7 +1777,7 @@ jugadores_147:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_148: 
@@ -1789,7 +1789,7 @@ jugadores_148:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_149: 
@@ -1801,7 +1801,7 @@ jugadores_149:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_150: 
@@ -1813,7 +1813,7 @@ jugadores_150:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_151: 
@@ -1825,7 +1825,7 @@ jugadores_151:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_152: 
@@ -1837,7 +1837,7 @@ jugadores_152:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_153: 
@@ -1849,7 +1849,7 @@ jugadores_153:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_154: 
@@ -1861,7 +1861,7 @@ jugadores_154:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:03 Z
   updated_at: 2012-10-25 17:20:03 Z
 jugadores_155: 
@@ -1873,7 +1873,7 @@ jugadores_155:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_156: 
@@ -1885,7 +1885,7 @@ jugadores_156:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_157: 
@@ -1897,7 +1897,7 @@ jugadores_157:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_158: 
@@ -1909,7 +1909,7 @@ jugadores_158:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_159: 
@@ -1921,7 +1921,7 @@ jugadores_159:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_160: 
@@ -1933,7 +1933,7 @@ jugadores_160:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_161: 
@@ -1945,7 +1945,7 @@ jugadores_161:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:23 Z
   updated_at: 2012-10-25 17:20:23 Z
 jugadores_162: 
@@ -1957,7 +1957,7 @@ jugadores_162:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_163: 
@@ -1969,7 +1969,7 @@ jugadores_163:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_164: 
@@ -1981,7 +1981,7 @@ jugadores_164:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_165: 
@@ -1993,7 +1993,7 @@ jugadores_165:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_166: 
@@ -2005,7 +2005,7 @@ jugadores_166:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_167: 
@@ -2017,7 +2017,7 @@ jugadores_167:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_168: 
@@ -2029,7 +2029,7 @@ jugadores_168:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_169: 
@@ -2041,7 +2041,7 @@ jugadores_169:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_170: 
@@ -2053,7 +2053,7 @@ jugadores_170:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_171: 
@@ -2065,7 +2065,7 @@ jugadores_171:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_172: 
@@ -2077,7 +2077,7 @@ jugadores_172:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_173: 
@@ -2089,7 +2089,7 @@ jugadores_173:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_174: 
@@ -2101,7 +2101,7 @@ jugadores_174:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_175: 
@@ -2113,7 +2113,7 @@ jugadores_175:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_176: 
@@ -2125,7 +2125,7 @@ jugadores_176:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_177: 
@@ -2137,7 +2137,7 @@ jugadores_177:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_178: 
@@ -2149,7 +2149,7 @@ jugadores_178:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_179: 
@@ -2161,7 +2161,7 @@ jugadores_179:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_180: 
@@ -2173,7 +2173,7 @@ jugadores_180:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:24 Z
   updated_at: 2012-10-25 17:20:24 Z
 jugadores_181: 
@@ -2185,7 +2185,7 @@ jugadores_181:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_182: 
@@ -2197,7 +2197,7 @@ jugadores_182:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_183: 
@@ -2209,7 +2209,7 @@ jugadores_183:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_184: 
@@ -2221,7 +2221,7 @@ jugadores_184:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_185: 
@@ -2233,7 +2233,7 @@ jugadores_185:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_186: 
@@ -2245,7 +2245,7 @@ jugadores_186:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_187: 
@@ -2257,7 +2257,7 @@ jugadores_187:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_188: 
@@ -2269,7 +2269,7 @@ jugadores_188:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_189: 
@@ -2281,7 +2281,7 @@ jugadores_189:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_190: 
@@ -2293,7 +2293,7 @@ jugadores_190:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_191: 
@@ -2305,7 +2305,7 @@ jugadores_191:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_192: 
@@ -2317,7 +2317,7 @@ jugadores_192:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_193: 
@@ -2329,7 +2329,7 @@ jugadores_193:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:45 Z
   updated_at: 2012-10-25 17:20:45 Z
 jugadores_194: 
@@ -2341,7 +2341,7 @@ jugadores_194:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_195: 
@@ -2353,7 +2353,7 @@ jugadores_195:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_196: 
@@ -2365,7 +2365,7 @@ jugadores_196:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_197: 
@@ -2377,7 +2377,7 @@ jugadores_197:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_198: 
@@ -2389,7 +2389,7 @@ jugadores_198:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_199: 
@@ -2401,7 +2401,7 @@ jugadores_199:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_200: 
@@ -2413,7 +2413,7 @@ jugadores_200:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_201: 
@@ -2425,7 +2425,7 @@ jugadores_201:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_202: 
@@ -2437,7 +2437,7 @@ jugadores_202:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_203: 
@@ -2449,7 +2449,7 @@ jugadores_203:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_204: 
@@ -2461,7 +2461,7 @@ jugadores_204:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_205: 
@@ -2473,7 +2473,7 @@ jugadores_205:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:20:46 Z
   updated_at: 2012-10-25 17:20:46 Z
 jugadores_206: 
@@ -2485,7 +2485,7 @@ jugadores_206:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:06 Z
   updated_at: 2012-10-25 17:21:06 Z
 jugadores_207: 
@@ -2497,7 +2497,7 @@ jugadores_207:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_208: 
@@ -2509,7 +2509,7 @@ jugadores_208:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_209: 
@@ -2521,7 +2521,7 @@ jugadores_209:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_210: 
@@ -2533,7 +2533,7 @@ jugadores_210:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_211: 
@@ -2545,7 +2545,7 @@ jugadores_211:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_212: 
@@ -2557,7 +2557,7 @@ jugadores_212:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_213: 
@@ -2569,7 +2569,7 @@ jugadores_213:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_214: 
@@ -2581,7 +2581,7 @@ jugadores_214:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_215: 
@@ -2593,7 +2593,7 @@ jugadores_215:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_216: 
@@ -2605,7 +2605,7 @@ jugadores_216:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_217: 
@@ -2617,7 +2617,7 @@ jugadores_217:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_218: 
@@ -2629,7 +2629,7 @@ jugadores_218:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_219: 
@@ -2641,7 +2641,7 @@ jugadores_219:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:07 Z
   updated_at: 2012-10-25 17:21:07 Z
 jugadores_220: 
@@ -2653,7 +2653,7 @@ jugadores_220:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_221: 
@@ -2665,7 +2665,7 @@ jugadores_221:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_222: 
@@ -2677,7 +2677,7 @@ jugadores_222:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_223: 
@@ -2689,7 +2689,7 @@ jugadores_223:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_224: 
@@ -2701,7 +2701,7 @@ jugadores_224:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_225: 
@@ -2713,7 +2713,7 @@ jugadores_225:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_226: 
@@ -2725,7 +2725,7 @@ jugadores_226:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_227: 
@@ -2737,7 +2737,7 @@ jugadores_227:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_228: 
@@ -2749,7 +2749,7 @@ jugadores_228:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_229: 
@@ -2761,7 +2761,7 @@ jugadores_229:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_230: 
@@ -2773,7 +2773,7 @@ jugadores_230:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:08 Z
   updated_at: 2012-10-25 17:21:08 Z
 jugadores_231: 
@@ -2785,7 +2785,7 @@ jugadores_231:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:28 Z
   updated_at: 2012-10-25 17:21:28 Z
 jugadores_232: 
@@ -2797,7 +2797,7 @@ jugadores_232:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_233: 
@@ -2809,7 +2809,7 @@ jugadores_233:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_234: 
@@ -2821,7 +2821,7 @@ jugadores_234:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_235: 
@@ -2833,7 +2833,7 @@ jugadores_235:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_236: 
@@ -2845,7 +2845,7 @@ jugadores_236:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_237: 
@@ -2857,7 +2857,7 @@ jugadores_237:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_238: 
@@ -2869,7 +2869,7 @@ jugadores_238:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_239: 
@@ -2881,7 +2881,7 @@ jugadores_239:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_240: 
@@ -2893,7 +2893,7 @@ jugadores_240:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_241: 
@@ -2905,7 +2905,7 @@ jugadores_241:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_242: 
@@ -2917,7 +2917,7 @@ jugadores_242:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_243: 
@@ -2929,7 +2929,7 @@ jugadores_243:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_244: 
@@ -2941,7 +2941,7 @@ jugadores_244:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_245: 
@@ -2953,7 +2953,7 @@ jugadores_245:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:29 Z
   updated_at: 2012-10-25 17:21:29 Z
 jugadores_246: 
@@ -2965,7 +2965,7 @@ jugadores_246:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_247: 
@@ -2977,7 +2977,7 @@ jugadores_247:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_248: 
@@ -2989,7 +2989,7 @@ jugadores_248:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_249: 
@@ -3001,7 +3001,7 @@ jugadores_249:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_250: 
@@ -3013,7 +3013,7 @@ jugadores_250:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_251: 
@@ -3025,7 +3025,7 @@ jugadores_251:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_252: 
@@ -3037,7 +3037,7 @@ jugadores_252:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_253: 
@@ -3049,7 +3049,7 @@ jugadores_253:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_254: 
@@ -3061,7 +3061,7 @@ jugadores_254:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_255: 
@@ -3073,7 +3073,7 @@ jugadores_255:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_256: 
@@ -3085,7 +3085,7 @@ jugadores_256:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:30 Z
   updated_at: 2012-10-25 17:21:30 Z
 jugadores_257: 
@@ -3097,7 +3097,7 @@ jugadores_257:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_258: 
@@ -3109,7 +3109,7 @@ jugadores_258:
   foto: 
   precio: 
   dorsal: 32
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_259: 
@@ -3121,7 +3121,7 @@ jugadores_259:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_260: 
@@ -3133,7 +3133,7 @@ jugadores_260:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_261: 
@@ -3145,7 +3145,7 @@ jugadores_261:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_262: 
@@ -3157,7 +3157,7 @@ jugadores_262:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_263: 
@@ -3169,7 +3169,7 @@ jugadores_263:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_264: 
@@ -3181,7 +3181,7 @@ jugadores_264:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_265: 
@@ -3193,7 +3193,7 @@ jugadores_265:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_266: 
@@ -3205,7 +3205,7 @@ jugadores_266:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_267: 
@@ -3217,7 +3217,7 @@ jugadores_267:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_268: 
@@ -3229,7 +3229,7 @@ jugadores_268:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_269: 
@@ -3241,7 +3241,7 @@ jugadores_269:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_270: 
@@ -3253,7 +3253,7 @@ jugadores_270:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_271: 
@@ -3265,7 +3265,7 @@ jugadores_271:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:51 Z
   updated_at: 2012-10-25 17:21:51 Z
 jugadores_272: 
@@ -3277,7 +3277,7 @@ jugadores_272:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_273: 
@@ -3289,7 +3289,7 @@ jugadores_273:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_274: 
@@ -3301,7 +3301,7 @@ jugadores_274:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_275: 
@@ -3313,7 +3313,7 @@ jugadores_275:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_276: 
@@ -3325,7 +3325,7 @@ jugadores_276:
   foto: 
   precio: 
   dorsal: 45
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_277: 
@@ -3337,7 +3337,7 @@ jugadores_277:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_278: 
@@ -3349,7 +3349,7 @@ jugadores_278:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_279: 
@@ -3361,7 +3361,7 @@ jugadores_279:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_280: 
@@ -3373,7 +3373,7 @@ jugadores_280:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_281: 
@@ -3385,7 +3385,7 @@ jugadores_281:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_282: 
@@ -3397,7 +3397,7 @@ jugadores_282:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:21:52 Z
   updated_at: 2012-10-25 17:21:52 Z
 jugadores_283: 
@@ -3409,7 +3409,7 @@ jugadores_283:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:12 Z
   updated_at: 2012-10-25 17:22:12 Z
 jugadores_284: 
@@ -3421,7 +3421,7 @@ jugadores_284:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:12 Z
   updated_at: 2012-10-25 17:22:12 Z
 jugadores_285: 
@@ -3433,7 +3433,7 @@ jugadores_285:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:12 Z
   updated_at: 2012-10-25 17:22:12 Z
 jugadores_286: 
@@ -3445,7 +3445,7 @@ jugadores_286:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:12 Z
   updated_at: 2012-10-25 17:22:12 Z
 jugadores_287: 
@@ -3457,7 +3457,7 @@ jugadores_287:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_288: 
@@ -3469,7 +3469,7 @@ jugadores_288:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_289: 
@@ -3481,7 +3481,7 @@ jugadores_289:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_290: 
@@ -3493,7 +3493,7 @@ jugadores_290:
   foto: 
   precio: 
   dorsal: 37
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_291: 
@@ -3505,7 +3505,7 @@ jugadores_291:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_292: 
@@ -3517,7 +3517,7 @@ jugadores_292:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_293: 
@@ -3529,7 +3529,7 @@ jugadores_293:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_294: 
@@ -3541,7 +3541,7 @@ jugadores_294:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_295: 
@@ -3553,7 +3553,7 @@ jugadores_295:
   foto: 
   precio: 
   dorsal: 34
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_296: 
@@ -3565,7 +3565,7 @@ jugadores_296:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_297: 
@@ -3577,7 +3577,7 @@ jugadores_297:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_298: 
@@ -3589,7 +3589,7 @@ jugadores_298:
   foto: 
   precio: 
   dorsal: 32
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_299: 
@@ -3601,7 +3601,7 @@ jugadores_299:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_300: 
@@ -3613,7 +3613,7 @@ jugadores_300:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_301: 
@@ -3625,7 +3625,7 @@ jugadores_301:
   foto: 
   precio: 
   dorsal: 35
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_302: 
@@ -3637,7 +3637,7 @@ jugadores_302:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_303: 
@@ -3649,7 +3649,7 @@ jugadores_303:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_304: 
@@ -3661,7 +3661,7 @@ jugadores_304:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_305: 
@@ -3673,7 +3673,7 @@ jugadores_305:
   foto: 
   precio: 
   dorsal: 33
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_306: 
@@ -3685,7 +3685,7 @@ jugadores_306:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:13 Z
   updated_at: 2012-10-25 17:22:13 Z
 jugadores_307: 
@@ -3697,7 +3697,7 @@ jugadores_307:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:14 Z
   updated_at: 2012-10-25 17:22:14 Z
 jugadores_308: 
@@ -3709,7 +3709,7 @@ jugadores_308:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:14 Z
   updated_at: 2012-10-25 17:22:14 Z
 jugadores_309: 
@@ -3721,7 +3721,7 @@ jugadores_309:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:14 Z
   updated_at: 2012-10-25 17:22:14 Z
 jugadores_310: 
@@ -3733,7 +3733,7 @@ jugadores_310:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:14 Z
   updated_at: 2012-10-25 17:22:14 Z
 jugadores_311: 
@@ -3745,7 +3745,7 @@ jugadores_311:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:14 Z
   updated_at: 2012-10-25 17:22:14 Z
 jugadores_312: 
@@ -3757,7 +3757,7 @@ jugadores_312:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_313: 
@@ -3769,7 +3769,7 @@ jugadores_313:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_314: 
@@ -3781,7 +3781,7 @@ jugadores_314:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_315: 
@@ -3793,7 +3793,7 @@ jugadores_315:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_316: 
@@ -3805,7 +3805,7 @@ jugadores_316:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_317: 
@@ -3817,7 +3817,7 @@ jugadores_317:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_318: 
@@ -3829,7 +3829,7 @@ jugadores_318:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_319: 
@@ -3841,7 +3841,7 @@ jugadores_319:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_320: 
@@ -3853,7 +3853,7 @@ jugadores_320:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_321: 
@@ -3865,7 +3865,7 @@ jugadores_321:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_322: 
@@ -3877,7 +3877,7 @@ jugadores_322:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_323: 
@@ -3889,7 +3889,7 @@ jugadores_323:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_324: 
@@ -3901,7 +3901,7 @@ jugadores_324:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:35 Z
   updated_at: 2012-10-25 17:22:35 Z
 jugadores_325: 
@@ -3913,7 +3913,7 @@ jugadores_325:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_326: 
@@ -3925,7 +3925,7 @@ jugadores_326:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_327: 
@@ -3937,7 +3937,7 @@ jugadores_327:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_328: 
@@ -3949,7 +3949,7 @@ jugadores_328:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_329: 
@@ -3961,7 +3961,7 @@ jugadores_329:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_330: 
@@ -3973,7 +3973,7 @@ jugadores_330:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_331: 
@@ -3985,7 +3985,7 @@ jugadores_331:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_332: 
@@ -3997,7 +3997,7 @@ jugadores_332:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_333: 
@@ -4009,7 +4009,7 @@ jugadores_333:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_334: 
@@ -4021,7 +4021,7 @@ jugadores_334:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_335: 
@@ -4033,7 +4033,7 @@ jugadores_335:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_336: 
@@ -4045,7 +4045,7 @@ jugadores_336:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_337: 
@@ -4057,7 +4057,7 @@ jugadores_337:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:36 Z
   updated_at: 2012-10-25 17:22:36 Z
 jugadores_338: 
@@ -4069,7 +4069,7 @@ jugadores_338:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_339: 
@@ -4081,7 +4081,7 @@ jugadores_339:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_340: 
@@ -4093,7 +4093,7 @@ jugadores_340:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_341: 
@@ -4105,7 +4105,7 @@ jugadores_341:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_342: 
@@ -4117,7 +4117,7 @@ jugadores_342:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_343: 
@@ -4129,7 +4129,7 @@ jugadores_343:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_344: 
@@ -4141,7 +4141,7 @@ jugadores_344:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_345: 
@@ -4153,7 +4153,7 @@ jugadores_345:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_346: 
@@ -4165,7 +4165,7 @@ jugadores_346:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_347: 
@@ -4177,7 +4177,7 @@ jugadores_347:
   foto: 
   precio: 
   dorsal: 38
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_348: 
@@ -4189,7 +4189,7 @@ jugadores_348:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_349: 
@@ -4201,7 +4201,7 @@ jugadores_349:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_350: 
@@ -4213,7 +4213,7 @@ jugadores_350:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_351: 
@@ -4225,7 +4225,7 @@ jugadores_351:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:57 Z
   updated_at: 2012-10-25 17:22:57 Z
 jugadores_352: 
@@ -4237,7 +4237,7 @@ jugadores_352:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_353: 
@@ -4249,7 +4249,7 @@ jugadores_353:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_354: 
@@ -4261,7 +4261,7 @@ jugadores_354:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_355: 
@@ -4273,7 +4273,7 @@ jugadores_355:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_356: 
@@ -4285,7 +4285,7 @@ jugadores_356:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_357: 
@@ -4297,7 +4297,7 @@ jugadores_357:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_358: 
@@ -4309,7 +4309,7 @@ jugadores_358:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_359: 
@@ -4321,7 +4321,7 @@ jugadores_359:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_360: 
@@ -4333,7 +4333,7 @@ jugadores_360:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_361: 
@@ -4345,7 +4345,7 @@ jugadores_361:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_362: 
@@ -4357,7 +4357,7 @@ jugadores_362:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_363: 
@@ -4369,7 +4369,7 @@ jugadores_363:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_364: 
@@ -4381,7 +4381,7 @@ jugadores_364:
   foto: 
   precio: 
   dorsal: 32
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_365: 
@@ -4393,7 +4393,7 @@ jugadores_365:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_366: 
@@ -4405,7 +4405,7 @@ jugadores_366:
   foto: 
   precio: 
   dorsal: 37
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:22:58 Z
   updated_at: 2012-10-25 17:22:58 Z
 jugadores_367: 
@@ -4417,7 +4417,7 @@ jugadores_367:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_368: 
@@ -4429,7 +4429,7 @@ jugadores_368:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_369: 
@@ -4441,7 +4441,7 @@ jugadores_369:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_370: 
@@ -4453,7 +4453,7 @@ jugadores_370:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_371: 
@@ -4465,7 +4465,7 @@ jugadores_371:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_372: 
@@ -4477,7 +4477,7 @@ jugadores_372:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_373: 
@@ -4489,7 +4489,7 @@ jugadores_373:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_374: 
@@ -4501,7 +4501,7 @@ jugadores_374:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_375: 
@@ -4513,7 +4513,7 @@ jugadores_375:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_376: 
@@ -4525,7 +4525,7 @@ jugadores_376:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_377: 
@@ -4537,7 +4537,7 @@ jugadores_377:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_378: 
@@ -4549,7 +4549,7 @@ jugadores_378:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_379: 
@@ -4561,7 +4561,7 @@ jugadores_379:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_380: 
@@ -4573,7 +4573,7 @@ jugadores_380:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_381: 
@@ -4585,7 +4585,7 @@ jugadores_381:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:19 Z
   updated_at: 2012-10-25 17:23:19 Z
 jugadores_382: 
@@ -4597,7 +4597,7 @@ jugadores_382:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_383: 
@@ -4609,7 +4609,7 @@ jugadores_383:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_384: 
@@ -4621,7 +4621,7 @@ jugadores_384:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_385: 
@@ -4633,7 +4633,7 @@ jugadores_385:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_386: 
@@ -4645,7 +4645,7 @@ jugadores_386:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_387: 
@@ -4657,7 +4657,7 @@ jugadores_387:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_388: 
@@ -4669,7 +4669,7 @@ jugadores_388:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:20 Z
   updated_at: 2012-10-25 17:23:20 Z
 jugadores_389: 
@@ -4681,7 +4681,7 @@ jugadores_389:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_390: 
@@ -4693,7 +4693,7 @@ jugadores_390:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_391: 
@@ -4705,7 +4705,7 @@ jugadores_391:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_392: 
@@ -4717,7 +4717,7 @@ jugadores_392:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_393: 
@@ -4729,7 +4729,7 @@ jugadores_393:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_394: 
@@ -4741,7 +4741,7 @@ jugadores_394:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:40 Z
   updated_at: 2012-10-25 17:23:40 Z
 jugadores_395: 
@@ -4753,7 +4753,7 @@ jugadores_395:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_396: 
@@ -4765,7 +4765,7 @@ jugadores_396:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_397: 
@@ -4777,7 +4777,7 @@ jugadores_397:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_398: 
@@ -4789,7 +4789,7 @@ jugadores_398:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_399: 
@@ -4801,7 +4801,7 @@ jugadores_399:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_400: 
@@ -4813,7 +4813,7 @@ jugadores_400:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_401: 
@@ -4825,7 +4825,7 @@ jugadores_401:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_402: 
@@ -4837,7 +4837,7 @@ jugadores_402:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_403: 
@@ -4849,7 +4849,7 @@ jugadores_403:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_404: 
@@ -4861,7 +4861,7 @@ jugadores_404:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_405: 
@@ -4873,7 +4873,7 @@ jugadores_405:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_406: 
@@ -4885,7 +4885,7 @@ jugadores_406:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_407: 
@@ -4897,7 +4897,7 @@ jugadores_407:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_408: 
@@ -4909,7 +4909,7 @@ jugadores_408:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_409: 
@@ -4921,7 +4921,7 @@ jugadores_409:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_410: 
@@ -4933,7 +4933,7 @@ jugadores_410:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:41 Z
   updated_at: 2012-10-25 17:23:41 Z
 jugadores_411: 
@@ -4945,7 +4945,7 @@ jugadores_411:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:23:42 Z
   updated_at: 2012-10-25 17:23:42 Z
 jugadores_412: 
@@ -4957,7 +4957,7 @@ jugadores_412:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_413: 
@@ -4969,7 +4969,7 @@ jugadores_413:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_414: 
@@ -4981,7 +4981,7 @@ jugadores_414:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_415: 
@@ -4993,7 +4993,7 @@ jugadores_415:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_416: 
@@ -5005,7 +5005,7 @@ jugadores_416:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_417: 
@@ -5017,7 +5017,7 @@ jugadores_417:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_418: 
@@ -5029,7 +5029,7 @@ jugadores_418:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_419: 
@@ -5041,7 +5041,7 @@ jugadores_419:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_420: 
@@ -5053,7 +5053,7 @@ jugadores_420:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_421: 
@@ -5065,7 +5065,7 @@ jugadores_421:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_422: 
@@ -5077,7 +5077,7 @@ jugadores_422:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_423: 
@@ -5089,7 +5089,7 @@ jugadores_423:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:02 Z
   updated_at: 2012-10-25 17:24:02 Z
 jugadores_424: 
@@ -5101,7 +5101,7 @@ jugadores_424:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_425: 
@@ -5113,7 +5113,7 @@ jugadores_425:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_426: 
@@ -5125,7 +5125,7 @@ jugadores_426:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_427: 
@@ -5137,7 +5137,7 @@ jugadores_427:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_428: 
@@ -5149,7 +5149,7 @@ jugadores_428:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_429: 
@@ -5161,7 +5161,7 @@ jugadores_429:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_430: 
@@ -5173,7 +5173,7 @@ jugadores_430:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_431: 
@@ -5185,7 +5185,7 @@ jugadores_431:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_432: 
@@ -5197,7 +5197,7 @@ jugadores_432:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_433: 
@@ -5209,7 +5209,7 @@ jugadores_433:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_434: 
@@ -5221,7 +5221,7 @@ jugadores_434:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_435: 
@@ -5233,7 +5233,7 @@ jugadores_435:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_436: 
@@ -5245,7 +5245,7 @@ jugadores_436:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_437: 
@@ -5257,7 +5257,7 @@ jugadores_437:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:03 Z
   updated_at: 2012-10-25 17:24:03 Z
 jugadores_438: 
@@ -5269,7 +5269,7 @@ jugadores_438:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:23 Z
   updated_at: 2012-10-25 17:24:23 Z
 jugadores_439: 
@@ -5281,7 +5281,7 @@ jugadores_439:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:24 Z
   updated_at: 2012-10-25 17:24:24 Z
 jugadores_440: 
@@ -5293,7 +5293,7 @@ jugadores_440:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:24 Z
   updated_at: 2012-10-25 17:24:24 Z
 jugadores_441: 
@@ -5305,7 +5305,7 @@ jugadores_441:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:24 Z
   updated_at: 2012-10-25 17:24:24 Z
 jugadores_442: 
@@ -5317,7 +5317,7 @@ jugadores_442:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:24 Z
   updated_at: 2012-10-25 17:24:24 Z
 jugadores_443: 
@@ -5329,7 +5329,7 @@ jugadores_443:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_444: 
@@ -5341,7 +5341,7 @@ jugadores_444:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_445: 
@@ -5353,7 +5353,7 @@ jugadores_445:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_446: 
@@ -5365,7 +5365,7 @@ jugadores_446:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_447: 
@@ -5377,7 +5377,7 @@ jugadores_447:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_448: 
@@ -5389,7 +5389,7 @@ jugadores_448:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_449: 
@@ -5401,7 +5401,7 @@ jugadores_449:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_450: 
@@ -5413,7 +5413,7 @@ jugadores_450:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_451: 
@@ -5425,7 +5425,7 @@ jugadores_451:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_452: 
@@ -5437,7 +5437,7 @@ jugadores_452:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_453: 
@@ -5449,7 +5449,7 @@ jugadores_453:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_454: 
@@ -5461,7 +5461,7 @@ jugadores_454:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_455: 
@@ -5473,7 +5473,7 @@ jugadores_455:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_456: 
@@ -5485,7 +5485,7 @@ jugadores_456:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_457: 
@@ -5497,7 +5497,7 @@ jugadores_457:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:25 Z
   updated_at: 2012-10-25 17:24:25 Z
 jugadores_458: 
@@ -5509,7 +5509,7 @@ jugadores_458:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:26 Z
   updated_at: 2012-10-25 17:24:26 Z
 jugadores_459: 
@@ -5521,7 +5521,7 @@ jugadores_459:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:26 Z
   updated_at: 2012-10-25 17:24:26 Z
 jugadores_460: 
@@ -5533,7 +5533,7 @@ jugadores_460:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:26 Z
   updated_at: 2012-10-25 17:24:26 Z
 jugadores_461: 
@@ -5545,7 +5545,7 @@ jugadores_461:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:26 Z
   updated_at: 2012-10-25 17:24:26 Z
 jugadores_462: 
@@ -5557,7 +5557,7 @@ jugadores_462:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:26 Z
   updated_at: 2012-10-25 17:24:26 Z
 jugadores_463: 
@@ -5569,7 +5569,7 @@ jugadores_463:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_464: 
@@ -5581,7 +5581,7 @@ jugadores_464:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_465: 
@@ -5593,7 +5593,7 @@ jugadores_465:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_466: 
@@ -5605,7 +5605,7 @@ jugadores_466:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_467: 
@@ -5617,7 +5617,7 @@ jugadores_467:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_468: 
@@ -5629,7 +5629,7 @@ jugadores_468:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:46 Z
   updated_at: 2012-10-25 17:24:46 Z
 jugadores_469: 
@@ -5641,7 +5641,7 @@ jugadores_469:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_470: 
@@ -5653,7 +5653,7 @@ jugadores_470:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_471: 
@@ -5665,7 +5665,7 @@ jugadores_471:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_472: 
@@ -5677,7 +5677,7 @@ jugadores_472:
   foto: 
   precio: 
   dorsal: 29
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_473: 
@@ -5689,7 +5689,7 @@ jugadores_473:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_474: 
@@ -5701,7 +5701,7 @@ jugadores_474:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_475: 
@@ -5713,7 +5713,7 @@ jugadores_475:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_476: 
@@ -5725,7 +5725,7 @@ jugadores_476:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_477: 
@@ -5737,7 +5737,7 @@ jugadores_477:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_478: 
@@ -5749,7 +5749,7 @@ jugadores_478:
   foto: 
   precio: 
   dorsal: 14
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_479: 
@@ -5761,7 +5761,7 @@ jugadores_479:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_480: 
@@ -5773,7 +5773,7 @@ jugadores_480:
   foto: 
   precio: 
   dorsal: 28
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_481: 
@@ -5785,7 +5785,7 @@ jugadores_481:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_482: 
@@ -5797,7 +5797,7 @@ jugadores_482:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:47 Z
   updated_at: 2012-10-25 17:24:47 Z
 jugadores_483: 
@@ -5809,7 +5809,7 @@ jugadores_483:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:48 Z
   updated_at: 2012-10-25 17:24:48 Z
 jugadores_484: 
@@ -5821,7 +5821,7 @@ jugadores_484:
   foto: 
   precio: 
   dorsal: 27
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:48 Z
   updated_at: 2012-10-25 17:24:48 Z
 jugadores_485: 
@@ -5833,7 +5833,7 @@ jugadores_485:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:48 Z
   updated_at: 2012-10-25 17:24:48 Z
 jugadores_486: 
@@ -5845,7 +5845,7 @@ jugadores_486:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:48 Z
   updated_at: 2012-10-25 17:24:48 Z
 jugadores_487: 
@@ -5857,7 +5857,7 @@ jugadores_487:
   foto: 
   precio: 
   dorsal: 30
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:24:48 Z
   updated_at: 2012-10-25 17:24:48 Z
 jugadores_488: 
@@ -5869,7 +5869,7 @@ jugadores_488:
   foto: 
   precio: 
   dorsal: 25
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_489: 
@@ -5881,7 +5881,7 @@ jugadores_489:
   foto: 
   precio: 
   dorsal: 1
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_490: 
@@ -5893,7 +5893,7 @@ jugadores_490:
   foto: 
   precio: 
   dorsal: 13
-  posicion: Portero
+  posicion: "Portero"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_491: 
@@ -5905,7 +5905,7 @@ jugadores_491:
   foto: 
   precio: 
   dorsal: 21
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_492: 
@@ -5917,7 +5917,7 @@ jugadores_492:
   foto: 
   precio: 
   dorsal: 4
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_493: 
@@ -5929,7 +5929,7 @@ jugadores_493:
   foto: 
   precio: 
   dorsal: 31
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:08 Z
   updated_at: 2012-10-25 17:25:08 Z
 jugadores_494: 
@@ -5941,7 +5941,7 @@ jugadores_494:
   foto: 
   precio: 
   dorsal: 5
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_495: 
@@ -5953,7 +5953,7 @@ jugadores_495:
   foto: 
   precio: 
   dorsal: 16
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_496: 
@@ -5965,7 +5965,7 @@ jugadores_496:
   foto: 
   precio: 
   dorsal: 24
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_497: 
@@ -5977,7 +5977,7 @@ jugadores_497:
   foto: 
   precio: 
   dorsal: 3
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_498: 
@@ -5989,7 +5989,7 @@ jugadores_498:
   foto: 
   precio: 
   dorsal: 22
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_499: 
@@ -6001,7 +6001,7 @@ jugadores_499:
   foto: 
   precio: 
   dorsal: 6
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_500: 
@@ -6013,7 +6013,7 @@ jugadores_500:
   foto: 
   precio: 
   dorsal: 19
-  posicion: Defensa
+  posicion: "Defensa"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_501: 
@@ -6025,7 +6025,7 @@ jugadores_501:
   foto: 
   precio: 
   dorsal: 10
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_502: 
@@ -6037,7 +6037,7 @@ jugadores_502:
   foto: 
   precio: 
   dorsal: 17
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_503: 
@@ -6049,7 +6049,7 @@ jugadores_503:
   foto: 
   precio: 
   dorsal: 20
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_504: 
@@ -6061,7 +6061,7 @@ jugadores_504:
   foto: 
   precio: 
   dorsal: 9
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_505: 
@@ -6073,7 +6073,7 @@ jugadores_505:
   foto: 
   precio: 
   dorsal: 15
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_506: 
@@ -6085,7 +6085,7 @@ jugadores_506:
   foto: 
   precio: 
   dorsal: 2
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_507: 
@@ -6097,7 +6097,7 @@ jugadores_507:
   foto: 
   precio: 
   dorsal: 11
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_508: 
@@ -6109,7 +6109,7 @@ jugadores_508:
   foto: 
   precio: 
   dorsal: 12
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_509: 
@@ -6121,7 +6121,7 @@ jugadores_509:
   foto: 
   precio: 
   dorsal: 18
-  posicion: Medio
+  posicion: "Medio"
   created_at: 2012-10-25 17:25:09 Z
   updated_at: 2012-10-25 17:25:09 Z
 jugadores_510: 
@@ -6133,7 +6133,7 @@ jugadores_510:
   foto: 
   precio: 
   dorsal: 7
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:25:10 Z
   updated_at: 2012-10-25 17:25:10 Z
 jugadores_511: 
@@ -6145,7 +6145,7 @@ jugadores_511:
   foto: 
   precio: 
   dorsal: 8
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:25:10 Z
   updated_at: 2012-10-25 17:25:10 Z
 jugadores_512: 
@@ -6157,7 +6157,7 @@ jugadores_512:
   foto: 
   precio: 
   dorsal: 23
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:25:10 Z
   updated_at: 2012-10-25 17:25:10 Z
 jugadores_513: 
@@ -6169,7 +6169,7 @@ jugadores_513:
   foto: 
   precio: 
   dorsal: 26
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:25:10 Z
   updated_at: 2012-10-25 17:25:10 Z
 jugadores_514: 
@@ -6181,6 +6181,6 @@ jugadores_514:
   foto: 
   precio: 
   dorsal: 32
-  posicion: Delantero
+  posicion: "Delantero"
   created_at: 2012-10-25 17:25:10 Z
   updated_at: 2012-10-25 17:25:10 Z

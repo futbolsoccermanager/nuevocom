@@ -10,8 +10,8 @@ Nuevocom::Application.routes.draw do
 
   resource :selecciones do
     match 'change/:id_seleccion' => 'selecciones#change_seleccion', :as => :change
+    match 'plantilla/:id' => 'selecciones#plantilla', :via => [:get], :on => :collection, :as => :plantilla
   end
-
   resource :ligas
 
   # The priority is based upon order of creation:

@@ -9,3 +9,12 @@
     display: inline-block;
   }
 }
+
+#plantilla {
+  ul {
+    float: left;
+    li {
+      list-style-type: none;
+    }
+  }
+}

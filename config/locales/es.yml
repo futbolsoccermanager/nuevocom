@@ -28,6 +28,13 @@ es:
     change_ok: "Ahora estás usando: %{equipo}"
     nombre: "Nombre del equipo"
 
+  jugadores:
+    posiciones:
+      portero: "Porteros"
+      defensa: "Defensas"
+      medio: "Medios"
+      delantero: "Delanteros"
+
   ligas:
     elegir: "¿En qué liga quieres inscribir el equipo?"
     tipos:

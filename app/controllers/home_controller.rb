@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @tweet_feeds = Twitter.user_timeline("LigaBBVA")
+
   end
 
   def prueba

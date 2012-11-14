@@ -1,0 +1,17 @@
+#plantilla
+  %ul
+    %li= t('jugadores.posiciones.portero').upcase
+    - @porteros.each do |jugador|
+      %li= jugador.nombre
+  %ul
+    %li= t('jugadores.posiciones.defensa').upcase
+    - @defensas.each do |jugador|
+      %li= jugador.nombre
+  %ul
+    %li= t('jugadores.posiciones.medio').upcase
+    - @medios.each do |jugador|
+      %li= jugador.nombre
+  %ul
+    %li= t('jugadores.posiciones.delantero').upcase
+    - @delanteros.each do |jugador|
+      %li= jugador.nombre

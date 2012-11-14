@@ -20,5 +20,8 @@ class Jugador < ActiveRecord::Base
 
   belongs_to :equipo
   has_many :mercados
-  has_many :selecciones
+
+
+  POSICIONES = {:portero => "Portero", :defensa => "Defensa", :medio => "Medio", :delantero => "Delantero"}
+
 end

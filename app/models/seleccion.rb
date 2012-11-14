@@ -19,4 +19,7 @@ class Seleccion < ActiveRecord::Base
 
   belongs_to :user
   belongs_to :liga
+  has_many :plantilla_selecciones
+  has_many :jugadores, :through => :plantilla_selecciones
+
 end
