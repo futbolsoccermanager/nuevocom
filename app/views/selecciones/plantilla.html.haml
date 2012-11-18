@@ -2,16 +2,61 @@
   %ul
     %li= t('jugadores.posiciones.portero').upcase
     - @porteros.each do |jugador|
-      %li= jugador.nombre
+      %li.jugador{:id => "port"}= jugador.nombre
   %ul
     %li= t('jugadores.posiciones.defensa').upcase
     - @defensas.each do |jugador|
-      %li= jugador.nombre
+      %li.jugador{:id => "def"}= jugador.nombre
   %ul
     %li= t('jugadores.posiciones.medio').upcase
     - @medios.each do |jugador|
-      %li= jugador.nombre
+      %li.jugador{:id => "med"}= jugador.nombre
   %ul
     %li= t('jugadores.posiciones.delantero').upcase
     - @delanteros.each do |jugador|
-      %li= jugador.nombre
+      %li.jugador{:id => "del"}= jugador.nombre
+
+.clearfix
+
+#once-titular
+  #portero
+    = image_tag 'player.jpg', :class => "portero"
+  #defensas
+    - [1,2,3,4].each do |d|
+      = image_tag 'player.jpg', :class => "defensa"
+  #medios
+    - [5,6,7,8].each do |m|
+      = image_tag 'player.jpg', :class => "medio"
+  #delanteros
+    - [9,10].each do |de|
+      = image_tag 'player.jpg', :class => "delantero"
+
+
+
+:javascript
+  $(function() {
+      $(".jugador").draggable({
+              revert: true
+      });
+      $(".portero").droppable({
+        over: function(event, ui) {
+          alert($(this).attr("class"));
+          alert('working!');
+        }
+      });
+      $(".defensa").droppable({
+        over: function() {
+          alert('working!');
+        }
+      });
+      $(".medio").droppable({
+        over: function() {
+          alert('working!');
+        }
+      });
+      $(".delantero").droppable({
+        over: function() {
+          alert('working!');
+        }
+      });
+  });
