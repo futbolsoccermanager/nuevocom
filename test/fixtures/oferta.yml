@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  seleccion_id: 1
+  mercado_id: 1
+  valor: 1.5
+  fecha: 2012-11-14
+
+two:
+  seleccion_id: 1
+  mercado_id: 1
+  valor: 1.5
+  fecha: 2012-11-14

@@ -41,6 +41,7 @@ class Liga < ActiveRecord::Base
   belongs_to :creador, :foreign_key => :creador, :class_name => User
 
   has_many :mercados
+  has_many :selecciones
 
   def need_pwd?
     privacidad != PRIVACIDAD[:publica]

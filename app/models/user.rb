@@ -51,6 +51,7 @@ class User < ActiveRecord::Base
   end
 
   def current_seleccion(session, nueva=nil)
+    nueva = mis_selecciones.first if session[:current_seleccion].blank? && nueva.blank?
     nueva.present? ? session[:current_seleccion] = nueva : session[:current_seleccion]
   end
 end

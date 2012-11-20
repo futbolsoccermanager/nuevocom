@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   end
 
   def get_tweets
-    @tweet_feeds = Twitter.user_timeline("LigaBBVA")
+    @tweet_feeds = Twitter.user_timeline("LigaBBVA") rescue []
   end
 
 end

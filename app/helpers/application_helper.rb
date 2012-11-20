@@ -16,4 +16,9 @@ module ApplicationHelper
     end
   end
 
+  def formato_numero(valor)
+    return if valor.blank?
+
+    number_with_delimiter valor, :delimiter => '.', :separator => ','
+  end
 end

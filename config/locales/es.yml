@@ -71,6 +71,15 @@ es:
       sbm_crear: "Crear liga"
       ok_crear: "Liga creada"
 
+  mercado:
+    titulo: 'Mercado de fichajes'
+    jugadores: 'Jugadores'
+    club: 'Club'
+    precio_salida: 'Precio de salida'
+    oferta:
+      placeholder: 'Valor oferta'
+      realizar: 'Efectuar pujas'
+      propias: 'Ver mis ofertas'
   index:
     titulo: "Fútbol Soccer Manager"
     parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos"

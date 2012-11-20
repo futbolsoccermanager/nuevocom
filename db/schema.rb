@@ -54,6 +54,15 @@ ActiveRecord::Schema.define(:version => 20121118152813) do
     t.datetime "updated_at",      :null => false
   end
 
+  create_table "oferta", :force => true do |t|
+    t.integer  "seleccion_id"
+    t.integer  "mercado_id"
+    t.float    "valor"
+    t.date     "fecha"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
   create_table "plantilla_selecciones", :force => true do |t|
     t.integer  "seleccion_id"
     t.integer  "jugador_id"

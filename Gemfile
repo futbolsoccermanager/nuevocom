@@ -44,6 +44,7 @@ gem 'twitter'
 # gem 'debugger'
 group :development, :test do
   gem 'anemone'
+  gem 'railroady'
 end
 
 group :production do

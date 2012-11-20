@@ -11,4 +11,6 @@
 
 class Equipo < ActiveRecord::Base
   attr_accessible :logo, :nombre
+
+  has_many :jugadores
 end

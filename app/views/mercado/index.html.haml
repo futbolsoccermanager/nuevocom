@@ -1,7 +1,31 @@
-%h1 Mercado#index
-%p Find me in app/views/mercado/index.html.haml
+%h1= t('mercado.titulo')
 
-- @jugadores_mercado.each do |jm|
-  %p
-    %strong= jm.jugador.nombre
-    = jm.jugador.equipo.nombre
+= form_tag mercado_create_ofertas_path, :remote => true, :id => 'formofer'
+%button.btn.btn-success.makeofer{:type => 'button'}
+  =t('mercado.oferta.realizar')
+%button.btn.btn-inverse.seeofer
+  =t('mercado.oferta.propias')
+
+%table.table.table-hover.table-condensed
+  %thead
+    %tr
+      %th= t('mercado.jugadores')
+      %th= t('mercado.club')
+      %th= t('mercado.precio_salida')
+
+  - @jugadores_mercado.each do |jm|
+    %tr
+      %td
+        %strong= jm.jugador.nombre
+      %td
+        = jm.jugador.equipo.nombre
+      %td.derecha
+        = formato_numero(jm.jugador.precio)
+      %td
+        = text_field_tag "oferta_#{jm.id}", @ofertas.select{|of| of.mercado_id == jm.id}.first.try(:valor), :placeholder => t('mercado.oferta.placeholder'), :class => 'valofer'
+        %span.rem_oferta.icon-remove{:id => "delete_#{jm.id}"}
+
+%button.btn.btn-success.makeofer{:type => 'button'}
+  =t('mercado.oferta.realizar')
+%button.btn.btn-inverse.seeofer
+  =t('mercado.oferta.propias')

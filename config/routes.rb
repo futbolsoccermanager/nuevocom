@@ -1,5 +1,6 @@
 Nuevocom::Application.routes.draw do
 
+  post "mercado/create_ofertas"
   match "mercado/:id_seleccion/index" => 'mercado#index', :as => :mercado
 
   devise_for :users

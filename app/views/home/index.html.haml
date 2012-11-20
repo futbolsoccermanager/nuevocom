@@ -1,4 +1,4 @@
-- if user_signed_in?
+- if user_signed_in? && current_user.mis_selecciones.present?
   .dashboard
     = render 'dashboard'
 - else
