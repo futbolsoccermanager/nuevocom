@@ -49,6 +49,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'nokogiri'
 end
 
 
