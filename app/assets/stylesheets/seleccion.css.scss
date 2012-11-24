@@ -12,7 +12,7 @@
 
 #plantilla {
   ul {
-    float: left;
+    float:left;
     li {
       list-style-type: none;
       margin-top: 2px;
@@ -20,13 +20,31 @@
   }
   .jugador {
     background-color:#FFF;
-    width: auto;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     coursor: pointer;
+    text-align: center;
+    p.dorsal {
+      font-size: 25px;
+    }
   }
 }
 
 #once-titular {
-
-
+  ul {
+    li {
+      display: inline-block;
+      list-style-type: none;
+      margin-top: 2px;
+      width: 150px;
+      height: 150px;
+      coursor: pointer;
+      text-align: center;
+      &.titular {
+        background-image: url(../assets/jugador_titular.jpg);
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  float: left;
 }

@@ -3,4 +3,6 @@ class PlantillaSeleccion < ActiveRecord::Base
 
   belongs_to :seleccion
   belongs_to :jugador
+
+
 end

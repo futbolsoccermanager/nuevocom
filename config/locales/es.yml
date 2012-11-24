@@ -2,6 +2,8 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 es:
+  buttons:
+    guardar: 'Guardar'
   login:
     titulo: 'Acceso a la aplicación'
     email: 'e-mail'
@@ -44,6 +46,8 @@ es:
   seleccion:
     change_ok: "Ahora estás usando: %{equipo}"
     nombre: "Nombre del equipo"
+    once_titular:
+      change_ok: "Se ha guardado tu once titular"
 
   jugadores:
     posiciones:

@@ -1,62 +1,112 @@
+#once-titular
+  #portero
+    %ul
+      %li.portero.titular
+  #defensas
+    %ul
+      - [1,2,3,4].each do |d|
+        %li.defensa.titular
+  #medios
+    %ul
+      - [5,6,7,8].each do |m|
+        %li.medio.titular
+  #delanteros
+    %ul
+      - [9,10].each do |de|
+        %li.delantero.titular
+
+  %button.btn.btn-primary{:type=> "button", :onclick => "submit_once_titular();"}
+    = t('buttons.guardar')
+
+
 #plantilla
   %ul
     %li= t('jugadores.posiciones.portero').upcase
     - @porteros.each do |jugador|
-      %li.jugador{:id => "port"}= jugador.nombre
+      %li.jugador.port{:id => jugador.id}
+        %p= jugador.nombre
+        %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.defensa').upcase
     - @defensas.each do |jugador|
-      %li.jugador{:id => "def"}= jugador.nombre
+      %li.jugador.def{:id => jugador.id}
+        %p= jugador.nombre
+        %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.medio').upcase
     - @medios.each do |jugador|
-      %li.jugador{:id => "med"}= jugador.nombre
+      %li.jugador.med{:id => jugador.id}
+        %p= jugador.nombre
+        %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.delantero').upcase
     - @delanteros.each do |jugador|
-      %li.jugador{:id => "del"}= jugador.nombre
+      %li.jugador.del{:id => jugador.id}
+        %p= jugador.nombre
+        %p.dorsal= jugador.dorsal
 
-.clearfix
 
-#once-titular
-  #portero
-    = image_tag 'player.jpg', :class => "portero"
-  #defensas
-    - [1,2,3,4].each do |d|
-      = image_tag 'player.jpg', :class => "defensa"
-  #medios
-    - [5,6,7,8].each do |m|
-      = image_tag 'player.jpg', :class => "medio"
-  #delanteros
-    - [9,10].each do |de|
-      = image_tag 'player.jpg', :class => "delantero"
-
+= form_tag save_once_titular_selecciones_path, :remote => true, :method => :put, :id => 'save_once' do
+  = hidden_field_tag :id_titulares, ''
+  = hidden_field_tag :id_seleccion, @id_seleccion
 
 
 :javascript
   $(function() {
-      $(".jugador").draggable({
-              revert: true
+      $.each([".port", ".def",".med", ".del"], function(index, value) {
+        $(value).draggable({
+          revert: true
+        });
       });
+
+
       $(".portero").droppable({
-        over: function(event, ui) {
-          alert($(this).attr("class"));
-          alert('working!');
+        accept: ".port",
+        drop: function(event, ui) {
+          $(this).append($(ui.draggable));
+          $(this).removeClass('ui-droppable');
+          $(this).removeClass('titular');
+          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".defensa").droppable({
-        over: function() {
-          alert('working!');
+        accept: ".def",
+        drop: function(event, ui) {
+          $(this).append($(ui.draggable));
+          $(this).removeClass('ui-droppable');
+          $(this).removeClass('titular');
+          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".medio").droppable({
-        over: function() {
-          alert('working!');
+        accept: ".med",
+        drop: function(event, ui) {
+          $(this).append($(ui.draggable));
+          $(this).removeClass('ui-droppable');
+          $(this).removeClass('titular');
+          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".delantero").droppable({
-        over: function() {
-          alert('working!');
+        accept: ".del",
+        drop: function(event, ui) {
+          $(this).append($(ui.draggable));
+          $(this).removeClass('ui-droppable');
+          $(this).removeClass('titular');
+          add_jugador_to_titulares($(ui.draggable).attr('id'));
+
         }
       });
   });
+  function submit_once_titular(){
+    $('#save_once').submit();
+  }
+  function add_jugador_to_titulares(id_jugador){
+    alert(id_jugador);
+    var titulares = $('#id_titulares').val();
+    if (titulares != ''){
+      $('#id_titulares').val(titulares + "," + id_jugador);
+    }else{
+      $('#id_titulares').val(id_jugador);
+    }
+  }
