@@ -84,8 +84,11 @@
       $(".delantero").droppable({
         accept: ".del",
         drop: function(event, ui) {
+          if ($(this).children()){
+            $(this).children().insertAfter($(ui.draggable));
+          }
           $(this).append($(ui.draggable));
-          $(this).droppable('disable');
+
         }
       });
   });
