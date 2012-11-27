@@ -88,7 +88,8 @@ es:
       propias: 'Ver mis ofertas'
   index:
     titulo: "Fútbol Soccer Manager"
-    parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos"
-    parrafo2: "Alta disponibilidad. Olvídate de problemas de sobrecarga, lentitud de páginas, ..."
-    parrafo3: "Crea tu equipo, entra en una liga, y accede al mercado de fichajes para pujar por un equipo competitivo. Además, necesitarás un entrenador para dirigir el equipo."
-    parrafo3: "Además, interactúa con tus amigos y entérate de las últimas noticias del mundo del fútbol"
+    parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos, ...Regístrate y empieza a crear tu equipo, invita a tus amigos y competid en la misma liga. Podrás participar en varias ligas con la misma cuenta!"
+    parrafo2: "Alta disponibilidad. Olvídate de problemas de sobrecarga y lentitud de páginas. Entra a cualquier hora y adelantate a los fichajes del resto"
+    parrafo3: "Crea tu equipo, entra en una liga, y accede al mercado de fichajes para pujar por un equipo competitivo. Además, necesitarás un entrenador para dirigir el equipo. También podrás realizar ofertas a un rival por uno de sus jugadores"
+    parrafo3: "Además, interactúa con tus amigos y entérate de las últimas noticias del mundo del fútbol. Entérate de más en <a href='hablandoencuero.blogspot.com.es'>hablandoencuero.blogspot.com.es</a>"
+    pasos: Pasos<ul><li>Date de alta</li><li>Configura la liga</li><li>Crea tu equipo</li><li>Puja por tus jugadores favoritos</li><li>Prepara tu alineación para la jornada</li></ul>

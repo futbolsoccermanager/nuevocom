@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def index
+    @feed_hec = Feedzirra::Feed.fetch_and_parse("http://hablandoencuero.blogspot.com.es/feeds/posts/default") rescue nil
+    @feed_marca = Feedzirra::Feed.fetch_and_parse("http://marca.feedsportal.com/rss/futbol_1adivision.xml") rescue nil
 
   end
 
@@ -9,5 +11,9 @@ class HomeController < ApplicationController
     respond_to do |format|
       format.json {render :json => @equipos}
     end
+  end
+
+  def hablandoencuero
+    @articulo = Feedzirra::Feed.fetch_and_parse("http://hablandoencuero.blogspot.com.es/feeds/posts/default").entries.first rescue nil
   end
 end

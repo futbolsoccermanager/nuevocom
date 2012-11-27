@@ -1,0 +1,8 @@
+- if @articulo
+  %h1=@articulo.title
+  %p
+    %small=@articulo.author
+  %p
+    %small=@articulo.last_modified
+  %p
+    =raw @articulo.content

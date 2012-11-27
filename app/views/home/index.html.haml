@@ -5,4 +5,19 @@
   %h1= t('index.titulo')
   %p= t('index.parrafo1')
   %p= t('index.parrafo2')
-  %p= t('index.parrafo3')
+  %p= raw t('index.parrafo3')
+  %p= raw t('index.pasos')
+
+- if @feed_hec.present?
+  %h2= link_to @feed_hec.title, {:controller => 'home', :action => 'hablandoencuero'}
+  - @feed_hec.entries.each_with_index do |entry, i|
+    %p
+      %strong= link_to entry.title, entry.url
+
+- if @feed_marca.present?
+  %h3= @feed_marca.title
+  - @feed_marca.entries.each_with_index do |entry, i|
+    %p
+      %strong= link_to entry.title, entry.url
+
+    - break if i == 4

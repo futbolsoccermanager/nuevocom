@@ -8,6 +8,7 @@ Nuevocom::Application.routes.draw do
   devise_for :users
 
   get "home/index"
+  get "home/hablandoencuero"
 
   match "home/prueba" => 'home#prueba', :as => :prueba
 
