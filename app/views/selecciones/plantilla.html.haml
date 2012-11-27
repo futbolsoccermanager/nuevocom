@@ -65,7 +65,6 @@
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
           $(this).droppable('disable');
-          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".defensa").droppable({
@@ -73,7 +72,6 @@
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
           $(this).droppable('disable');
-          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".medio").droppable({
@@ -81,7 +79,6 @@
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
           $(this).droppable('disable');
-          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
       $(".delantero").droppable({
@@ -89,19 +86,23 @@
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
           $(this).droppable('disable');
-          add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
   });
   function submit_once_titular(){
-    $('#save_once').submit();
-  }
-  function add_jugador_to_titulares(id_jugador){
-    alert(id_jugador);
     var titulares = $('#id_titulares').val();
-    if (titulares != ''){
-      $('#id_titulares').val(titulares + "," + id_jugador);
-    }else{
-      $('#id_titulares').val(id_jugador);
+    $.each($('#once-titular').find('.jugador'), function(index, value) {
+       id_jugador = $(value).attr('id');
+       if (titulares != ''){
+         $('#id_titulares').val(titulares + "," + id_jugador);
+       }else{
+         $('#id_titulares').val(id_jugador);
+       }
+    });
+    if ($('#id_titulares').val() != '') {
+       $('#save_once').submit();
+    } else {
+       alert("Debes seleccionar algun jugador para tu once inicial");
     }
   }
+
