@@ -37,11 +37,12 @@
       list-style-type: none;
       margin-top: 2px;
       width: 150px;
-      height: 150px;
+      height: 50px;
       coursor: pointer;
       text-align: center;
       &.titular {
-        background-image: url(../assets/jugador_titular.jpg);
+        background-color: #D3D3D3;
+        background-image: none;
         background-repeat: no-repeat;
       }
     }

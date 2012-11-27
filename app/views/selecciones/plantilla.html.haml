@@ -64,8 +64,7 @@
         accept: ".port",
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
-          $(this).removeClass('ui-droppable');
-          $(this).removeClass('titular');
+          $(this).droppable('disable');
           add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
@@ -73,8 +72,7 @@
         accept: ".def",
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
-          $(this).removeClass('ui-droppable');
-          $(this).removeClass('titular');
+          $(this).droppable('disable');
           add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
@@ -82,8 +80,7 @@
         accept: ".med",
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
-          $(this).removeClass('ui-droppable');
-          $(this).removeClass('titular');
+          $(this).droppable('disable');
           add_jugador_to_titulares($(ui.draggable).attr('id'));
         }
       });
@@ -91,10 +88,8 @@
         accept: ".del",
         drop: function(event, ui) {
           $(this).append($(ui.draggable));
-          $(this).removeClass('ui-droppable');
-          $(this).removeClass('titular');
+          $(this).droppable('disable');
           add_jugador_to_titulares($(ui.draggable).attr('id'));
-
         }
       });
   });
