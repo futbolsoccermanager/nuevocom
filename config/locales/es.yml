@@ -20,6 +20,7 @@ es:
     remember: "No cerrar sesión"
 
   menus:
+    admin: "Administrar"
     logout: "Salir"
     signup: 'Nuevo usuario'
     edit_account: "Cuenta"
