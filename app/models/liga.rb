@@ -42,6 +42,7 @@ class Liga < ActiveRecord::Base
 
   has_many :mercados
   has_many :selecciones
+  has_many :messages
 
   def need_pwd?
     privacidad != PRIVACIDAD[:publica]

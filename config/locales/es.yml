@@ -4,6 +4,7 @@
 es:
   buttons:
     guardar: 'Guardar'
+    enviar: "Enviar"
   login:
     titulo: 'Acceso a la aplicación'
     email: 'e-mail'

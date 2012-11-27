@@ -16,6 +16,8 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  username               :string(255)
+#  admin                  :boolean
+#  premium                :boolean
 #
 
 require 'test_helper'

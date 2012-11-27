@@ -1,3 +1,12 @@
+- if user_signed_in?
+  = form_for Message.new, :remote => true do |f|
+    = f.text_field :texto
+    = f.submit t('buttons.enviar'), :class => 'btn btn-inverse', :disable_with => "Saving..."
+- if @msgs.present?
+  - @msgs.each do |msg|
+    %blockquote
+      %strong=msg.user.username
+      = raw msg.texto
 - if @tweet_feeds.present?
   - @tweet_feeds.each do |tweet|
     %blockquote= raw tweet.text

@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: oferta
+#
+#  id           :integer          not null, primary key
+#  seleccion_id :integer
+#  mercado_id   :integer
+#  valor        :float
+#  fecha        :date
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
 class Oferta < ActiveRecord::Base
   attr_accessible :fecha, :mercado_id, :seleccion_id, :valor
 

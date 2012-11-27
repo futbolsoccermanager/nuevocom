@@ -16,6 +16,13 @@ class ApplicationController < ActionController::Base
 
   def get_tweets
     @tweet_feeds = Twitter.user_timeline("LigaBBVA") rescue []
+
+    if user_signed_in?
+      # ligas propias
+      ligas = current_user.selecciones.map{|x| x.liga_id}
+      @msgs = Message.where("liga_id IN (?)", ligas)
+    end
+
   end
 
 end

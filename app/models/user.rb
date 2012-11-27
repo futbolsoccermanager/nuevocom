@@ -16,6 +16,8 @@
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
 #  username               :string(255)
+#  admin                  :boolean
+#  premium                :boolean
 #
 
 class User < ActiveRecord::Base
@@ -32,6 +34,7 @@ class User < ActiveRecord::Base
   # attr_accessible :title, :body
 
   has_many :selecciones
+  has_many :messages
 
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
