@@ -5,7 +5,7 @@
 
 - if @msgs.present?
   #mensajes
-    - @msgs.each do |msg|
+    - @msgs.each_with_index do |msg, i|
       %blockquote
         %strong=msg.user.username
         = raw msg.texto
