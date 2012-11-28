@@ -3,10 +3,13 @@
     = f.text_field :texto
     = f.submit t('buttons.enviar'), :class => 'btn btn-inverse', :disable_with => "Saving..."
 - if @msgs.present?
-  - @msgs.each do |msg|
+  - @msgs.each_with_index do |msg, i|
     %blockquote
       %strong=msg.user.username
-      = raw msg.texto
+      = msg.texto
+    = render "/anuncios/lateralnoticias" if i%9 == 8
+%hr
 - if @tweet_feeds.present?
-  - @tweet_feeds.each do |tweet|
+  - @tweet_feeds.each_with_index do |tweet, i|
     %blockquote= raw tweet.text
+    = render "/anuncios/lateralnoticias" if i%5 == 4
