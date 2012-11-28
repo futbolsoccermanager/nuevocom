@@ -22,6 +22,8 @@ end
 
 gem 'devise'
 gem "cancan"
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 gem 'jquery-rails'
 gem 'haml-rails'

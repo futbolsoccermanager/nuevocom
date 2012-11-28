@@ -14,5 +14,6 @@
           = f.check_box :remember_me
           = f.label :remember_me, t('login.remember')
       %div= f.submit t('login.signin'), :class => 'btn btn-primary'
+      %p= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook)
   .modal-footer
     = render "devise/shared/links"
