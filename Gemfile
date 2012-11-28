@@ -28,7 +28,6 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 
 gem 'twitter'
-gem 'faye'
 
 gem 'feedzirra'
 

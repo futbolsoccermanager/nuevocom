@@ -1,14 +1,16 @@
-- if user_signed_in?
+- if @msgs.present? && user_signed_in?
   = form_for Message.new, :remote => true do |f|
     = f.text_field :texto
     = f.submit t('buttons.enviar'), :class => 'btn btn-inverse', :disable_with => "Saving..."
+
 - if @msgs.present?
-  - @msgs.each_with_index do |msg, i|
-    %blockquote
-      %strong=msg.user.username
-      = msg.texto
-    = render "/anuncios/lateralnoticias" if i%9 == 8
-%hr
+  #mensajes
+    - @msgs.each do |msg|
+      %blockquote
+        %strong=msg.user.username
+        = raw msg.texto
+      = render "/anuncios/lateralnoticias" if i%9 == 8
+
 - if @tweet_feeds.present?
   - @tweet_feeds.each_with_index do |tweet, i|
     %blockquote= raw tweet.text
