@@ -14,6 +14,7 @@
     %p
       %strong= link_to entry.title, entry.url
 
+= render "/anuncios/central"
 - if @feed_marca.present?
   %h3= @feed_marca.title
   - @feed_marca.entries.each_with_index do |entry, i|
@@ -21,3 +22,4 @@
       %strong= link_to entry.title, entry.url
 
     - break if i == 4
+= render "/anuncios/central"
