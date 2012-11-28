@@ -4,7 +4,7 @@
       %li.portero.titular
     - else
       - @porteros_titulares.each do |jugador|
-        %li.portero.titular
+        %li.portero.titular.anadir{:id => jugador.id}
           %p= jugador.nombre
           %p.dorsal= jugador.dorsal
 
@@ -12,7 +12,7 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
       - if jugador.present?
-        %li.defensa.titular
+        %li.defensa.titular.anadir{:id => jugador.id}
           %p= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
@@ -21,7 +21,7 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
       - if jugador.present?
-        %li.medio.titular
+        %li.medio.titular.anadir{:id => jugador.id}
           %p= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
@@ -31,7 +31,7 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
       - if jugador.present?
-        %li.delantero.titular
+        %li.delantero.titular.anadir{:id => jugador.id}
           %p= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else

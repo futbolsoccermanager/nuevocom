@@ -9,25 +9,25 @@
   %ul
     %li= t('jugadores.posiciones.portero').upcase
     - @porteros.each do |jugador|
-      %li.jugador.port{:id => jugador.id}
+      %li.jugador.port.anadir{:id => jugador.id}
         %p= jugador.nombre
         %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.defensa').upcase
     - @defensas.each do |jugador|
-      %li.jugador.def{:id => jugador.id}
+      %li.jugador.def.anadir{:id => jugador.id}
         %p= jugador.nombre
         %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.medio').upcase
     - @medios.each do |jugador|
-      %li.jugador.med{:id => jugador.id}
+      %li.jugador.med.anadir{:id => jugador.id}
         %p= jugador.nombre
         %p.dorsal= jugador.dorsal
   %ul
     %li= t('jugadores.posiciones.delantero').upcase
     - @delanteros.each do |jugador|
-      %li.jugador.del{:id => jugador.id}
+      %li.jugador.del.anadir{:id => jugador.id}
         %p= jugador.nombre
         %p.dorsal= jugador.dorsal
 
@@ -58,7 +58,7 @@
       });
   });
   function submit_once_titular(){
-    $.each($('#once-titular').find('.jugador'), function(index, value) {
+    $.each($('#once-titular').find('.anadir'), function(index, value) {
        id_jugador = $(value).attr('id');
        var titulares = $('#id_titulares').val();
        if (titulares != ''){

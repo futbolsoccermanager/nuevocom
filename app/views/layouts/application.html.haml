@@ -21,7 +21,8 @@
         .content
           .row
             .span12
-              = render 'layouts/messages'
+              #flash-app
+                = render 'layouts/messages'
               #central.span8
                 = yield
               #lateral.span3
