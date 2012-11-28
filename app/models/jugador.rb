@@ -20,6 +20,15 @@ class Jugador < ActiveRecord::Base
 
   belongs_to :equipo
   has_many :mercados
+  has_many :plantilla_selecciones
+
+  scope :once_titular, lambda {|seleccion_id|
+    joins(:plantilla_selecciones).where('plantilla_selecciones.titular = ? AND plantilla_selecciones.seleccion_id = ?', true, seleccion_id)
+  }
+
+  scope :banquillo, lambda {|seleccion_id|
+    joins(:plantilla_selecciones).where('(plantilla_selecciones.titular = ? OR plantilla_selecciones.titular is NULL) AND plantilla_selecciones.seleccion_id = ?', false, seleccion_id)
+  }
 
 
   POSICIONES = {:portero => "Portero", :defensa => "Defensa", :medio => "Medio", :delantero => "Delantero"}

@@ -43,26 +43,44 @@ class SeleccionesController < ApplicationController
   end
 
   def plantilla
-    jugadores = Seleccion.find(params[:id_seleccion]).jugadores
-    @id_seleccion = params[:id_seleccion]
-    @porteros = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact!
-    @defensas = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:defensa]}.compact!
-    @medios = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:medio]}.compact!
-    @delanteros = jugadores.map{|x| x if x.posicion == Jugador::POSICIONES[:delantero]}.compact!
+    titulares_y_suplentes
   end
 
   def save_once_titular
     titulares = params[:id_titulares].split(",")
-    titulares.each do |titular|
-      jugador_titular = PlantillaSeleccion.where(["seleccion_id = ? AND jugador_id = ?",params[:id_seleccion], titular]).first
-      jugador_titular.titular = 1
-      jugador_titular.save
+    p titulares.inspect
+    plantilla = PlantillaSeleccion.where(["seleccion_id = ?", params[:id_seleccion]])
+    plantilla.each do |jugador|
+      if titulares.include?(jugador.jugador_id.to_s)
+        jugador.titular = 1
+      else
+        jugador.titular = 0
+      end
+      jugador.save
     end
-    respond_to do |format|
-      flash[:notice] = t('seleccion.once_titular.change_ok')
-      format.js
-    end
+    titulares_y_suplentes
+    flash[:notice] = t('seleccion.once_titular.change_ok')
+
   end
+
+
+  private
+
+    def titulares_y_suplentes
+      banquillo = Jugador.banquillo(params[:id_seleccion])
+      once_titular = Jugador.once_titular(params[:id_seleccion])
+      @seleccion = Seleccion.find params[:id_seleccion]
+
+      @porteros = banquillo.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact
+      @defensas = banquillo.map{|x| x if x.posicion == Jugador::POSICIONES[:defensa]}.compact
+      @medios = banquillo.map{|x| x if x.posicion == Jugador::POSICIONES[:medio]}.compact
+      @delanteros = banquillo.map{|x| x if x.posicion == Jugador::POSICIONES[:delantero]}.compact
+      @porteros_titulares = once_titular.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact
+      @defensas_titulares = once_titular.map{|x| x if x.posicion == Jugador::POSICIONES[:defensa]}.compact
+      @medios_titulares = once_titular.map{|x| x if x.posicion == Jugador::POSICIONES[:medio]}.compact
+      @delanteros_titulares = once_titular.map{|x| x if x.posicion == Jugador::POSICIONES[:delantero]}.compact
+
+    end
 
 
 end

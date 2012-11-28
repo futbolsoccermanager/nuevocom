@@ -23,4 +23,7 @@ class Seleccion < ActiveRecord::Base
   has_many :jugadores, :through => :plantilla_selecciones
   has_many :ofertas
 
+
+
+
 end

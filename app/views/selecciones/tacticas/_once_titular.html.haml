@@ -1,0 +1,38 @@
+#portero
+  %ul
+    - if @porteros_titulares.blank?
+      %li.portero.titular
+    - else
+      - @porteros_titulares.each do |jugador|
+        %li.portero.titular
+          %p= jugador.nombre
+          %p.dorsal= jugador.dorsal
+
+#defensas
+  %ul
+    - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
+      - if jugador.present?
+        %li.defensa.titular
+          %p= jugador.nombre
+          %p.dorsal= jugador.dorsal
+      - else
+        %li.defensa.titular
+#medios
+  %ul
+    - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
+      - if jugador.present?
+        %li.medio.titular
+          %p= jugador.nombre
+          %p.dorsal= jugador.dorsal
+      - else
+        %li.medio.titular
+
+#delanteros
+  %ul
+    - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
+      - if jugador.present?
+        %li.delantero.titular
+          %p= jugador.nombre
+          %p.dorsal= jugador.dorsal
+      - else
+        %li.delantero.titular
