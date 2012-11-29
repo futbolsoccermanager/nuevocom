@@ -1,5 +1,6 @@
 Nuevocom::Application.routes.draw do
 
+
   resource :messages
 
   post "mercado/create_ofertas"

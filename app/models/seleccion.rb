@@ -10,6 +10,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  fecha_visto :date
+#  tactica     :string(255)      default("4_4_2")
 #
 
 class Seleccion < ActiveRecord::Base

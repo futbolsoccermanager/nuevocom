@@ -18,6 +18,11 @@
 #  username               :string(255)
 #  admin                  :boolean
 #  premium                :boolean
+#  provider               :string(255)
+#  uid                    :string(255)
+#  failed_attempts        :integer          default(0)
+#  unlock_token           :string(255)
+#  locked_at              :datetime
 #
 
 require 'test_helper'

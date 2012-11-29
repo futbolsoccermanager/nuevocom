@@ -18,6 +18,11 @@
 #  username               :string(255)
 #  admin                  :boolean
 #  premium                :boolean
+#  provider               :string(255)
+#  uid                    :string(255)
+#  failed_attempts        :integer          default(0)
+#  unlock_token           :string(255)
+#  locked_at              :datetime
 #
 
 class User < ActiveRecord::Base
@@ -26,7 +31,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :omniauthable
+         :omniauthable, :lockable, :confirmable
 
   attr_accessor :login
 
