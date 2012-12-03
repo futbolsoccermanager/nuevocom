@@ -15,9 +15,9 @@ class HomeController < ApplicationController
   end
 
   def prueba_post
-    @users = User.all
+    @params = params
     respond_to do |format|
-      format.json {render :json => @users}
+      format.json {render :json => @params}
       format.js
     end
   end
