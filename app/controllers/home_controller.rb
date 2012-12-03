@@ -10,6 +10,15 @@ class HomeController < ApplicationController
 
     respond_to do |format|
       format.json {render :json => @equipos}
+      format.html
+    end
+  end
+
+  def prueba_post
+    @users = User.all
+    respond_to do |format|
+      format.json {render :json => @users}
+      format.js
     end
   end
 

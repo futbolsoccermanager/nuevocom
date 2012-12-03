@@ -12,6 +12,7 @@ Nuevocom::Application.routes.draw do
   get "home/hablandoencuero"
 
   match "home/prueba" => 'home#prueba', :as => :prueba
+  match "home/prueba_post" => 'home#prueba_post', :as => :prueba_post, :only => [:post]
 
   resource :selecciones do
     match 'change/:id_seleccion' => 'selecciones#change_seleccion', :as => :change
