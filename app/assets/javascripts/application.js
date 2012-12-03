@@ -17,3 +17,4 @@
 //= require jquery.jcarousel.min
 //= require bootstrap
 //= require_tree .
+//= manager
