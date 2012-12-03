@@ -17,6 +17,7 @@ Nuevocom::Application.routes.draw do
     match 'change/:id_seleccion' => 'selecciones#change_seleccion', :as => :change
     match 'plantilla/:id_seleccion' => 'selecciones#plantilla', :via => [:get], :on => :collection, :as => :plantilla
     match 'save_once_titular' => 'selecciones#save_once_titular', :via => [:put], :on => :collection, :as => :save_once_titular
+    match 'cambiar_tactica/:tactica/:id_seleccion' => 'selecciones#cambiar_tactica', :via => [:put], :on => :collection, :as => :cambiar_tactica
   end
   resource :ligas
 

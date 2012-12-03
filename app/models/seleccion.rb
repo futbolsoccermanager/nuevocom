@@ -25,6 +25,6 @@ class Seleccion < ActiveRecord::Base
   has_many :ofertas
 
 
-
+  TACTICAS = ['4_4_2.jpg','4_3_3.jpg','4_5_1.jpg','5_4_1.jpg']
 
 end

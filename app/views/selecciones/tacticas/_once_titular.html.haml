@@ -1,38 +1,44 @@
 #portero
   %ul
     - if @porteros_titulares.blank?
-      %li.portero.titular
+      %li.portero.titular{:style => "#{escudo_equipo}"}
+
     - else
       - @porteros_titulares.each do |jugador|
-        %li.portero.titular.anadir{:id => jugador.id}
-          %p= jugador.nombre
+        %li.portero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+          %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
 
 #defensas
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
       - if jugador.present?
-        %li.defensa.titular.anadir{:id => jugador.id}
-          %p= jugador.nombre
+        %li.defensa.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+          %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
-        %li.defensa.titular
+        %li.defensa.titular{:style => "#{escudo_equipo}"}
+
 #medios
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
       - if jugador.present?
-        %li.medio.titular.anadir{:id => jugador.id}
-          %p= jugador.nombre
+        %li.medio.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+          %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
-        %li.medio.titular
+        %li.medio.titular{:style => "#{escudo_equipo}"}
 
 #delanteros
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
       - if jugador.present?
-        %li.delantero.titular.anadir{:id => jugador.id}
-          %p= jugador.nombre
+        %li.delantero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+          %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
-        %li.delantero.titular
+        %li.delantero.titular{:style => "#{escudo_equipo}"}
+
+
+%button.btn.btn-primary.center{:type=> "button", :onclick => "submit_once_titular();"}
+  = t('buttons.guardar')

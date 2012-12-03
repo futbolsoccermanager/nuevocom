@@ -30,6 +30,9 @@ class Jugador < ActiveRecord::Base
     joins(:plantilla_selecciones).where('(plantilla_selecciones.titular = ? OR plantilla_selecciones.titular is NULL) AND plantilla_selecciones.seleccion_id = ?', false, seleccion_id)
   }
 
+  scope :plantilla, lambda {|seleccion_id|
+      joins(:plantilla_selecciones).where('plantilla_selecciones.seleccion_id = ?', seleccion_id)
+  }
 
   POSICIONES = {:portero => "Portero", :defensa => "Defensa", :medio => "Medio", :delantero => "Delantero"}
 

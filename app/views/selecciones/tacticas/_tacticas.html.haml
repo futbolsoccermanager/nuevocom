@@ -1,10 +1,8 @@
 
 #carousel.jcarousel-skin-tango
   %ul
-    %li= image_tag '4_4_2.jpg'
-    %li= image_tag '4_3_3.jpg'
-    %li= image_tag '4_5_1.jpg'
-    %li= image_tag '5_4_1.jpg'
+    - Seleccion::TACTICAS.each do |tactica|
+      %li= link_to image_tag(tactica), cambiar_tactica_selecciones_path(:tactica => tactica.gsub('.jpg',''),:id_seleccion => @seleccion.id), :remote => true, :method => :put
 
 
 

@@ -1,0 +1,24 @@
+%ul
+  %li.cabecera= t('jugadores.posiciones.portero').upcase
+  - @porteros.each do |jugador|
+    %li.jugador.port.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+      %p.name= jugador.nombre
+      %p.dorsal= jugador.dorsal
+%ul
+  %li.cabecera= t('jugadores.posiciones.defensa').upcase
+  - @defensas.each do |jugador|
+    %li.jugador.def.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+      %p.name= jugador.nombre
+      %p.dorsal= jugador.dorsal
+%ul
+  %li.cabecera= t('jugadores.posiciones.medio').upcase
+  - @medios.each do |jugador|
+    %li.jugador.med.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+      %p.name= jugador.nombre
+      %p.dorsal= jugador.dorsal
+%ul
+  %li.cabecera= t('jugadores.posiciones.delantero').upcase
+  - @delanteros.each do |jugador|
+    %li.jugador.del.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+      %p.name= jugador.nombre
+      %p.dorsal= jugador.dorsal

@@ -50,6 +50,7 @@ es:
     nombre: "Nombre del equipo"
     once_titular:
       change_ok: "Se ha guardado tu once titular"
+      change_tactica: "Has cambiado tu táctica"
 
   jugadores:
     posiciones:

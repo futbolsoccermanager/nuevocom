@@ -4,36 +4,10 @@
 #once-titular
   = render :partial => "selecciones/tacticas/once_titular"
 
-  %button.btn.btn-primary{:type=> "button", :onclick => "submit_once_titular();"}
-    = t('buttons.guardar')
 
 .clearfix
 #plantilla
-  %ul
-    %li= t('jugadores.posiciones.portero').upcase
-    - @porteros.each do |jugador|
-      %li.jugador.port.anadir{:id => jugador.id}
-        %p= jugador.nombre
-        %p.dorsal= jugador.dorsal
-  %ul
-    %li= t('jugadores.posiciones.defensa').upcase
-    - @defensas.each do |jugador|
-      %li.jugador.def.anadir{:id => jugador.id}
-        %p= jugador.nombre
-        %p.dorsal= jugador.dorsal
-  %ul
-    %li= t('jugadores.posiciones.medio').upcase
-    - @medios.each do |jugador|
-      %li.jugador.med.anadir{:id => jugador.id}
-        %p= jugador.nombre
-        %p.dorsal= jugador.dorsal
-  %ul
-    %li= t('jugadores.posiciones.delantero').upcase
-    - @delanteros.each do |jugador|
-      %li.jugador.del.anadir{:id => jugador.id}
-        %p= jugador.nombre
-        %p.dorsal= jugador.dorsal
-
+  = render :partial => "selecciones/banquillo"
 
 = form_tag save_once_titular_selecciones_path, :method => :put, :remote => true, :id => 'save_once' do
   = hidden_field_tag :id_titulares, ''

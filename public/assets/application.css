@@ -8161,6 +8161,13 @@ body {
   cursor: default;
   background-position: 0 -96px;
 }
+
+/* line 189, ../../app/assets/stylesheets/carousel.css.scss */
+#carousel {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* line 1, ../../app/assets/stylesheets/general.css.scss */
 .content {
   background-color: #61B7CF;
@@ -8259,36 +8266,40 @@ span.rem_oferta {
   list-style-type: none;
   margin-top: 2px;
 }
-/* line 21, ../../app/assets/stylesheets/seleccion.css.scss */
-#plantilla .jugador {
-  background-color: #FFF;
-  width: 150px;
-  height: 50px;
-  coursor: pointer;
-  text-align: center;
+/* line 19, ../../app/assets/stylesheets/seleccion.css.scss */
+#plantilla ul li.cabecera {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
 }
 /* line 27, ../../app/assets/stylesheets/seleccion.css.scss */
+#plantilla .jugador p.name {
+  font-weight: bold;
+}
+/* line 30, ../../app/assets/stylesheets/seleccion.css.scss */
 #plantilla .jugador p.dorsal {
-  font-size: 25px;
+  font-size: 35px;
+  margin-left: 10px;
 }
 
-/* line 33, ../../app/assets/stylesheets/seleccion.css.scss */
+/* line 37, ../../app/assets/stylesheets/seleccion.css.scss */
 #once-titular {
   float: left;
 }
-/* line 35, ../../app/assets/stylesheets/seleccion.css.scss */
+/* line 39, ../../app/assets/stylesheets/seleccion.css.scss */
 #once-titular ul li {
   display: inline-block;
+  margin-left: 10px;
   list-style-type: none;
   margin-top: 2px;
-  width: 150px;
-  height: 50px;
   coursor: pointer;
-  text-align: center;
 }
-/* line 43, ../../app/assets/stylesheets/seleccion.css.scss */
-#once-titular ul li.titular {
-  background-color: #D3D3D3;
-  background-image: none;
-  background-repeat: no-repeat;
+/* line 46, ../../app/assets/stylesheets/seleccion.css.scss */
+#once-titular ul li.titular p.name {
+  font-weight: bold;
+}
+/* line 49, ../../app/assets/stylesheets/seleccion.css.scss */
+#once-titular ul li.titular p.dorsal {
+  font-size: 35px;
+  margin-left: 10px;
 }
