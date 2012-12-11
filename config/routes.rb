@@ -22,6 +22,9 @@ Nuevocom::Application.routes.draw do
   end
   resource :ligas
 
+  namespace :api do
+    resources :token, :only => [:create, :destroy]
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
