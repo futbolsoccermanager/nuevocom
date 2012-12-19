@@ -20,7 +20,10 @@ Nuevocom::Application.routes.draw do
     match 'save_once_titular' => 'selecciones#save_once_titular', :via => [:put], :on => :collection, :as => :save_once_titular
     match 'cambiar_tactica/:tactica/:id_seleccion' => 'selecciones#cambiar_tactica', :via => [:put], :on => :collection, :as => :cambiar_tactica
   end
-  resource :ligas
+  resource :ligas do
+    match 'joinleague' => 'ligas#join_liga', :as => :join, :only => [:get]
+  end
+
 
   namespace :api do
     resources :token, :only => [:create, :destroy]

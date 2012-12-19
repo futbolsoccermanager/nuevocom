@@ -1,7 +1,13 @@
 class LigasController < ApplicationController
   require "jobs/RellenaMercadoJob"
-  def new
 
+  def join_liga
+    if params[:tipo] == 'nueva'
+      redirect_to new_ligas_path
+    end
+  end
+
+  def new
     @liga = Liga.new Liga::DEFAULT_VALUES.merge(:creador => current_user)
 
   end

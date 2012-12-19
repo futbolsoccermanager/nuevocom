@@ -12,15 +12,18 @@
 = form_for @liga do |f|
   #contenttabliga.tab-content
     #general.tab-pane.fade.in.active
-      %p
-        = f.label :privacidad
-        = f.radio_button  :privacidad, 'A'
-        = f.radio_button  :privacidad, 'P'
-        = f.radio_button  :privacidad, 'R'
+      .radios
+        %p
+          %strong= t('ligas.privacidad.name')
+        %p
+          = f.label :privacidad_a, t('ligas.privacidad.abierta'), :class => 'radio'
+          = f.radio_button  :privacidad, 'A'
+          = f.label :privacidad_p, t('ligas.privacidad.privada'), :class => 'radio'
+          = f.radio_button  :privacidad, 'P'
       %p
         = f.label :nombre
         = f.text_field :nombre
-      %p
+      %p#p_passliga
         = f.label :password
         = f.password_field :password
     #equipos.tab-pane.fade

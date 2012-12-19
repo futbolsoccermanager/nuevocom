@@ -43,6 +43,9 @@ es:
       amigos:
         tit: 'Amigos'
         alt: 'Ver y buscar amigos'
+      nuevo_equipo:
+        tit: 'Crear equipo'
+        alt: 'Crear un nuevo equipo para otra liga'
 
 
   seleccion:
@@ -61,6 +64,7 @@ es:
 
   ligas:
     elegir: "¿En qué liga quieres inscribir el equipo?"
+    aceptar: 'Continuar'
     tipos:
       abierta: "Liga abierta existente"
       privada: "Liga privada"
@@ -70,13 +74,17 @@ es:
     privada:
       placeholder: "Introduce el código de la liga"
     nueva_liga:
-      crear: "Crear liga"
+      crear: "Crea tu liga"
       config: "Configura la nueva liga"
       general: "General"
       equipos: "Miembros"
       mercado: "Mercado de fichajes"
       sbm_crear: "Crear liga"
       ok_crear: "Liga creada"
+    privacidad:
+      name: 'Privacidad'
+      abierta: 'Abierta'
+      privada: 'Privada'
 
   mercado:
     titulo: 'Mercado de fichajes'

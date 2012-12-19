@@ -3,7 +3,7 @@ module HomeHelper
   ACC_DASHBOARD = [
       %w(alineacion fichajes),
       %w(miliga clasificacion),
-      %w(amigos)
+      %w(amigos nuevo_equipo)
   ]
 
   def dashboard_action(accion)
@@ -18,6 +18,8 @@ module HomeHelper
         '#'
       when 'amigos'
         '#'
+      when 'nuevo_equipo'
+        new_selecciones_path
     end
   end
 end
