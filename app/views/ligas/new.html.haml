@@ -36,9 +36,13 @@
     #mercado.tab-pane.fade
       %p
         = f.label :presupuesto_inicial
-        = f.text_field :presupuesto_inicial
+        = f.text_field :presupuesto_inicial, :style => 'border: 0; color: #f6931f; font-weight: bold;float: left;width:80px;'
+        #slider-presupuesto{:style => 'width: 150px;float: left;margin-left:20px;'}
+      %hr{:style => 'clear:both;'}
       %p
         = f.label :num_jugadores_mercado
-        = f.text_field :num_jugadores_mercado
+        = f.text_field :num_jugadores_mercado, :style => 'border: 0; color: #f6931f; font-weight: bold;float: left;width:50px;'
+        #slider-jugadores{:style => 'width: 100px;float: left;margin-left:20px;'}
   %p
     = f.submit t('ligas.nueva_liga.sbm_crear'), :class => 'btn btn-primary'
+

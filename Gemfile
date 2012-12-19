@@ -28,6 +28,7 @@ gem 'omniauth-facebook'
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'bootstrap-sass'
+gem 'jquery-ui-rails'
 
 gem 'twitter'
 
