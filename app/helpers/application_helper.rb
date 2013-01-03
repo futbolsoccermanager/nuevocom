@@ -21,4 +21,8 @@ module ApplicationHelper
 
     number_with_delimiter valor, :delimiter => '.', :separator => ','
   end
+
+  def seleccion_actual
+    current_user.current_seleccion(session) || current_user.current_seleccion(session, @mis_equipos.first)
+  end
 end

@@ -28,6 +28,7 @@ es:
     crear_equipo: 'Crear equipo'
     mi_equipo: 'Mi equipo'
     dashboard:
+      titulo: 'Acciones'
       fichajes:
         tit: 'Fichar'
         alt: 'Ver el mercado de fichajes'
@@ -48,6 +49,11 @@ es:
         alt: 'Crear un nuevo equipo para otra liga'
 
 
+      equipos:
+        titulo: 'Mis equipos'
+        nombre: 'Nombre'
+        liga: 'Liga'
+        valor: 'Valor equipo'
   seleccion:
     change_ok: "Ahora estás usando: %{equipo}"
     nombre: "Nombre del equipo"

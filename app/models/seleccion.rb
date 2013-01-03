@@ -27,4 +27,12 @@ class Seleccion < ActiveRecord::Base
 
   TACTICAS = ['4_4_2.jpg','4_3_3.jpg','4_5_1.jpg','5_4_1.jpg']
 
+  def valor
+    suma = 0.0
+    self.jugadores.each do |j|
+      suma += j.precio
+    end
+    suma
+  end
+
 end

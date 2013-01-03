@@ -1,0 +1,20 @@
+%h3=t('menus.dashboard.equipos.titulo')
+
+%table.table
+  %thead
+    %tr
+      %th=t('menus.dashboard.equipos.nombre')
+      %th=t('menus.dashboard.equipos.liga')
+      %th=t('menus.dashboard.equipos.valor')
+      %th
+    - @mis_equipos.each do |equipo|
+      %tr
+        %td= equipo.nombre
+        %td= equipo.liga.nombre
+        %td= equipo.valor
+        %td
+          - if seleccion_actual.id == equipo.id
+            %btn.btn.btn-success seleccionado
+          - else
+            %btn.btn.btn-warning seleccionar
+

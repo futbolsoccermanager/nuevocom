@@ -1,6 +1,8 @@
 - if user_signed_in? && current_user.mis_selecciones.present?
   .dashboard
     = render 'dashboard'
+  .dashboard
+    = render 'select_equipos'
 - else
   %h1= t('index.titulo')
   %p= t('index.parrafo1')
