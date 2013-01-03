@@ -1,0 +1,10 @@
+es:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: ": hay que rellenar el email"
+            password:
+              blank: ": introduce el password"

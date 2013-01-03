@@ -58,5 +58,9 @@ module Nuevocom
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    ENV['ADSCAPTCHA_PRIVATE_KEY'] = 'eeb8c405-9c3e-45de-8306-512fea9dc5a6'
+    ENV['ADSCAPTCHA_PUBLIC_KEY'] = '3047af40-45d0-42ee-84ad-06b86fbfa15b'
+    ENV['ADSCAPTCHA_ID'] = '4234'
   end
 end

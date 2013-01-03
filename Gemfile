@@ -34,6 +34,10 @@ gem 'twitter'
 
 gem 'feedzirra'
 
+# publicidad captcha
+#gem "solvemedia", :git => 'https://github.com/SolveMedia/SolveMedia.git'
+gem 'adscaptcha'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
