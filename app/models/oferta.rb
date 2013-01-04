@@ -9,16 +9,24 @@
 #  fecha        :date
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  estado       :string(255)
+#  fecha_fin    :date
 #
 
 class Oferta < ActiveRecord::Base
   attr_accessible :fecha, :mercado_id, :seleccion_id, :valor
 
-  attr_accessor :mercado
+  #attr_accessor :mercado
 
 
   belongs_to :mercado
   belongs_to :seleccion
+
+  PENDIENTE =  'P'
+  ACEPTADA = 'A'
+  CADUCADA = 'C'
+  RECHAZADA = 'R'
+  CANCELADA = 'X'
 
   ## valida que la liga sea valida (id mercado(jugador) correcto, ...)
   def save_if_valid

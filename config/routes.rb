@@ -24,6 +24,7 @@ Nuevocom::Application.routes.draw do
     match 'joinleague' => 'ligas#join_liga', :as => :join, :only => [:get]
   end
 
+  resources :ofertas
 
   namespace :api do
     resources :token, :only => [:create, :destroy]

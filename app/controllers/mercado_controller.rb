@@ -22,7 +22,7 @@ class MercadoController < ApplicationController
   def create_ofertas
 
     params.select{|par, val| par.starts_with?('oferta') && val.present?}.each do |puja|
-      oferta = Oferta.new :mercado_id => puja.first.delete('oferta_'), :seleccion_id => current_user.current_seleccion(session).id, :valor => puja.last.to_f
+      oferta = Oferta.new :mercado_id => puja.first.delete('oferta_'), :seleccion_id => current_user.current_seleccion(session).id, :valor => puja.last.to_f, :estado => Oferta::PENDIENTE
 
       oferta.save_if_valid
 

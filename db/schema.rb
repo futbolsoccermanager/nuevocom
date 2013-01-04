@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121211132905) do
+ActiveRecord::Schema.define(:version => 20130104111416) do
 
   create_table "equipos", :force => true do |t|
     t.string   "nombre"
@@ -70,6 +70,8 @@ ActiveRecord::Schema.define(:version => 20121211132905) do
     t.date     "fecha"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.string   "estado"
+    t.date     "fecha_fin"
   end
 
   create_table "plantilla_selecciones", :force => true do |t|
@@ -90,6 +92,16 @@ ActiveRecord::Schema.define(:version => 20121211132905) do
     t.date     "fecha_visto"
     t.string   "tactica",     :default => "4_4_2"
   end
+
+  create_table "sessiones", :force => true do |t|
+    t.string   "session_id", :null => false
+    t.text     "data"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "sessiones", ["session_id"], :name => "index_sessiones_on_session_id"
+  add_index "sessiones", ["updated_at"], :name => "index_sessiones_on_updated_at"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

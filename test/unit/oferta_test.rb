@@ -9,6 +9,8 @@
 #  fecha        :date
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  estado       :string(255)
+#  fecha_fin    :date
 #
 
 require 'test_helper'

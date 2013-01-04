@@ -101,6 +101,10 @@ es:
       placeholder: 'Valor oferta'
       realizar: 'Efectuar pujas'
       propias: 'Ver mis ofertas'
+  ofertas:
+    jugador: 'Jugador'
+    fecha: 'Fecha oferta'
+    valor: 'Valor oferta'
   index:
     titulo: "Fútbol Soccer Manager"
     parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos, ...Regístrate y empieza a crear tu equipo, invita a tus amigos y competid en la misma liga. Podrás participar en varias ligas con la misma cuenta!"

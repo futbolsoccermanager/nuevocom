@@ -3,8 +3,7 @@
 = form_tag mercado_create_ofertas_path, :remote => true, :id => 'formofer'
 %button.btn.btn-success.makeofer{:type => 'button'}
   =t('mercado.oferta.realizar')
-%button.btn.btn-inverse.seeofer
-  =t('mercado.oferta.propias')
+= link_to t('mercado.oferta.propias'), ofertas_path, :class => 'btn btn-inverse'
 
 %table.table.table-hover.table-condensed
   %thead
@@ -27,5 +26,4 @@
 
 %button.btn.btn-success.makeofer{:type => 'button'}
   =t('mercado.oferta.realizar')
-%button.btn.btn-inverse.seeofer
-  =t('mercado.oferta.propias')
+= link_to t('mercado.oferta.propias'), ofertas_path, :class => 'btn btn-inverse'

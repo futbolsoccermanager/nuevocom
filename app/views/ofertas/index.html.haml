@@ -1,0 +1,18 @@
+%table.table
+  %thead
+    %tr
+      %th= t('ofertas.jugador')
+      %th= t('ofertas.fecha')
+      %th= t('ofertas.valor')
+      %th
+  %tbody
+    - @ofertas.each do |oferta|
+      - clase = clase_oferta(oferta.estado)
+      %tr{:class => clase}
+        %td= oferta.mercado.jugador.nombre
+        %td= oferta.fecha
+        %td= oferta.valor
+        %td
+          %span.icon-info-sign
+          - if oferta.estado == Oferta::PENDIENTE
+            %span.icon-remove

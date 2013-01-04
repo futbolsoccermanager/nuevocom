@@ -23,6 +23,11 @@
 #  failed_attempts        :integer          default(0)
 #  unlock_token           :string(255)
 #  locked_at              :datetime
+#  confirmation_token     :string(255)
+#  confirmed_at           :datetime
+#  confirmation_sent_at   :datetime
+#  unconfirmed_email      :string(255)
+#  authentication_token   :string(255)
 #
 
 class User < ActiveRecord::Base
