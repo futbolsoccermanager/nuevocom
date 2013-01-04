@@ -29,6 +29,11 @@ Nuevocom::Application.routes.draw do
   namespace :api do
     resources :token, :only => [:create, :destroy]
   end
+
+
+  namespace :admin do
+    resources :puntuaciones
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

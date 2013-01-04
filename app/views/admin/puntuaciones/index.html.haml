@@ -1,0 +1,25 @@
+%h3 editor de puntuaciones
+
+= form_tag :admin_puntuaciones
+
+= label_tag :jornada
+= text_field_tag :jornada
+
+%p
+  %strong resultado equipos:
+- @equipos.each do |equipo|
+  %strong=equipo.nombre
+  = label_tag 'Resultado'
+  gana
+  = radio_button_tag equipo.id, 'G'
+  empata
+  = radio_button_tag equipo.id, 'E'
+  pierde
+  = radio_button_tag equipo.id, 'P'
+
+  %p
+    = check_box_tag "#{equipo.id}_p0"
+    = 'Porteria a 0'
+  %hr
+
+= submit_tag 'asignar resultados'
