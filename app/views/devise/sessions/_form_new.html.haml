@@ -1,0 +1,13 @@
+= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+  %div
+    = f.label :login, t('login.login')
+    = f.text_field :login
+  %div
+    = f.label :password
+    = f.password_field :password
+  - if devise_mapping.rememberable?
+    %div
+      = f.check_box :remember_me
+      = f.label :remember_me, t('login.remember')
+  %div= f.submit t('login.signin'), :class => 'btn btn-primary'
+  %p= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook)
