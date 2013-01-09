@@ -1,0 +1,27 @@
+%h3 editor de puntuaciones
+
+=@puntos_guardados
+
+= form_tag :admin_puntuaciones, :remote => true
+
+= label_tag :jornada
+= select_tag :jornada, options_for_select((1..38).to_a, nil)
+
+%p
+  %strong resultado equipos:
+- @equipos.each do |equipo|
+  %strong=equipo.nombre
+  = label_tag 'Resultado'
+  gana
+  = radio_button_tag equipo.id, 'G', @puntos_guardados[equipo.id] == 'G'
+  empata
+  = radio_button_tag equipo.id, 'E', @puntos_guardados[equipo.id] == 'E'
+  pierde
+  = radio_button_tag equipo.id, 'P', @puntos_guardados[equipo.id] == 'P'
+
+  %p
+    = check_box_tag "#{equipo.id}_p0", '1', @puntos_guardados["#{equipo.id}_p0"] == '1'
+    = 'Porteria a 0'
+  %hr
+
+= submit_tag 'asignar resultados'

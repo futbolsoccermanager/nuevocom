@@ -32,7 +32,9 @@ Nuevocom::Application.routes.draw do
 
 
   namespace :admin do
-    resources :puntuaciones
+    resource :puntuaciones do
+      match "puntos_equipos" => 'puntuaciones#puntos_equipos'
+    end
   end
   # The priority is based upon order of creation:
   # first created -> highest priority.

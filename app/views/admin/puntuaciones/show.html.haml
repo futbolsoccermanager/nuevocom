@@ -1,0 +1,28 @@
+%h3 Visor de puntuaciones
+
+= form_tag :admin_puntuaciones, :method => :get
+= label_tag :num_jornada
+= select_tag :num_jornada, options_for_select((1..38).to_a, nil)
+
+= label_tag :num_equipo
+= select_tag :num_equipo, options_from_collection_for_select(@equipos, "id", "nombre")
+
+%table.table
+  %thead
+    %tr
+      %th nombre
+      %th resultado_equipo
+      %th goles
+      %th tarjetas
+      %th sin_encajar
+      %th nota
+      %th destacado
+  %tbody
+    - @jugadores.each do |j|
+      %tr
+        %td=j.nombre
+
+
+
+
+

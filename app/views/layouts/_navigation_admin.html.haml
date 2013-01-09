@@ -1,0 +1,11 @@
+= link_to "Home", root_path, :class => 'brand'
+
+%ul.nav
+  %li
+    = link_to('Ver puntuaciones', admin_puntuaciones_path)
+  %li
+    = link_to('Editar puntuaciones Clubes', puntos_equipos_admin_puntuaciones_path)
+
+  %li
+    = link_to(t('menus.logout'), destroy_user_session_path, :method=>'delete')
+

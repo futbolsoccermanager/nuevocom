@@ -1,0 +1,14 @@
+development:
+  host: localhost
+  port: 27017
+  database: comunio-development
+
+test:
+  host: localhost
+  port: 27017
+  database: comunio-test
+
+production:
+  host: localhost
+  port: 27017
+  database: comunio-production

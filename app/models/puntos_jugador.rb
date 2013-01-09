@@ -15,8 +15,23 @@ class PuntosJugador
   key :nota
   key :destacado
 
+  scope :puntos_je, lambda { |jornada, jugadores|
+    {:conditions => ["num_jornada = ? and jugador_id IN  ? ", jornada, jugadores]}
+  }
+
+  def codigo_resultado
+    return 'G' if resultado_equipo == 2
+    return 'E' if resultado_equipo == 1
+    'P'
+  end
+
+  def codigo_porteria
+    return '1' if sin_encajar > 0
+    nil
+  end
+
   private
   def actualiza_total
-    self.puntos_total = resultado_equipo + goles + tarjetas + sin_encajar + nota + destacado
+    self.puntos_total = (resultado_equipo || 0) + (goles || 0) + (tarjetas || 0) + (sin_encajar || 0) + (nota || 0) + (destacado || 0)
   end
 end
