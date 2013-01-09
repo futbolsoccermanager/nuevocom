@@ -1,11 +1,9 @@
 %h3 editor de puntuaciones
 
-=@puntos_guardados
-
-= form_tag :admin_puntuaciones, :remote => true
+= form_tag :admin_puntuaciones, :id => 'formpuntos', :remote => true
 
 = label_tag :jornada
-= select_tag :jornada, options_for_select((1..38).to_a, nil)
+= select_tag :jornada, options_for_select((1..38).to_a, @jornada)
 
 %p
   %strong resultado equipos:
@@ -24,4 +22,5 @@
     = 'Porteria a 0'
   %hr
 
-= submit_tag 'asignar resultados'
+= submit_tag 'asignar resultados', :class => 'btn btn-large btn-block btn-inverse'
+

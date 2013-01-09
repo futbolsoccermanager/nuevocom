@@ -15,11 +15,11 @@ module  Admin
     def puntos_equipos
       @equipos = Equipo.all
 
-      jornada = params[:jornada] || 1
+      @jornada = params[:jornada] || 1
       @puntos_guardados = {}
 
       @equipos.map{|e| e.jugadores.select{|j| j.posicion == Jugador::POSICIONES[:portero]}.first}.each do |jug|
-        pj = PuntosJugador.find_by_jugador_id_and_jornada jug.id, jornada.to_s
+        pj = PuntosJugador.find_by_jugador_id_and_jornada jug.id, @jornada.to_s
         if pj.present?
           @puntos_guardados[jug.equipo.id] = pj.codigo_resultado
           @puntos_guardados["#{jug.equipo.id}_p0"] = pj.codigo_porteria

@@ -26,7 +26,7 @@ class PuntosJugador
   end
 
   def codigo_porteria
-    return '1' if sin_encajar > 0
+    return '1' if (self.sin_encajar || 0) > 0
     nil
   end
 
