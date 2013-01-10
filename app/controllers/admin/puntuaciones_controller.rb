@@ -5,11 +5,31 @@ module  Admin
     def show
       @equipos = Equipo.all
 
-      num_jornada = params[:num_jornada] || 1
+      num_jornada = params[:num_jornada] || '1'
       id_equipo = params[:num_equipo] || @equipos.first.id
-      @jugadores = Jugador.where(:equipo_id => id_equipo)
 
-      @puntos_je = PuntosJugador.puntos_je(num_jornada, @jugadores.map{|j| j.id})
+      jugadores = Jugador.where(:equipo_id => id_equipo)
+      puntos_je = PuntosJugador.puntos_je(num_jornada, jugadores.map{|j| j.id})
+
+      @pjugador_pts = []
+
+      puntos_je.each do |ptsj|
+        jug_puntos = {}
+        jug_puntos[:jugador_id] = ptsj[:jugador_id]
+        jug_puntos[:nombre] = Jugador.find(jug_puntos[:jugador_id]).nombre
+
+        jug_puntos[:puntos_total] = ptsj[:puntos_total]
+        jug_puntos[:resultado_equipo] = ptsj[:resultado_equipo]
+        jug_puntos[:goles] = ptsj[:goles]
+        jug_puntos[:tarjetas] = ptsj[:tarjetas]
+        jug_puntos[:sin_encajar] = ptsj[:sin_encajar]
+        jug_puntos[:nota] = ptsj[:nota]
+        jug_puntos[:destacado] = ptsj[:destacado]
+
+        @pjugador_pts << jug_puntos
+      end
+
+
     end
 
     def puntos_equipos

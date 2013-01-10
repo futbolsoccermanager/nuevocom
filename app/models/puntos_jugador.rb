@@ -16,7 +16,8 @@ class PuntosJugador
   key :destacado
 
   scope :puntos_je, lambda { |jornada, jugadores|
-    {:conditions => ["num_jornada = ? and jugador_id IN  ? ", jornada, jugadores]}
+    where(:jornada => jornada, :jugador_id =>  jugadores)
+    #{:conditions => ["num_jornada = ? and jugador_id IN  (?) ", jornada, jugadores]}
   }
 
   def codigo_resultado

@@ -1,13 +1,16 @@
 %h3 Visor de puntuaciones
 
-= form_tag :admin_puntuaciones, :method => :get
-= label_tag :num_jornada
-= select_tag :num_jornada, options_for_select((1..38).to_a, nil)
+#form-ver
+  = form_tag :admin_puntuaciones, :method => :get
+  = label_tag :num_jornada
+  = select_tag :num_jornada, options_for_select((1..38).to_a, params[:num_jornada])
 
-= label_tag :num_equipo
-= select_tag :num_equipo, options_from_collection_for_select(@equipos, "id", "nombre")
+  = label_tag :num_equipo
+  = select_tag :num_equipo, options_from_collection_for_select(@equipos, "id", "nombre", params[:num_equipo])
 
-%table.table
+  = submit_tag 'ver puntos', :class => 'btn btn-large btn-inverse table-condensed'
+
+%table.table.table-bordered
   %thead
     %tr
       %th nombre
@@ -17,10 +20,19 @@
       %th sin_encajar
       %th nota
       %th destacado
+      %th Total
   %tbody
-    - @jugadores.each do |j|
+    - @pjugador_pts.each do |j|
       %tr
-        %td=j.nombre
+        %td=j[:nombre]
+        %td=j[:resultado_equipo]
+        %td=j[:goles]
+        %td=j[:tarjetas]
+        %td=j[:sin_encajar]
+        %td=j[:nota]
+        %td=j[:destacado]
+
+        %td=j[:puntos_total]
 
 
 
