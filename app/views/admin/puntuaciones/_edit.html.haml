@@ -1,0 +1,23 @@
+
+= form_tag({:controller => 'admin/puntuaciones', :action => :update}, {:method => :put})
+= hidden_field_tag :jornada, params[:jornada]
+= hidden_field_tag :jugador_id, params[:jugador_id]
+#puntuacion.modal.fade.out
+  .modal-header
+    %h2 puntuacion
+  .modal-body
+    = @puntos
+    %p
+      = label_tag :numero_goles
+      = select_tag :numero_goles, options_for_select((0..5).to_a, params[:numero_goles])
+    %p
+      = label_tag :tarjeta_amarilla
+      = select_tag :tarjeta_amarilla, options_for_select((0..2).to_a, params[:tarjeta_amarilla])
+    %p
+      = label_tag :tarjeta_roja
+      = select_tag :tarjeta_roja, options_for_select((0..1).to_a, @puntos.rojas)
+    %p
+      = label_tag :nota
+      = select_tag :nota, options_for_select((0..10).step(0.5).unshift(nil), @puntos.nota)
+  .modal-footer
+    = submit_tag 'actualizar',:class => 'btn btn-success '

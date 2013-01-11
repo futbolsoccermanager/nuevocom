@@ -13,6 +13,7 @@
 %table.table.table-bordered
   %thead
     %tr
+      %th Pos
       %th nombre
       %th resultado_equipo
       %th goles
@@ -24,6 +25,7 @@
   %tbody
     - @pjugador_pts.each do |j|
       %tr
+        %td=j[:posicion][0..2]
         %td=j[:nombre]
         %td=j[:resultado_equipo]
         %td=j[:goles]
@@ -33,6 +35,10 @@
         %td=j[:destacado]
 
         %td=j[:puntos_total]
+
+        %td
+          = link_to 'modificar', cambiar_puntos_admin_puntuaciones_path(:jornada => (params[:num_jornada] || '1'), :jugador_id => j[:jugador_id]), :remote => true, :class => 'btn btn-info'
+
 
 
 

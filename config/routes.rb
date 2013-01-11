@@ -34,6 +34,8 @@ Nuevocom::Application.routes.draw do
   namespace :admin do
     resource :puntuaciones do
       match "puntos_equipos(/jornada/:jornada)" => 'puntuaciones#puntos_equipos', :as => :puntos_equipos
+      match "cambiar_puntos" => 'puntuaciones#cambiar_puntos', :as => :cambiar_puntos
+
     end
   end
   # The priority is based upon order of creation:

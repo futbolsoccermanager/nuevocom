@@ -6,7 +6,7 @@ class PuntosJugador
   key :jugador_id, Integer
   key :num_jornada
 
-  key :puntos_total, Integer
+  key :puntos_total, Float
 
   key :resultado_equipo
   key :goles
@@ -31,8 +31,22 @@ class PuntosJugador
     nil
   end
 
+  def rojas
+    return 1 if tarjetas == -4
+    0
+  end
+
+  def amarillas
+    return 2 if tarjetas == -2
+    0
+  end
+
   private
   def actualiza_total
-    self.puntos_total = (resultado_equipo || 0) + (goles || 0) + (tarjetas || 0) + (sin_encajar || 0) + (nota || 0) + (destacado || 0)
+    if nota.present?
+      self.puntos_total = (resultado_equipo || 0) + (goles || 0) + (tarjetas || 0) + (sin_encajar || 0) + (nota || 0) + (destacado || 0)
+    else
+      self.puntos_total = nil
+    end
   end
 end

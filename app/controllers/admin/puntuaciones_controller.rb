@@ -17,6 +17,7 @@ module  Admin
         jug_puntos = {}
         jug_puntos[:jugador_id] = ptsj[:jugador_id]
         jug_puntos[:nombre] = Jugador.find(jug_puntos[:jugador_id]).nombre
+        jug_puntos[:posicion] = Jugador.find(jug_puntos[:jugador_id]).posicion
 
         jug_puntos[:puntos_total] = ptsj[:puntos_total]
         jug_puntos[:resultado_equipo] = ptsj[:resultado_equipo]
@@ -29,6 +30,7 @@ module  Admin
         @pjugador_pts << jug_puntos
       end
 
+      @pjugador_pts.sort! { |a,b| [Jugador::POSICIONES.index(a[:posicion]), a[:nombre]] <=> [Jugador::POSICIONES.index(b[:posicion]), b[:nombre]] }
 
     end
 
@@ -64,6 +66,16 @@ module  Admin
       respond_to do |format|
         format.js
       end
+    end
+
+    def cambiar_puntos
+      @puntos  = PuntosJugador.find_by_jugador_id_and_jornada params[:jugador_id].to_i, params[:jornada]
+    end
+
+    def update
+      CalculoPuntoJugador.update_player(params[:jornada], params[:jugador_id].to_i, params[:numero_goles].to_i, params[:tarjeta_amarilla].to_i, params[:tarjeta_roja].to_i, params[:nota])
+
+      redirect_to admin_puntuaciones_path(:num_jornada => params[:jornada], :num_equipo => Jugador.find(params[:jugador_id]).equipo.id)
     end
   end
 end
