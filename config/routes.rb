@@ -30,6 +30,7 @@ Nuevocom::Application.routes.draw do
     resources :token, :only => [:create, :destroy]
   end
 
+  resources :clasificacion
 
   namespace :admin do
     resource :puntuaciones do

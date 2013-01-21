@@ -15,7 +15,7 @@ module HomeHelper
       when 'miliga'
         '#'
       when 'clasificacion'
-        '#'
+        clasificacion_index_path
       when 'amigos'
         '#'
       when 'nuevo_equipo'
