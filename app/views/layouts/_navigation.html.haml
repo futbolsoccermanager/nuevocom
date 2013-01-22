@@ -8,7 +8,7 @@
         = link_to(t('menus.crear_equipo'), new_selecciones_path)
     - else
       %li
-        = link_to(t('menus.mi_equipo'), plantilla_selecciones_path(:id_seleccion => 1))
+        = link_to t('menus.mi_equipo'), '#'
   - else
     %li
       = link_to(t('login.signin'), new_user_session_path, :remote => true)

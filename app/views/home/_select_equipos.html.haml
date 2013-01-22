@@ -17,5 +17,10 @@
           - if seleccion_actual.id == equipo.id
             %btn.btn.btn-success seleccionado
           - else
-            %btn.btn.btn-warning seleccionar
+            = link_to 'seleccionar', change_selecciones_path(equipo.id), :remote => true, :class => "btn btn-warning"
+
+
+
+
+
 
