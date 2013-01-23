@@ -4,7 +4,7 @@ class PuntosJugador
   before_save :actualiza_total
 
   key :jugador_id, Integer
-  key :num_jornada
+  key :jornada
 
   key :puntos_total, Float
 

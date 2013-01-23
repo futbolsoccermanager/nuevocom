@@ -7,7 +7,7 @@ task :equipo_jornada => :environment do
   equipos.each do |equipo|
     threads << Thread.new do
       jugadores_ids = equipo.jugadores.map{|x| x.id}
-      OnceJornada.create(:seleccion_id => equipo.id,:jornada => ENV["JORNADA"],:jugadores => jugadores_ids)
+      OnceJornada.create(:seleccion_id => equipo.id,:num_jornada => ENV["JORNADA"],:jugadores => jugadores_ids)
     end
 
 

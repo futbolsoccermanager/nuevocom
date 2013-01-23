@@ -8,6 +8,7 @@ class OnceJornada
 
   key :jugadores, Array
 
+  key :puntuacion, Integer
 
   scope :jugadores_por_equipo, lambda { |jornada, seleccion_id|
     where(:jornada => jornada, :seleccion_id =>  seleccion_id)

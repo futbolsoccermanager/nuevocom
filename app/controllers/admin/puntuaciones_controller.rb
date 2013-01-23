@@ -9,6 +9,7 @@ module  Admin
       id_equipo = params[:num_equipo] || @equipos.first.id
 
       jugadores = Jugador.where(:equipo_id => id_equipo)
+
       puntos_je = PuntosJugador.puntos_je(num_jornada, jugadores.map{|j| j.id})
 
       @pjugador_pts = []
