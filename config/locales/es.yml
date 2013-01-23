@@ -113,6 +113,11 @@ es:
     parrafo3: "Además, interactúa con tus amigos y entérate de las últimas noticias del mundo del fútbol. Entérate de más en <a href='hablandoencuero.blogspot.com.es'>hablandoencuero.blogspot.com.es</a>"
     pasos: Pasos<ul><li>Date de alta</li><li>Configura la liga</li><li>Crea tu equipo</li><li>Puja por tus jugadores favoritos</li><li>Prepara tu alineación para la jornada</li></ul>
 
+  clasificacion:
+    user: "Usuario"
+    equipo: "Equipo"
+    ultima: "Última Jornada"
+    total: "Puntos totales"
   errors:
     invalid_nojson: "La petición tiene que se JSON"
     invalid_nouserpwd: "Debe enviar el usuario y password"

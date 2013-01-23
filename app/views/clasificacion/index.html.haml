@@ -1,0 +1,22 @@
+%table.table
+  %thead
+    %tr
+      %th= t('clasificacion.user')
+      %th= t('clasificacion.equipo')
+      %th= t('clasificacion.ultima')
+      %th= t('clasificacion.total')
+  %tbody
+    - @equipos_liga.each do |equipo|
+      - trclass = equipo.user == current_user ? 'success' : ''
+      %tr{:class => trclass}
+        %td
+          %i= equipo.user.username
+        %td
+          = equipo.nombre
+        %td
+          = puntos_jornada_seleccion(@puntos_liga, (params[:jornada] || '1'), equipo.id)
+        %td
+          %b= puntos_total_seleccion(@puntos_liga, equipo.id)
+
+
+
