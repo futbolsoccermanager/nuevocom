@@ -24,7 +24,7 @@ class HomeController < ApplicationController
   end
 
   def hablandoencuero
-    @articulo = Feedzirra::Feed.fetch_and_parse("http://hablandoencuero.blogspot.com.es/feeds/posts/default").entries.first rescue nil
+    @articulo = Feedzirra::Feed.fetch_and_parse("#{Settings.feeds.blogs.hc}").entries.first rescue nil
   end
 
   private
@@ -32,12 +32,12 @@ class HomeController < ApplicationController
     def feeds
       @feed_hec = Rails.cache.fetch("feed_hec")
       unless @feed_hec.present?
-        @feed_hec = Feedzirra::Feed.fetch_and_parse("http://hablandoencuero.blogspot.com.es/feeds/posts/default") rescue nil
+        @feed_hec = Feedzirra::Feed.fetch_and_parse("#{Settings.feeds.blogs.hc}") rescue nil
         Rails.cache.write("feed_hec", @feed_hec, :expires_in => 20.minutes)
       end
       @feed_marca = Rails.cache.fetch("feed_marca")
       unless @feed_marca.present?
-        @feed_marca = Feedzirra::Feed.fetch_and_parse("http://marca.feedsportal.com/rss/futbol_1adivision.xml") rescue nil
+        @feed_marca = Feedzirra::Feed.fetch_and_parse("#{Settings.feeds.blogs.marca}") rescue nil
         Rails.cache.write("feed_marca", @feed_marca, :expires_in => 20.minutes)
       end
     end

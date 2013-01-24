@@ -30,7 +30,7 @@ class Seleccion < ActiveRecord::Base
   def valor
     suma = 0.0
     self.jugadores.each do |j|
-      suma += j.precio
+      suma += (j.precio || 0)
     end
     suma
   end
