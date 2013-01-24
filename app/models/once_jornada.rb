@@ -4,15 +4,12 @@ class OnceJornada
 
   key :seleccion_id, Integer
 
-  key :jornada, Integer
+  key :jornada
 
   key :jugadores, Array
 
   key :puntuacion, Integer
 
-  scope :jugadores_por_equipo, lambda { |jornada, seleccion_id|
-    where(:jornada => jornada, :seleccion_id =>  seleccion_id)
-  }
 
 
 end

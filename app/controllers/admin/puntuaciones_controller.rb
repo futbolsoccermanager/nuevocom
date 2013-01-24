@@ -31,7 +31,7 @@ module  Admin
         @pjugador_pts << jug_puntos
       end
 
-      @pjugador_pts.sort! { |a,b| [Jugador::POSICIONES.index(a[:posicion]), a[:nombre]] <=> [Jugador::POSICIONES.index(b[:posicion]), b[:nombre]] }
+      @pjugador_pts.sort! { |a,b| [Jugador::POSICIONES.key(a[:posicion]), a[:nombre]] <=> [Jugador::POSICIONES.key(b[:posicion]), b[:nombre]] }
 
     end
 
