@@ -24,10 +24,10 @@ ActiveRecord::Schema.define(:version => 20130124124555) do
     t.integer  "num_jornada"
     t.datetime "fecha_comienzo"
     t.datetime "fecha_fin"
-    t.integer  "local_id"
-    t.integer  "visitante_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.boolean  "calculos_hechos"
+    t.boolean  "actual"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "jugadores", :force => true do |t|
