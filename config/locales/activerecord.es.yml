@@ -8,3 +8,7 @@ es:
               blank: ": hay que rellenar el email"
             password:
               blank: ": introduce el password"
+        liga:
+          attributes:
+            password:
+              blank: "El password es obligatorio en ligas privadas"

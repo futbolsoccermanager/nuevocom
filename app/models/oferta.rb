@@ -29,6 +29,7 @@ class Oferta < ActiveRecord::Base
   CANCELADA = 'X'
 
   ## valida que la liga sea valida (id mercado(jugador) correcto, ...)
+  ## si ya existe, se actualiza el valor
   def save_if_valid
 
     return false if Mercado.find(self.mercado_id).liga != self.seleccion.liga

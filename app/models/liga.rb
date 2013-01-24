@@ -17,7 +17,7 @@
 
 class Liga < ActiveRecord::Base
 
-  PRIVACIDAD = {:abierta => 'A', :publica => 'P'}
+  PRIVACIDAD = {:abierta => 'A', :privada => 'P'}
   NUM_MEMBERS = {:max => 20, :default => 8, :min => 2}
   PRESUPUESTO = {:max => 100000000, :min => 30000000, :default => 50000000}
   NUM_PLAYERS = {:max => 25, :default => 15, :min => 8}
@@ -45,6 +45,6 @@ class Liga < ActiveRecord::Base
   has_many :messages
 
   def need_pwd?
-    privacidad != PRIVACIDAD[:publica]
+    privacidad != PRIVACIDAD[:abierta]
   end
 end

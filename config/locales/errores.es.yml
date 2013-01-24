@@ -1,0 +1,6 @@
+es:
+  errors:
+    invalid_nojson: "La petición tiene que se JSON"
+    invalid_nouserpwd: "Debe enviar el usuario y password"
+    invalid_user: "Usuario inválido"
+    invalid_token: "Token inválido"

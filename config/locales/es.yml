@@ -96,12 +96,20 @@ es:
     titulo: 'Mercado de fichajes'
     jugadores: 'Jugadores'
     club: 'Club'
+    owner: 'Dueño'
     precio_salida: 'Precio de salida'
+    valor: 'Valor'
+    nuevo:
+      titulo: 'Incluir jugadores en el mercado de fichajes'
+      acepta: 'Incluir en el mercado'
     oferta:
       placeholder: 'Valor oferta'
       realizar: 'Efectuar pujas'
       propias: 'Ver mis ofertas'
+      venta: 'Poner jugadores a la venta'
   ofertas:
+    enviadas: 'Ofertas realizadas'
+    recibidas: 'Ofertas recibidas'
     jugador: 'Jugador'
     fecha: 'Fecha oferta'
     valor: 'Valor oferta'
@@ -118,8 +126,3 @@ es:
     equipo: "Equipo"
     ultima: "Última Jornada"
     total: "Puntos totales"
-  errors:
-    invalid_nojson: "La petición tiene que se JSON"
-    invalid_nouserpwd: "Debe enviar el usuario y password"
-    invalid_user: "Usuario inválido"
-    invalid_token: "Token inválido"

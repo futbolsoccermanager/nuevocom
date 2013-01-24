@@ -33,4 +33,8 @@ class MercadoController < ApplicationController
     end
 
   end
+
+  def new
+    @jugadores = current_user.current_seleccion(session).jugadores
+  end
 end

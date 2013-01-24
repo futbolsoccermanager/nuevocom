@@ -16,5 +16,7 @@ class Mercado < ActiveRecord::Base
   belongs_to :liga
   belongs_to :jugador
 
+  belongs_to :seleccion
+
   has_many :ofertas
 end

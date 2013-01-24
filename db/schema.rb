@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20130124124555) do
+=======
+ActiveRecord::Schema.define(:version => 20130124075343) do
+>>>>>>> lista de jugadores en mercado fichajes
 
   create_table "equipos", :force => true do |t|
     t.string   "nombre"
@@ -62,6 +66,7 @@ ActiveRecord::Schema.define(:version => 20130124124555) do
     t.date     "fecha_inclusion"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.integer  "seleccion_id"
   end
 
   create_table "messages", :force => true do |t|
