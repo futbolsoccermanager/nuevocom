@@ -101,7 +101,9 @@ es:
     valor: 'Valor'
     nuevo:
       titulo: 'Incluir jugadores en el mercado de fichajes'
-      acepta: 'Incluir en el mercado'
+      acepta: 'Incluir'
+      cancela: 'Retirar'
+      realizado: 'Operación realizada'
     oferta:
       placeholder: 'Valor oferta'
       realizar: 'Efectuar pujas'

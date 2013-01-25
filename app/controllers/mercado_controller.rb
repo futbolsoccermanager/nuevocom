@@ -36,5 +36,39 @@ class MercadoController < ApplicationController
 
   def new
     @jugadores = current_user.current_seleccion(session).jugadores
+
+    @mercado = Mercado.where(:jugador_id => @jugadores.map{|x| x.id})
+  end
+
+  def create
+    jugador = Jugador.find params[:jugador_id]
+    @jugadores = current_user.current_seleccion(session).jugadores
+
+    if @jugadores.include? jugador
+      m = Mercado.create :fecha_inclusion => Time.now, :jugador_id => jugador.id, :liga_id => current_user.current_seleccion(session).liga.id
+      @mercado = Mercado.where(:jugador_id => @jugadores.map{|x| x.id})
+
+      flash[:notice] = I18n.t 'mercado.nuevo.realizado'
+    else
+      flash[:error] = I18n.t 'errors.mercado.invalido'
+    end
+
+    render 'operacion'
+  end
+
+  def destroy
+    jugador = Jugador.find params[:id]
+    @jugadores = current_user.current_seleccion(session).jugadores
+
+    if @jugadores.include? jugador
+      jmercado = Mercado.where(:jugador_id => jugador.id, :liga_id => current_user.current_seleccion(session).liga.id).first
+      jmercado.destroy
+      @mercado = Mercado.where(:jugador_id => @jugadores.map{|x| x.id})
+
+      flash[:notice] = I18n.t 'mercado.nuevo.realizado'
+    else
+      flash[:error] = I18n.t 'errors.mercado.invalido'
+    end
+    render 'operacion'
   end
 end

@@ -1,26 +1,4 @@
 %h2= t('mercado.nuevo.titulo')
 
-= form_tag mercado_create_ofertas_path, :remote => true, :id => 'formofer'
-%button.btn.btn-success.addplayer{:type => 'button'}
-  =t('mercado.nuevo.acepta')
-
-%table.table.table-hover.table-condensed
-  %thead
-    %tr
-      %th= t('mercado.jugadores')
-      %th= t('mercado.club')
-      %th= t('mercado.valor')
-      %th= t('mercado.precio_salida')
-
-  %tbody
-    - @jugadores.each do |j|
-      %tr
-        %td= j.nombre
-        %td= j.equipo.nombre
-        %td.derecha= formato_numero j.precio
-        %td
-          = text_field_tag "jg_#{j.id}", nil, :placeholder => t('mercado.precio_salida'), :class => 'valofer'
-          %span.rem_oferta.icon-remove{:id => "delete_#{j.id}"}
-
-%button.btn.btn-success.addplayer{:type => 'button'}
-  =t('mercado.nuevo.acepta')
+#mercadopropio
+  = render 'mercado/tabla_mercado'

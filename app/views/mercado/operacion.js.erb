@@ -1,0 +1,6 @@
+$("#flash-app").html("<%= escape_javascript(render :partial => "layouts/messages")%>");
+
+<% if @mercado.present? && @jugadores.present? %>
+$("#mercadopropio").html("<%= escape_javascript(render :partial => "mercado/tabla_mercado")%>");
+<% end %>
+

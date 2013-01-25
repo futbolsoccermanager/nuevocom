@@ -4,3 +4,5 @@ es:
     invalid_nouserpwd: "Debe enviar el usuario y password"
     invalid_user: "Usuario inválido"
     invalid_token: "Token inválido"
+    mercado:
+      invalido: "Petición inválida"
