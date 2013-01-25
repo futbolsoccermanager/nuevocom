@@ -1,4 +1,4 @@
-class OfertaHistorico < ActiveRecord::Base
+class OfertaHistorico
 
   include MongoMapper::Document
 
