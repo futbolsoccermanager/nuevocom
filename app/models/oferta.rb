@@ -14,7 +14,7 @@
 #
 
 class Oferta < ActiveRecord::Base
-  attr_accessible :fecha, :mercado_id, :seleccion_id, :valor, :estado
+  attr_accessible :fecha,:fecha_fin, :mercado_id, :seleccion_id, :valor, :estado
 
   #attr_accessor :mercado
 
