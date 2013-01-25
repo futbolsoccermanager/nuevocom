@@ -14,7 +14,7 @@
 #
 
 class Oferta < ActiveRecord::Base
-  attr_accessible :fecha, :mercado_id, :seleccion_id, :valor
+  attr_accessible :fecha, :mercado_id, :seleccion_id, :valor, :estado
 
   #attr_accessor :mercado
 
@@ -27,6 +27,36 @@ class Oferta < ActiveRecord::Base
   CADUCADA = 'C'
   RECHAZADA = 'R'
   CANCELADA = 'X'
+
+
+  STATUSES = {
+      :pendiente => PENDIENTE,
+      :aceptada => ACEPTADA,
+      :caducada => CADUCADA,
+      :rechazada => RECHAZADA,
+      :cancelada => CANCELADA
+  }
+
+  STATUSES.each do |status, value|
+      define_method :"#{status}?" do
+          self.estado == value
+      end
+      define_method :"#{status}!" do
+          self.estado = value
+      end
+  end
+
+  class <<self
+    STATUSES.each do |status_name, value|
+       define_method "all_#{status_name}" do
+         find(:all, :conditions => ["estado == ?", value])
+       end
+       define_method "not_all_#{status_name}" do
+         find(:all, :conditions => ["estado <> ?", value])
+       end
+    end
+  end
+
 
   ## valida que la liga sea valida (id mercado(jugador) correcto, ...)
   ## si ya existe, se actualiza el valor
@@ -48,4 +78,5 @@ class Oferta < ActiveRecord::Base
       self
     end
   end
+
 end
