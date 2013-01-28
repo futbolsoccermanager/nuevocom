@@ -23,7 +23,7 @@
       $("#busca_liga").autocomplete({
         source: function(request, response) {
           $.ajax({
-            url: "#{search_ligas_path(:tipo => PRIVACIDAD[:abierta])}",
+            url: "#{search_ligas_path(:tipo => Liga::PRIVACIDAD[:abierta])}",
             type: 'POST',
             dataType: "json",
             data: {term: request.term},
