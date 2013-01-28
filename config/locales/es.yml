@@ -91,6 +91,14 @@ es:
       name: 'Privacidad'
       abierta: 'Abierta'
       privada: 'Privada'
+    tabla:
+      nombre: 'Nombre'
+      creador: 'Creador'
+      fecha: 'Fecha creacción'
+      privacidad: 'Tipo'
+      miembros: 'Máximo de miembros'
+      presupuesto: 'Presupuesto'
+
 
   mercado:
     titulo: 'Mercado de fichajes'

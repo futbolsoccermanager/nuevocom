@@ -1,0 +1,20 @@
+%h2= t('ligas.elegir')
+%table.table
+  %thead
+    %tr
+      %th= t('ligas.tabla.nombre')
+      %th= t('ligas.tabla.creador')
+      %th= t('ligas.tabla.fecha')
+      %th= t('ligas.tabla.privacidad')
+      %th= t('ligas.tabla.miembros')
+      %th= t('ligas.tabla.presupuesto')
+  %tbody
+    - @ligas.each do |liga|
+      %tr
+        %td= liga.nombre
+        %td= liga.creador
+        %td= liga.created_at.strftime('%d/%m/%Y')
+        %td= liga.privacidad
+        %td= liga.maximo_miembros
+        %td= liga.presupuesto_inicial
+

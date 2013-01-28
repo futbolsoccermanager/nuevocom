@@ -1,4 +1,4 @@
-= form_tag join_ligas_path, :method => :get
+= form_tag list_ligas_path, :method => :get, :id => "form_join_liga", :remote => true
 %p= t 'ligas.elegir'
 .radios
   %p
@@ -16,9 +16,14 @@
     =# link_to t('ligas.nueva_liga.crear'), new_ligas_path, :class => 'btn btn-primary'
 
 
+#lista-ligas
 
 
 :javascript
+    function submit_join_liga(){
+       $('#form_join_liga').submit();
+    }
+
     $(function() {
       $("#busca_liga").autocomplete({
         source: function(request, response) {
@@ -34,5 +39,10 @@
         },
         minLength: 3,
         delay: 300,
+        select: function(event, ui) {
+          $("#busca_liga").val(ui.item.label);
+          submit_join_liga();
+          return false ;
+        }
       });
     });

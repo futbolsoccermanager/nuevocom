@@ -50,5 +50,16 @@ class LigasController < ApplicationController
     end
   end
 
+  def list_leagues
+    tipo = params[:tipo]
+    case tipo
+      when 'abierta'
+        @ligas = Liga.with_name_equal params[:busca_liga], Liga::PRIVACIDAD[tipo.to_sym]
+    end
+    respond_to do |format|
+      format.js
+    end
+  end
+
 
 end

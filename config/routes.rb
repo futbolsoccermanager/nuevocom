@@ -23,7 +23,8 @@ Nuevocom::Application.routes.draw do
   end
   resource :ligas do
     match 'joinleague' => 'ligas#join_liga', :as => :join, :only => [:get]
-    match "leagues/:tipo" => "ligas#search_league", :as => :search
+    match 'leagues/:tipo' => 'ligas#search_league', :as => :search
+    match 'list_leagues' => 'ligas#list_leagues', :as => :list
   end
 
   resources :ofertas

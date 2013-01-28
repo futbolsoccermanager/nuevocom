@@ -48,7 +48,9 @@ class Liga < ActiveRecord::Base
       {:conditions => ['lower(nombre) like ? AND privacidad = ?', %(%#{str.downcase}%),tipo]}
   }
 
-
+  scope :with_name_equal, lambda { |str, tipo|
+    {:conditions => ['nombre = ? AND privacidad = ?', str,tipo]}
+  }
 
   def need_pwd?
     privacidad != PRIVACIDAD[:abierta]
