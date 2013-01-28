@@ -14,3 +14,25 @@
     = label_tag :tipo_nueva, t('ligas.tipos.nueva')
     = button_tag t('ligas.aceptar'), :class => 'btn btn-primary'
     =# link_to t('ligas.nueva_liga.crear'), new_ligas_path, :class => 'btn btn-primary'
+
+
+
+
+:javascript
+    $(function() {
+      $("#busca_liga").autocomplete({
+        source: function(request, response) {
+          $.ajax({
+            url: "#{search_ligas_path(:tipo => PRIVACIDAD[:abierta])}",
+            type: 'POST',
+            dataType: "json",
+            data: {term: request.term},
+            success: function(data) {
+              response(data);
+            }
+          });
+        },
+        minLength: 3,
+        delay: 300,
+      });
+    });

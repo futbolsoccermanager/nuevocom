@@ -44,6 +44,12 @@ class Liga < ActiveRecord::Base
   has_many :selecciones
   has_many :messages
 
+  scope :with_name_like, lambda { |str, tipo|
+      {:conditions => ['lower(nombre) like ? AND privacidad = ?', %(%#{str.downcase}%),tipo]}
+  }
+
+
+
   def need_pwd?
     privacidad != PRIVACIDAD[:abierta]
   end

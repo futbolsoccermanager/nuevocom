@@ -37,4 +37,18 @@ class LigasController < ApplicationController
       redirect_to new_selecciones_path
     end
   end
+
+
+  def search_league
+    results = Liga.with_name_like params[:term], params[:tipo]
+    array_leagues = results.map {|l| {label: l.nombre, value: l.id, code: l.id}}
+    results = array_leagues.to_json
+    respond_to do |format|
+      format.json {
+        render :json => results
+      }
+    end
+  end
+
+
 end
