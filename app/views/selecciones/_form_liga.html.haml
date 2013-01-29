@@ -15,7 +15,7 @@
     = radio_button_tag :tipo, 'nueva'
     = label_tag :tipo_nueva, t('ligas.tipos.nueva')
     = button_tag t('ligas.aceptar'), :class => 'btn btn-primary'
-    =# link_to t('ligas.nueva_liga.crear'), new_ligas_path, :class => 'btn btn-primary'
+
   = hidden_field_tag :tipo_busqueda, ''
 
 #lista-ligas
@@ -39,7 +39,7 @@
             }
           });
         },
-        minLength: 3,
+        minLength: 2,
         delay: 300,
         select: function(event, ui) {
           $("#busca_liga").val(ui.item.label);
@@ -63,7 +63,7 @@
             }
           });
         },
-        minLength: 3,
+        minLength: 2,
         delay: 300,
         select: function(event, ui) {
           $("#liga_privada").val(ui.item.label);

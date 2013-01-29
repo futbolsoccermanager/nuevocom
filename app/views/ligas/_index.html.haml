@@ -17,4 +17,5 @@
         %td= liga.privacidad
         %td= liga.maximo_miembros
         %td= liga.presupuesto_inicial
+        = button_to t('ligas.aceptar'),new_selecciones_path(:liga_id => liga.id),  :class => 'btn btn-primary'
 

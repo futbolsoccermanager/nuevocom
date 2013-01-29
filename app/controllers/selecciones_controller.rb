@@ -7,6 +7,7 @@ class SeleccionesController < ApplicationController
     @seleccion = Seleccion.new(:user_id => current_user.id)
     liga = session[:liga_eq]
 
+    @liga_id = params[:liga_id] || ''
 
     @seleccion.liga = liga if liga.present?
   end

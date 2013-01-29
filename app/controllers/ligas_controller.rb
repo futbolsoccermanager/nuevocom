@@ -57,8 +57,8 @@ class LigasController < ApplicationController
     tipo = params[:tipo]
     case tipo
       when 'abierta'
-        @ligas = Liga.with_name_equal params[:busca_liga], Liga::PRIVACIDAD[tipo.to_sym] unless @tipo_busqueda.present?
-        @ligas = Liga.with_name_or_creator_like params[:busca_liga], Liga::PRIVACIDAD[tipo.to_sym] if @tipo_busqueda.present?
+        @ligas = Liga.with_name_equal params[:busca_liga], Liga::PRIVACIDAD[tipo.to_sym] if @tipo_busqueda.present?
+        @ligas = Liga.with_name_or_creator_like params[:busca_liga], Liga::PRIVACIDAD[tipo.to_sym] unless @tipo_busqueda.present?
       when 'privada'
         @ligas = Liga.with_password_equal params[:liga_privada], Liga::PRIVACIDAD[tipo.to_sym]
     end
