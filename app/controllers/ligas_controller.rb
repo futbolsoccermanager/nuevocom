@@ -69,6 +69,8 @@ class LigasController < ApplicationController
   end
 
 
+
+
   private
 
   def tipo_busqueda
