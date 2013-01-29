@@ -62,9 +62,12 @@ class LigasController < ApplicationController
       when 'privada'
         @ligas = Liga.with_password_equal params[:liga_privada], Liga::PRIVACIDAD[tipo.to_sym]
     end
-    respond_to do |format|
-      format.js {} if @ligas.present?
-      format.js {"window.location '#{new_ligas_url}'"} unless @ligas.present?
+    unless @ligas.present?
+        render :js => "window.location = '#{new_ligas_url}'"
+    else
+      respond_to do |format|
+        format.js
+      end
     end
   end
 

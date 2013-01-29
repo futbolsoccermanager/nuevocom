@@ -100,7 +100,7 @@ es:
       privacidad: 'Tipo'
       miembros: 'Máximo de miembros'
       presupuesto: 'Presupuesto'
-
+    nombre: "Liga seleccionada: "
 
   mercado:
     titulo: 'Mercado de fichajes'
@@ -138,3 +138,6 @@ es:
     equipo: "Equipo"
     ultima: "Última Jornada"
     total: "Puntos totales"
+
+  equipo:
+    placeholder: "Introduce el nombre de equipo..."

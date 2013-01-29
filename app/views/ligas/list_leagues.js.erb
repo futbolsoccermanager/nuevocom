@@ -1,5 +1,6 @@
-$('#lista-ligas').html("<%= escape_javascript(render(:partial => "ligas/index"))%>");
-
+<% if @ligas.present? %>
+   $('#lista-ligas').html("<%= escape_javascript(render(:partial => "ligas/index"))%>");
+<% end %>
 
 if ($('#tipo_busqueda'))
     $('#tipo_busqueda').val('');

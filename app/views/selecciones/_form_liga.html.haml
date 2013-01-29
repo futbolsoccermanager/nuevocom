@@ -1,22 +1,22 @@
-= form_tag list_ligas_path, :method => :get, :id => "form_join_liga", :remote => true
-%p= t 'ligas.elegir'
-.radios
-  %p
-    = radio_button_tag :tipo, 'abierta'
-    = label_tag :tipo_abierta, t('ligas.tipos.abierta')
-    = text_field_tag :busca_liga, '', :placeholder => t('ligas.buscador.placeholder')
-    = button_tag t('ligas.buscar'), :class => 'btn btn-primary', 'data-loading-text' => t('buttons.buscando')
-  %p
-    = radio_button_tag :tipo, 'privada'
-    = label_tag :tipo_privada, t('ligas.tipos.privada')
-    = text_field_tag :liga_privada, '', :placeholder => t('ligas.privada.placeholder')
-    = button_tag t('ligas.buscar'), :class => 'btn btn-primary', 'data-loading-text' => t('buttons.buscando')
-  %p
-    = radio_button_tag :tipo, 'nueva'
-    = label_tag :tipo_nueva, t('ligas.tipos.nueva')
-    = button_tag t('ligas.aceptar'), :class => 'btn btn-primary'
+= form_tag list_ligas_path, :method => :get, :id => "form_join_liga", :remote => true do
+  %p= t 'ligas.elegir'
+  .radios
+    %p
+      = radio_button_tag :tipo, 'abierta'
+      = label_tag :tipo_abierta, t('ligas.tipos.abierta')
+      = text_field_tag :busca_liga, '', :placeholder => t('ligas.buscador.placeholder')
+      = button_tag t('ligas.buscar'), :class => 'btn btn-primary', 'data-loading-text' => t('buttons.buscando')
+    %p
+      = radio_button_tag :tipo, 'privada'
+      = label_tag :tipo_privada, t('ligas.tipos.privada')
+      = text_field_tag :liga_privada, '', :placeholder => t('ligas.privada.placeholder')
+      = button_tag t('ligas.buscar'), :class => 'btn btn-primary', 'data-loading-text' => t('buttons.buscando')
+    %p
+      = radio_button_tag :tipo, 'nueva'
+      = label_tag :tipo_nueva, t('ligas.tipos.nueva')
+      = button_tag t('ligas.aceptar'), :class => 'btn btn-primary'
 
-  = hidden_field_tag :tipo_busqueda, ''
+    = hidden_field_tag :tipo_busqueda, ''
 
 #lista-ligas
 

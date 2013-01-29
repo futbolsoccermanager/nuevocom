@@ -1,10 +1,11 @@
 = form_for @seleccion do |f|
   %p
-    %strong= @seleccion.liga.nombre
-    = f.hidden_field :liga_id, @liga_id
+    %strong= t('ligas.nombre') + @seleccion.liga.nombre
+    = f.hidden_field :liga_id
   %p
+
     = f.label :nombre
-    = f.text_field :nombre
+    = f.text_field :nombre, :placeholder => t('equipo.placeholder')
 
   %p
-    = f.submit :envio
+    = button_tag t('buttons.guardar'),  :class => 'btn btn-primary'

@@ -6,9 +6,9 @@ class SeleccionesController < ApplicationController
   def new
     @seleccion = Seleccion.new(:user_id => current_user.id)
     liga = session[:liga_eq]
-
-    @liga_id = params[:liga_id] || ''
-
+    if params[:liga_id].present?
+      liga = Liga.find params[:liga_id]
+    end
     @seleccion.liga = liga if liga.present?
   end
 
@@ -26,6 +26,7 @@ class SeleccionesController < ApplicationController
       flash[:error] = errores.join "\n"
       render 'new'
     else
+      current_user.current_seleccion(session,@seleccion)
       redirect_to mercado_path(@seleccion.id)
     end
   end

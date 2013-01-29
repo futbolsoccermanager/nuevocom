@@ -8,6 +8,7 @@
       %th= t('ligas.tabla.privacidad')
       %th= t('ligas.tabla.miembros')
       %th= t('ligas.tabla.presupuesto')
+      %th
   %tbody
     - @ligas.each do |liga|
       %tr
@@ -17,5 +18,5 @@
         %td= liga.privacidad
         %td= liga.maximo_miembros
         %td= liga.presupuesto_inicial
-        = button_to t('ligas.aceptar'),new_selecciones_path(:liga_id => liga.id),  :class => 'btn btn-primary'
+        %td= link_to t('ligas.aceptar'),new_selecciones_path(:liga_id => liga.id),  :class => 'btn btn-primary'
 
