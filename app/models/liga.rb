@@ -49,8 +49,18 @@ class Liga < ActiveRecord::Base
   }
 
   scope :with_name_equal, lambda { |str, tipo|
-    {:conditions => ['nombre = ? AND privacidad = ?', str,tipo]}
+    {:conditions => ['nombre = ? AND privacidad = ?',str, tipo]}
   }
+
+
+  scope :with_password_equal, lambda { |str, tipo|
+    {:conditions => ['password = ? AND privacidad = ?',str, tipo]}
+  }
+
+  scope :with_name_or_creator_like, lambda { |str, tipo|
+    {:conditions => ['(lower(nombre) like ? OR lower(creador) like ?) AND privacidad = ?', %(%#{str.downcase}%), %(%#{str.downcase}%), tipo]}
+  }
+
 
   def need_pwd?
     privacidad != PRIVACIDAD[:abierta]

@@ -5,6 +5,7 @@ es:
   buttons:
     guardar: 'Guardar'
     enviar: "Enviar"
+    buscando: 'Buscando...'
   login:
     titulo: 'Acceso a la aplicación'
     email: 'e-mail'
@@ -71,6 +72,7 @@ es:
   ligas:
     elegir: "¿En qué liga quieres inscribir el equipo?"
     aceptar: 'Continuar'
+    buscar: 'Buscar'
     tipos:
       abierta: "Liga abierta existente"
       privada: "Liga privada"
