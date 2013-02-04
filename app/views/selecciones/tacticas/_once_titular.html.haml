@@ -5,7 +5,7 @@
 
     - else
       - @porteros_titulares.each do |jugador|
-        %li.portero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+        %li.portero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
           %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
 
@@ -13,7 +13,7 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
       - if jugador.present?
-        %li.defensa.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+        %li.defensa.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
           %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
@@ -23,7 +23,7 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
       - if jugador.present?
-        %li.medio.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+        %li.medio.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
           %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
@@ -33,12 +33,11 @@
   %ul
     - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
       - if jugador.present?
-        %li.delantero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo_id)}"}
+        %li.delantero.titular.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
           %p.name= jugador.nombre
           %p.dorsal= jugador.dorsal
       - else
         %li.delantero.titular{:style => "#{escudo_equipo}"}
 
 
-%button.btn.btn-primary.center{:type=> "button", :onclick => "submit_once_titular();"}
-  = t('buttons.guardar')
+

@@ -1,12 +1,15 @@
 
-#carousel.jcarousel-skin-tango
-  %ul
-    - Seleccion::TACTICAS.each do |tactica|
-      %li= link_to image_tag(tactica), cambiar_tactica_selecciones_path(:tactica => tactica.gsub('.jpg',''),:id_seleccion => @seleccion.id), :remote => true, :method => :put
+
+%ul
+  - Seleccion::TACTICAS.each do |tactica|
+    %li= link_to image_tag(tactica), cambiar_tactica_selecciones_path(:tactica => tactica.gsub('.jpg',''),:id_seleccion => @seleccion.id), :remote => true, :method => :put
 
 
 
 :javascript
-  jQuery(document).ready(function() {
-      jQuery('#carousel').jcarousel();
-  });
+    jQuery(document).ready(function() {
+        jQuery('#carousel').jcarousel({
+            vertical: true,
+            scroll: 2
+        });
+    });

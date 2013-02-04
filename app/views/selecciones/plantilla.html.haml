@@ -1,9 +1,12 @@
-= render :partial => "selecciones/tacticas/tacticas"
-.clearfix
+#equipo{:style => "float:left"}
+  #once-titular
+    = render :partial => "selecciones/tacticas/once_titular"
 
-#once-titular
-  = render :partial => "selecciones/tacticas/once_titular"
 
+#carousel.jcarousel-skin-tango{:style => "float:right"}
+  = render :partial => "selecciones/tacticas/tacticas"
+%button.btn.btn-primary.center{:type=> "button", :onclick => "submit_once_titular();"}
+  = t('buttons.guardar')
 
 .clearfix
 #plantilla

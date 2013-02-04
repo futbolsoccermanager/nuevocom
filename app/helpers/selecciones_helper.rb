@@ -25,14 +25,14 @@ module SeleccionesHelper
     return jugadores
   end
 
-  def escudo_equipo(id_equipo = nil)
-    id_equipo = "base_player" if id_equipo.nil?
-    str =  "background-image:url('#{image_path("escudos/#{id_equipo}.png")}');"
+  def escudo_equipo(nombre_equipo = nil)
+    nombre_equipo = "base_player" if nombre_equipo.nil?
+    str =  "background-image:url('#{image_path("escudos/#{nombre_equipo}.png")}');"
     str << "background-repeat: no-repeat;"
     str << "background-position: 0px 5px;"
     str << "padding-left: 14px;"
-    str << "background-size: 90px 90px;"
-    str << "height: 100px;width:100px;"
+    str << "background-size: 50px 50px;"
+    str << "height: 60px;width:60px;"
     return str
   end
 

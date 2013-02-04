@@ -98,8 +98,8 @@ class SeleccionesController < ApplicationController
   private
 
     def titulares_y_suplentes
-      banquillo = Jugador.banquillo(params[:id_seleccion])
-      once_titular = Jugador.once_titular(params[:id_seleccion])
+      banquillo = Jugador.banquillo(params[:id_seleccion]).includes(:equipo)
+      once_titular = Jugador.once_titular(params[:id_seleccion]).includes(:equipo)
       @seleccion = Seleccion.find params[:id_seleccion]
 
       @porteros = banquillo.map{|x| x if x.posicion == Jugador::POSICIONES[:portero]}.compact
