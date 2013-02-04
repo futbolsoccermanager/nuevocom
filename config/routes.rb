@@ -3,7 +3,9 @@ Nuevocom::Application.routes.draw do
 
   resource :messages
 
-  resources :mercado
+  resources :mercado do
+    match "buscar" => 'mercado#buscarjugador', :as => :buscarjugador
+  end
   post "mercado/create_ofertas"
   match "mercado/:id_seleccion/index" => 'mercado#index', :as => :mercado
 

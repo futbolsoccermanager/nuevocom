@@ -71,4 +71,13 @@ class MercadoController < ApplicationController
     end
     render 'operacion'
   end
+
+  def buscarjugador
+    @equipos = Equipo.all
+
+    filtros = {}
+    filtros[:equipo_id] = params['equipo_jugador']
+
+    @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?})
+  end
 end

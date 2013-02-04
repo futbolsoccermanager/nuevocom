@@ -4,6 +4,7 @@
 %button.btn.btn-success.makeofer{:type => 'button'}
   =t('mercado.oferta.realizar')
 = link_to t('mercado.oferta.propias'), ofertas_path, :class => 'btn btn-inverse'
+= link_to t('mercado.oferta.buscar'), mercado_buscarjugador_path(current_user.current_seleccion(session).id), :class => 'btn btn-warning'
 = link_to t('mercado.oferta.venta'), new_mercado_path, :class => 'btn btn-inverse'
 
 %table.table.table-hover.table-condensed

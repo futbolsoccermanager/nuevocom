@@ -5,3 +5,11 @@
 span.rem_oferta{
   cursor: pointer;
 }
+
+form#form_buscajugador{
+  p{
+    input, select{
+      margin-right: 10px;
+    }
+  }
+}

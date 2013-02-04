@@ -119,6 +119,18 @@ es:
       realizar: 'Efectuar pujas'
       propias: 'Ver mis ofertas'
       venta: 'Poner jugadores a la venta'
+      buscar: 'Buscar un jugador'
+    buscar:
+      titulo: "Buscador de jugadores"
+      texto: "Busca un jugador de la liga. Si pertenece a alguno de tus competidores, podrás hacer una oferta por él."
+      nombre: 'Nombre'
+      posicion: 'Posición'
+      equipo: 'Equipo'
+      valor: 'Valor de mercado'
+      valor_max: 'Máximo'
+      valor_min: 'Mínimo'
+      puntos: 'Puntos'
+      resultados: 'Jugadores encontrados'
   ofertas:
     enviadas: 'Ofertas realizadas'
     recibidas: 'Ofertas recibidas'
