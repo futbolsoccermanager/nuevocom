@@ -22,6 +22,8 @@ class Jugador < ActiveRecord::Base
   has_many :mercados
   has_many :plantilla_selecciones
 
+  acts_as_likeable
+
   scope :once_titular, lambda {|seleccion_id|
     joins(:plantilla_selecciones).where('plantilla_selecciones.titular = ? AND plantilla_selecciones.seleccion_id = ?', true, seleccion_id)
   }

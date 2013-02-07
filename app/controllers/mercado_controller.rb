@@ -74,10 +74,11 @@ class MercadoController < ApplicationController
 
   def buscarjugador
     @equipos = Equipo.all
+    pagina = params[:page] || 1
 
     filtros = {}
     filtros[:equipo_id] = params['equipo_jugador']
 
-    @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?})
+    @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?}).page(pagina)
   end
 end

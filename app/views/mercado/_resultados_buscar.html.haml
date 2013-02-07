@@ -4,3 +4,7 @@
     %thead
       %tr
         %th aaaaa
+    %tbody
+      - @jugadores.each do |jugador|
+        %tr
+          %td= jugador.nombre

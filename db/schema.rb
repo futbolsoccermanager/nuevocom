@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130124124555) do
+ActiveRecord::Schema.define(:version => 20130207112053) do
 
   create_table "equipos", :force => true do |t|
     t.string   "nombre"
@@ -19,6 +19,17 @@ ActiveRecord::Schema.define(:version => 20130124124555) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "follows", :force => true do |t|
+    t.string   "follower_type"
+    t.integer  "follower_id"
+    t.string   "followable_type"
+    t.integer  "followable_id"
+    t.datetime "created_at"
+  end
+
+  add_index "follows", ["followable_id", "followable_type"], :name => "fk_followables"
+  add_index "follows", ["follower_id", "follower_type"], :name => "fk_follows"
 
   create_table "jornadas", :force => true do |t|
     t.integer  "num_jornada"
@@ -55,6 +66,28 @@ ActiveRecord::Schema.define(:version => 20130124124555) do
     t.integer  "presupuesto_inicial"
     t.integer  "num_jugadores_mercado"
   end
+
+  create_table "likes", :force => true do |t|
+    t.string   "liker_type"
+    t.integer  "liker_id"
+    t.string   "likeable_type"
+    t.integer  "likeable_id"
+    t.datetime "created_at"
+  end
+
+  add_index "likes", ["likeable_id", "likeable_type"], :name => "fk_likeables"
+  add_index "likes", ["liker_id", "liker_type"], :name => "fk_likes"
+
+  create_table "mentions", :force => true do |t|
+    t.string   "mentioner_type"
+    t.integer  "mentioner_id"
+    t.string   "mentionable_type"
+    t.integer  "mentionable_id"
+    t.datetime "created_at"
+  end
+
+  add_index "mentions", ["mentionable_id", "mentionable_type"], :name => "fk_mentionables"
+  add_index "mentions", ["mentioner_id", "mentioner_type"], :name => "fk_mentions"
 
   create_table "mercados", :force => true do |t|
     t.integer  "jugador_id"

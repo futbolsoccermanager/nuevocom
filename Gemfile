@@ -34,6 +34,9 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'jquery-ui-rails'
 
+gem 'kaminari'
+
+gem 'socialization'
 gem 'twitter'
 
 gem 'feedzirra'

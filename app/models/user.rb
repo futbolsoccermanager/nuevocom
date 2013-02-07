@@ -49,6 +49,11 @@ class User < ActiveRecord::Base
   has_many :selecciones
   has_many :messages
 
+  acts_as_follower
+  acts_as_liker
+
+  acts_as_followable
+
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     if login = conditions.delete(:login)
