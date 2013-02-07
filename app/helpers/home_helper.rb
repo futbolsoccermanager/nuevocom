@@ -17,7 +17,7 @@ module HomeHelper
       when 'clasificacion'
         clasificacion_index_path
       when 'amigos'
-        '#'
+        usuarios_path
       when 'nuevo_equipo'
         new_selecciones_path
     end

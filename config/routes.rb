@@ -1,7 +1,9 @@
 Nuevocom::Application.routes.draw do
 
 
+
   resource :messages
+  resources :usuarios
 
   resources :mercado do
     match "buscar" => 'mercado#buscarjugador', :as => :buscarjugador
