@@ -68,11 +68,11 @@ class User < ActiveRecord::Base
   end
 
   def mis_selecciones
-    selecciones #.order('fecha_visto desc')
+    selecciones
   end
 
   def current_seleccion(session, nueva=nil)
-    nueva = mis_selecciones.first if session[:current_seleccion].blank? && nueva.blank?
+    nueva = mis_selecciones.order('fecha_visto desc').first if session[:current_seleccion].blank? && nueva.blank?
     nueva.present? ? session[:current_seleccion] = nueva : session[:current_seleccion]
   end
 end

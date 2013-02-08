@@ -9,16 +9,17 @@ $ ->
     true
 
   $('.makeofer').click ->
-    errors = false
-    $('.valofer').each ->
-      if ($(this).val())
-        if(!$.isNumeric($(this).val()))
-          $(this).parent().parent().addClass('error')
-          errors = true
-        else
-          $(this).parent().parent().addClass('info')
+    $("#delflag").val(false)
+    errors = !$.isNumeric($(this).parent().find('input').val())
     if (!errors)
-      $("#formofer").submit()
+      $(this).parent().parent().submit()
+    else
+      $(this).parent().addClass('error')
+    false
+
+  $('.delofer').click ->
+    $("#delflag").val(1)
+    $(this).parent().parent().submit()
     false
 
   true

@@ -109,6 +109,7 @@ es:
     owner: 'Dueño'
     precio_salida: 'Precio de salida'
     valor: 'Valor'
+    puntos: 'pts.'
     nuevo:
       titulo: 'Incluir jugadores en el mercado de fichajes'
       acepta: 'Incluir'
@@ -116,7 +117,9 @@ es:
       realizado: 'Operación realizada'
     oferta:
       placeholder: 'Valor oferta'
-      realizar: 'Efectuar pujas'
+      realizar: 'Efectuar puja'
+      cambiar: 'Cambiar puja'
+      quitar: 'Eliminar puja'
       propias: 'Ver mis ofertas'
       venta: 'Poner jugadores a la venta'
       buscar: 'Buscar un jugador'

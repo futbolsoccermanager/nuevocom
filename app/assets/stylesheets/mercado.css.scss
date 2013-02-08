@@ -2,14 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-span.rem_oferta{
+span.rem_oferta {
   cursor: pointer;
 }
 
-form#form_buscajugador{
-  p{
-    input, select{
+form#form_buscajugador {
+  p {
+    input, select {
       margin-right: 10px;
+    }
+  }
+}
+
+table.fancy-celda {
+  border-spacing:5px;
+  border-collapse:separate;
+  border-width: 0;
+  td {
+    .control-group{
+      margin: 0;
+    }
+    background-image: linear-gradient(to bottom, #057D9F, #025167);
+    background-color: #61B7CF;
+    border-radius: 4px 4px 4px 4px;
+    color: #ffffff;
+    padding-left: 3px;
+    border-width: 0;
+    p{
+      float: left;
+      padding: 2px;
+      &.datos{
+        width: 100px;
+      }
+      button{
+        width: 100px;
+      }
     }
   }
 }
