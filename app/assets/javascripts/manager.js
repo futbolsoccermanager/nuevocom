@@ -13,7 +13,10 @@ FutbolSoccerManager= {
         $(function() {
               $.each([".port", ".def",".med", ".del"], function(index, value) {
                 $(value).draggable({
-                  revert: true
+                    cursor: 'move',        // sets the cursor apperance
+                    opacity: 0.35,         // opacity fo the element while it's dragged
+                    revert: true,          // sets the element to return to its start location
+                    revertDuration: 500
                 });
               });
               var arr_dragables = [".port", ".def",".med", ".del"];
