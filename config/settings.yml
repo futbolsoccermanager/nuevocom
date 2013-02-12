@@ -2,3 +2,8 @@ feeds:
   blogs:
     hc: "http://hablandoencuero.blogspot.com.es/feeds/posts/default"
     marca: "http://marca.feedsportal.com/rss/futbol_1adivision.xml"
+
+mercado:
+  valor:
+    minimo: 200
+    maximo: 200000000

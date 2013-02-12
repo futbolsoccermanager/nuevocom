@@ -1,10 +1,18 @@
 - if @jugadores.present?
   %h1= t('mercado.buscar.resultados')
-  %table.table.table-condensed
-    %thead
+  %table.table.fancy-celda
+    - @jugadores.in_groups_of(3, false).each do |grupo|
       %tr
-        %th aaaaa
-    %tbody
-      - @jugadores.each do |jugador|
-        %tr
-          %td= jugador.nombre
+        - grupo.each do |jugador|
+          %td
+            %p.datos
+              = image_tag "escudos/#{jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => jugador.equipo.nombre, :alt => jugador.equipo.nombre
+              %br
+              %strong= jugador.nombre
+              %br
+              = formato_numero jugador.precio
+              €
+              %br
+              %strong= PuntosJugador.total_puntuacion(jugador.id).inspect
+              = t('mercado.puntos')
+

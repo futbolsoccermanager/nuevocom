@@ -22,4 +22,7 @@ $ ->
     $(this).parent().parent().submit()
     false
 
+  $('#fetchplayers').click ->
+    $("#form_buscajugador").submit()
+    false
   true

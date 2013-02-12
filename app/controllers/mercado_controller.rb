@@ -79,8 +79,19 @@ class MercadoController < ApplicationController
     pagina = params[:page] || 1
 
     filtros = {}
-    filtros[:equipo_id] = params['equipo_jugador']
+    if params['jugador']
+      filtros[:equipo_id] = params['jugador']['equipo']
+      filtros[:posicion] = params['jugador']['posicion']
+    end
+
+    filtros[:precio] = (params['valor_minimo'].presence || Settings.mercado.valor.minimo).to_f..(params['valor_maximo'].presence || Settings.mercado.valor.maximo).to_f
 
     @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?}).page(pagina)
+
+    respond_to do |format|
+      format.js
+      format.html
+    end
+
   end
 end

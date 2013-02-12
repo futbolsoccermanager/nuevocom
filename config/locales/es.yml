@@ -134,6 +134,7 @@ es:
       valor_min: 'Mínimo'
       puntos: 'Puntos'
       resultados: 'Jugadores encontrados'
+      boton: "Buscar"
   ofertas:
     enviadas: 'Ofertas realizadas'
     recibidas: 'Ofertas recibidas'

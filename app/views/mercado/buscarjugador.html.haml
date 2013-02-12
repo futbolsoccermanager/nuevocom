@@ -1,5 +1,5 @@
 #formbuscar
-  = form_tag mercado_buscarjugador_path(current_user.current_seleccion(session).id), :method => :get, :id => "form_buscajugador", :remote => true do
+  = form_tag mercado_buscarjugador_path(current_user.current_seleccion(session).id), :method => :post, :id => "form_buscajugador", :remote => true do
     %h1=t('mercado.buscar.titulo')
     %p=t('mercado.buscar.texto')
     .radios
@@ -7,11 +7,11 @@
         = label_tag :busca_nombre, t('mercado.buscar.nombre')
         = text_field_tag :busca_nombre, '', :class => 'input-medium'
 
-        = label_tag :equipo_jugador, t('mercado.buscar.equipo')
-        = collection_select 'equipo', 'jugador', @equipos, :id, :nombre, {:include_blank => true}, :class => 'input-small'
+        = label_tag :jugador_equipo, t('mercado.buscar.equipo')
+        = collection_select 'jugador', 'equipo', @equipos, :id, :nombre, {:include_blank => true}, :class => 'input-small'
 
-        = label_tag :posicion_jugador, t('mercado.buscar.posicion')
-        = collection_select 'posicion', 'jugador', Jugador::POSICIONES, :first, :last, {:include_blank => true}, :class => 'input-small'
+        = label_tag :jugador_posicion, t('mercado.buscar.posicion')
+        = collection_select 'jugador', 'posicion', Jugador::POSICIONES, :first, :last, {:include_blank => true}, :class => 'input-small'
 
       %p
         = label_tag :valor_minimo, t('mercado.buscar.valor')
@@ -21,6 +21,9 @@
         = label_tag :puntos_minimo, t('mercado.buscar.puntos')
         = text_field_tag :puntos_minimo, '', :class => 'input-mini', :placeholder => t('mercado.buscar.valor_min')
         = text_field_tag :puntos_maximo, '', :class => 'input-mini', :placeholder => t('mercado.buscar.valor_max')
+        %button.btn.btn-success.btn-medium.makeofer{:type => 'button', :id => "fetchplayers"}
+          %span.icon-search
+          =t('mercado.buscar.boton')
 
   #tablabuscada
     = render 'resultados_buscar'
