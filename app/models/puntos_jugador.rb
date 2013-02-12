@@ -41,6 +41,10 @@ class PuntosJugador
     0
   end
 
+  def self.total_puntuacion(jugador_id)
+      self.all(:jugador_id => jugador_id).inject(0){|sum,x| sum  + (x.puntos_total || 0) }
+  end
+
   private
   def actualiza_total
     if nota.present?

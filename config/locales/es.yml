@@ -106,7 +106,7 @@ es:
     titulo: 'Mercado de fichajes'
     jugadores: 'Jugadores'
     club: 'Club'
-    owner: 'Dueño'
+    owner: 'Dueño:'
     precio_salida: 'Precio de salida'
     valor: 'Valor'
     puntos: 'pts.'
