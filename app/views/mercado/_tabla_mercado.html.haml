@@ -1,21 +1,24 @@
-%table.table.table-hover.table-condensed
-  %thead
+%table.table.fancy-celda
+  - @jugadores.in_groups_of(3, false).each do |grupo|
     %tr
-      %th= t('mercado.jugadores')
-      %th= t('mercado.club')
-      %th= t('mercado.valor')
-
-  %tbody
-    - @jugadores.each do |j|
-      %tr
-        %td= j.nombre
-        %td= j.equipo.nombre
-        %td.derecha= formato_numero j.precio
+      - grupo.each do |j|
         %td
-          - if valor_mercado_from_jugador(j.id, @mercado)
-            = button_to t('mercado.nuevo.cancela'),
-            {:action => 'destroy', :controller => 'mercado', :id => j.id}, {:method => :delete, :remote =>  true,  :class => 'btn btn-danger'}
-          - else
-            = button_to t('mercado.nuevo.acepta'),
-            {:action => 'create', :controller => 'mercado', :params => {:jugador_id => j.id}},
-            {:remote =>  true, :class => 'btn btn-success'}
+          %p.datos
+            = image_tag "escudos/#{j.equipo.nombre}.png", :width => 25, :height => 25, :title => j.equipo.nombre, :alt => j.equipo.nombre
+            %br
+            %strong= j.nombre
+            %br
+            = formato_numero j.precio
+            €
+            %br
+            %strong= PuntosJugador.total_puntuacion(j.id).inspect
+            = t('mercado.puntos')
+          %p.control-group
+            - if valor_mercado_from_jugador(j.id, @mercado)
+              = button_to t('mercado.nuevo.cancela'),
+              {:action => 'destroy', :controller => 'mercado', :id => j.id}, {:method => :delete, :remote =>  true,  :class => 'btn btn-danger'}
+            - else
+              = button_to t('mercado.nuevo.acepta'),
+              {:action => 'create', :controller => 'mercado', :params => {:jugador_id => j.id}},
+              {:remote =>  true, :class => 'btn btn-success'}
+

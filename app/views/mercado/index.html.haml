@@ -24,8 +24,8 @@
               =# t('mercado.owner')
               %strong.text-warning= owner.nombre
             %br
-              %strong= PuntosJugador.total_puntuacion(jm.jugador.id).inspect
-              = t('mercado.puntos')
+            %strong= PuntosJugador.total_puntuacion(jm.jugador.id).inspect
+            = t('mercado.puntos')
 
           = form_tag mercado_create_ofertas_path, :remote => true, :id => "formofer#{jm.id}" do
             = hidden_field_tag :delflag
