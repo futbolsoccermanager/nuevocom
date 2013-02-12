@@ -36,4 +36,10 @@ module SeleccionesHelper
     return str
   end
 
+
+  def image_escudo_equipo(nombre_equipo = nil)
+    nombre_equipo = "base_player" if nombre_equipo.nil?
+    return image_tag ("escudos/#{nombre_equipo}.png")
+  end
+
 end

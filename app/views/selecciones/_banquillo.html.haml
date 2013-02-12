@@ -1,29 +1,36 @@
-#carousel-banquillo.jcarousel-skin-tango{:style => "float:right;width:650px;"}
-  %ul
-    - @porteros.each do |jugador|
-      %li.jugador.port.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
-        %p="portero"
-        %p.name= jugador.nombre
+%div.position-field
+  - @porteros.each do |jugador|
+    %div.jugador-alineacion.port.anadir{:id => jugador.id}
+      %div{:style => escudo_equipo(jugador.equipo.nombre)}
         %p.dorsal= jugador.dorsal
-    - @defensas.each do |jugador|
-      %li.jugador.def.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
-        %p= "defensa"
-        %p.name= jugador.nombre
+      %p.name= jugador.nombre
+
+  .clear
+
+%div.position-field
+  - @defensas.each do |jugador|
+    %div.jugador-alineacion.def.anadir{:id => jugador.id}
+      %div{:style => escudo_equipo(jugador.equipo.nombre)}
         %p.dorsal= jugador.dorsal
-    - @medios.each do |jugador|
-      %li.jugador.med.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
-        %p= "medio"
-        %p.name= jugador.nombre
+      %p.name= jugador.nombre
+
+  .clear
+
+%div.position-field
+  - @medios.each do |jugador|
+    %div.jugador-alineacion.med.anadir{:id => jugador.id}
+      %div{:style => escudo_equipo(jugador.equipo.nombre)}
         %p.dorsal= jugador.dorsal
-    - @delanteros.each do |jugador|
-      %li.jugador.del.anadir{:id => jugador.id, :style => "#{escudo_equipo(jugador.equipo.nombre)}"}
-        %p="delantero"
-        %p.name= jugador.nombre
+      %p.name= jugador.nombre
+
+  .clear
+
+%div.position-field
+  - @delanteros.each do |jugador|
+    %div.jugador-alineacion.del.anadir{:id => jugador.id}
+      %div{:style => escudo_equipo(jugador.equipo.nombre)}
         %p.dorsal= jugador.dorsal
+      %p.name= jugador.nombre
 
 
-:javascript
-    jQuery(document).ready(function() {
-        jQuery('#carousel-banquillo').jcarousel({
-        });
-    });
+  .clear

@@ -10,49 +10,23 @@
   }
 }
 
-#plantilla {
-  ul {
-    float:left;
-    li {
-      display: inline-block;
-      list-style-type: none;
-      margin-top: 2px;
-      &.cabecera {
-        color: #FFF;
-        font-size: 15px;
-        font-weight: bold;
-      }
-    }
-  }
-  .jugador {
-    p.name {
-      font-weight: bold;
-    }
-    p.dorsal {
-      font-size: 25px;
-      margin-left: 3px;
-    }
-  }
+.position-field{
+  background-image: linear-gradient(to bottom, #057D9F, #025167);
+  background-image: -moz-linear-gradient(center top , #025167, #057D9F);
+  border-radius: 4px 4px 4px 4px;
+  border-width: 0;
+  color: #FFFFFF;
+  padding-left: 3px;
 }
 
-#once-titular {
-  ul {
-    li {
-      display: inline-block;
-      margin-left:10px;
-      list-style-type: none;
-      margin-top: 2px;
-      coursor: pointer;
-      &.titular {
-        p.name {
-          font-weight: bold;
-        }
-        p.dorsal {
-          font-size: 25px;
-          margin-left: 3px;
-        }
-      }
-    }
+.jugador-alineacion {
+  float:left;
+  width: 40px;
+  margin-right: 35px;
+  .dorsal{
+    width: 25px;
+    height: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
   }
-  float: left;
 }
