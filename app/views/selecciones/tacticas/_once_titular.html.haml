@@ -1,50 +1,54 @@
 #portero
   %div.position-field
-    - if @porteros_titulares.blank?
-      %div.portero.jugador-alineacion
-        %div{:style => escudo_equipo}
+    %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:portero])}
+      - if @porteros_titulares.blank?
+        %div.portero.jugador-alineacion
+          %div{:style => escudo_equipo}
 
-    - else
-      - @porteros_titulares.each do |jugador|
-        %div.portero.jugador-alineacion.anadir{:id => jugador.id}
-          %div{:style => escudo_equipo(jugador.equipo.nombre)}
-            %p.dorsal= jugador.dorsal
-          %p.name= jugador.nombre
+      - else
+        - @porteros_titulares.each do |jugador|
+          %div.portero.jugador-alineacion.anadir{:id => jugador.id}
+            %div{:style => escudo_equipo(jugador.equipo.nombre)}
+              %p.dorsal= jugador.dorsal
+            %p.name= jugador.nombre
     .clear
 #defensas
   %div.position-field
-    - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
-      - if jugador.present?
-        %div.defensa.jugador-alineacion.anadir{:id => jugador.id}
-          %div{:style => escudo_equipo(jugador.equipo.nombre)}
-            %p.dorsal= jugador.dorsal
-          %p.name= jugador.nombre
-      - else
-        %div.defensa.jugador-alineacion
-          %div{:style => escudo_equipo}
+    %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:defensa])}
+      - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
+        - if jugador.present?
+          %div.defensa.jugador-alineacion.anadir{:id => jugador.id}
+            %div{:style => escudo_equipo(jugador.equipo.nombre)}
+              %p.dorsal= jugador.dorsal
+            %p.name= jugador.nombre
+        - else
+          %div.defensa.jugador-alineacion
+            %div{:style => escudo_equipo}
     .clear
 #medios
   %div.position-field
-    - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
-      - if jugador.present?
-        %div.medio.jugador-alineacion.anadir{:id => jugador.id}
-          %div{:style => escudo_equipo(jugador.equipo.nombre)}
-            %p.dorsal= jugador.dorsal
-          %p.name= jugador.nombre
-      - else
-        %div.medio.jugador-alineacion
-          %div{:style => escudo_equipo}
+    %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:medio])}
+      - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
+        - if jugador.present?
+          %div.medio.jugador-alineacion.anadir{:id => jugador.id}
+            %div{:style => escudo_equipo(jugador.equipo.nombre)}
+              %p.dorsal= jugador.dorsal
+            %p.name= jugador.nombre
+        - else
+          %div.medio.jugador-alineacion
+            %div{:style => escudo_equipo}
     .clear
 #delanteros
   %div.position-field
-    - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
-      - if jugador.present?
-        %div.delantero.jugador-alineacion.anadir{:id => jugador.id}
-          %div{:style => escudo_equipo(jugador.equipo.nombre)}
-            %p.dorsal= jugador.dorsal
-          %p.name= jugador.nombre
-      - else
-        %div.delantero.jugador-alineacion
-          %div{:style => escudo_equipo}
+    %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:delantero])}
+      - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
+        - if jugador.present?
+          %div.delantero.jugador-alineacion.anadir{:id => jugador.id}
+            %div{:style => escudo_equipo(jugador.equipo.nombre)}
+              %p.dorsal= jugador.dorsal
+            %p.name= jugador.nombre
+        - else
+          %div.delantero.jugador-alineacion
+            %div{:style => escudo_equipo}
     .clear
 

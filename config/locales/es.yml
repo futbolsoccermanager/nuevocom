@@ -61,7 +61,7 @@ es:
     once_titular:
       change_ok: "Se ha guardado tu once titular"
       change_tactica: "Has cambiado tu táctica"
-
+      tactica_actual: "Tu táctica es: %{tactica}"
   jugadores:
     posiciones:
       portero: "Porteros"

@@ -24,8 +24,11 @@ class Seleccion < ActiveRecord::Base
   has_many :jugadores, :through => :plantilla_selecciones
   has_many :ofertas
 
+  TACTICA_HASH = {:defecto => "4_4_2",
+                  :ataque => "4_3_3",
+                  :medio => "4_5_1",
+                  :defensa => "5_4_1"}
 
-  TACTICAS = ['4_4_2.jpg','4_3_3.jpg','4_5_1.jpg','5_4_1.jpg']
 
   def valor
     suma = 0.0

@@ -52,7 +52,6 @@ class SeleccionesController < ApplicationController
 
   def save_once_titular
     titulares = params[:id_titulares].split(",")
-    p titulares.inspect
     activar_flag_titulares(titulares)
     titulares_y_suplentes
     flash[:notice] = t('seleccion.once_titular.change_ok')

@@ -1,9 +1,10 @@
 
 
 %ul
-  - Seleccion::TACTICAS.each do |tactica|
-    %li= link_to image_tag(tactica), cambiar_tactica_selecciones_path(:tactica => tactica.gsub('.jpg',''),:id_seleccion => @seleccion.id), :remote => true, :method => :put
-
+  - tacticas_equipo.each do |tactica|
+    %li
+      = link_to image_tag(tactica), cambiar_tactica_selecciones_path(:tactica => tactica.gsub('.jpg',''),:id_seleccion => @seleccion.id), :remote => true, :method => :put
+      %strong= convertir_tactica(tactica)
 
 
 :javascript

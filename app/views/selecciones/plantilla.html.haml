@@ -1,12 +1,12 @@
-#equipo{:style => "float:left"}
+#equipo
   #once-titular
     = render :partial => "selecciones/tacticas/once_titular"
-
+    %button.btn.btn-warning.center{:type=> "button", :onclick => "submit_once_titular();", :style => "float:left;margin-top:6px;"}
+      = t('buttons.guardar')
+    %strong= t('seleccion.once_titular.tactica_actual', :tactica => convertir_tactica(@seleccion.tactica))
 
 #carousel.jcarousel-skin-tango{:style => "float:right"}
   = render :partial => "selecciones/tacticas/tacticas"
-%button.btn.btn-primary.center{:type=> "button", :onclick => "submit_once_titular();"}
-  = t('buttons.guardar')
 
 .clearfix
 #plantilla

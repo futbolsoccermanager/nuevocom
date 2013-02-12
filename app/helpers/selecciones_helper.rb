@@ -35,6 +35,41 @@ module SeleccionesHelper
     return str
   end
 
+  def css_once_titular(tactica, position)
+    str = ''
+    case position
+      when Jugador::POSICIONES[:portero]
+        str << "margin-left:150px;" if tactica == Seleccion::TACTICA_HASH[:defensa]
+        str << "margin-left:110px;" if tactica != Seleccion::TACTICA_HASH[:defensa]
+      when Jugador::POSICIONES[:defensa]
+        str << "margin-left:20px;" if tactica == Seleccion::TACTICA_HASH[:defecto]
+        str << "margin-left:20px;" if tactica == Seleccion::TACTICA_HASH[:ataque]
+        str << "margin-left:40px;" if tactica == Seleccion::TACTICA_HASH[:medio]
+        str << "margin-left:10px;" if tactica == Seleccion::TACTICA_HASH[:defensa]
 
+      when Jugador::POSICIONES[:medio]
+        str << "margin-left:20px;" if tactica == Seleccion::TACTICA_HASH[:defecto]
+        str << "margin-left:50px;" if tactica == Seleccion::TACTICA_HASH[:ataque]
+        str << "margin-left:10px;" if tactica == Seleccion::TACTICA_HASH[:medio]
+        str << "margin-left:40px;" if tactica == Seleccion::TACTICA_HASH[:defensa]
+
+      when Jugador::POSICIONES[:delantero]
+        str << "margin-left:90px;" if tactica == Seleccion::TACTICA_HASH[:defecto]
+        str << "margin-left:50px;" if tactica == Seleccion::TACTICA_HASH[:ataque]
+        str << "margin-left:150px;" if tactica == Seleccion::TACTICA_HASH[:medio]
+        str << "margin-left:150px;" if tactica == Seleccion::TACTICA_HASH[:defensa]
+    end
+    return str
+  end
+
+
+  def tacticas_equipo
+    (Seleccion::TACTICA_HASH).map{|name, value| value + ".jpg"}
+  end
+
+
+  def convertir_tactica(tactica)
+    tactica.gsub('.jpg','').gsub("_","-")
+  end
 
 end
