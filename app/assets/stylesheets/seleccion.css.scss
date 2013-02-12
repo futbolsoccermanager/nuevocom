@@ -17,16 +17,21 @@
   border-width: 0;
   color: #FFFFFF;
   padding-left: 3px;
+  margin-top:4px;
 }
 
 .jugador-alineacion {
   float:left;
   width: 40px;
   margin-right: 35px;
+  margin-top:4px;
   .dorsal{
     width: 25px;
     height: 20px;
     color: #000000;
     background-color: #FFFFFF;
+    border-radius: 9px 12px 4px 4px;
+    padding-top: 6px;
+    text-align:center;
   }
 }

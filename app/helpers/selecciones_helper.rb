@@ -29,7 +29,6 @@ module SeleccionesHelper
     nombre_equipo = "base_player" if nombre_equipo.nil?
     str =  "background-image:url('#{image_path("escudos/#{nombre_equipo}.png")}');"
     str << "background-repeat: no-repeat;"
-    str << "background-position: 0px 5px;"
     str << "padding-left: 14px;"
     str << "background-size: 50px 50px;"
     str << "height: 60px;width:60px;"
@@ -37,9 +36,5 @@ module SeleccionesHelper
   end
 
 
-  def image_escudo_equipo(nombre_equipo = nil)
-    nombre_equipo = "base_player" if nombre_equipo.nil?
-    return image_tag ("escudos/#{nombre_equipo}.png")
-  end
 
 end
