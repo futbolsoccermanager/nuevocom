@@ -17,6 +17,7 @@ FutbolSoccerManager= {
                     opacity: 0.35,         // opacity fo the element while it's dragged
                     revert: true,          // sets the element to return to its start location
                     revertDuration: 500
+
                 });
               });
               var arr_dragables = [".port", ".def",".med", ".del"];
@@ -25,7 +26,8 @@ FutbolSoccerManager= {
                   accept: arr_dragables[index],
                   drop: function(event, ui) {
                     if ($(this).children()){
-                      $(this).children().insertAfter($(ui.draggable));
+                      //$(this).children().insertAfter($(ui.draggable)); // con esto se metia la interrogante al banquillo
+                      $(this).children().remove();
                     }
                     $(this).append($(ui.draggable));
                   }

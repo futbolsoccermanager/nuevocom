@@ -1,4 +1,4 @@
-%div.position-field
+%div.position-field.banco-portero
   - @porteros.each do |jugador|
     %div.jugador-alineacion.port.anadir{:id => jugador.id}
       %div{:style => escudo_equipo(jugador.equipo.nombre)}
@@ -7,7 +7,7 @@
 
   .clear
 
-%div.position-field
+%div.position-field.banco-defensa
   - @defensas.each do |jugador|
     %div.jugador-alineacion.def.anadir{:id => jugador.id}
       %div{:style => escudo_equipo(jugador.equipo.nombre)}
@@ -16,7 +16,7 @@
 
   .clear
 
-%div.position-field
+%div.position-field.banco-medio
   - @medios.each do |jugador|
     %div.jugador-alineacion.med.anadir{:id => jugador.id}
       %div{:style => escudo_equipo(jugador.equipo.nombre)}
@@ -25,7 +25,7 @@
 
   .clear
 
-%div.position-field
+%div.position-field.banco-delantero
   - @delanteros.each do |jugador|
     %div.jugador-alineacion.del.anadir{:id => jugador.id}
       %div{:style => escudo_equipo(jugador.equipo.nombre)}

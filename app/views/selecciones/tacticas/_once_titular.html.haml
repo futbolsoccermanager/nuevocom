@@ -2,53 +2,69 @@
   %div.position-field
     %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:portero])}
       - if @porteros_titulares.blank?
-        %div.portero.jugador-alineacion
-          %div{:style => escudo_equipo}
-
+        = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "portero"}
       - else
         - @porteros_titulares.each do |jugador|
-          %div.portero.jugador-alineacion.anadir{:id => jugador.id}
-            %div{:style => escudo_equipo(jugador.equipo.nombre)}
-              %p.dorsal= jugador.dorsal
-            %p.name= jugador.nombre
+          = render :partial => "selecciones/tacticas/posicion_ocupada", :locals => {:jugador => jugador, :position_field => "portero"}
+
     .clear
 #defensas
   %div.position-field
     %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:defensa])}
       - jugadores_titulares_por_posicion(@seleccion.tactica,@defensas_titulares, Jugador::POSICIONES[:defensa]).each do |jugador|
         - if jugador.present?
-          %div.defensa.jugador-alineacion.anadir{:id => jugador.id}
-            %div{:style => escudo_equipo(jugador.equipo.nombre)}
-              %p.dorsal= jugador.dorsal
-            %p.name= jugador.nombre
+          = render :partial => "selecciones/tacticas/posicion_ocupada", :locals => {:jugador => jugador, :position_field => "defensa"}
         - else
-          %div.defensa.jugador-alineacion
-            %div{:style => escudo_equipo}
+          = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "defensa"}
     .clear
 #medios
   %div.position-field
     %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:medio])}
       - jugadores_titulares_por_posicion(@seleccion.tactica,@medios_titulares, Jugador::POSICIONES[:medio]).each do |jugador|
         - if jugador.present?
-          %div.medio.jugador-alineacion.anadir{:id => jugador.id}
-            %div{:style => escudo_equipo(jugador.equipo.nombre)}
-              %p.dorsal= jugador.dorsal
-            %p.name= jugador.nombre
+          = render :partial => "selecciones/tacticas/posicion_ocupada", :locals => {:jugador => jugador, :position_field => "medio"}
         - else
-          %div.medio.jugador-alineacion
-            %div{:style => escudo_equipo}
+          = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "medio"}
     .clear
 #delanteros
   %div.position-field
     %div{:style =>  css_once_titular(@seleccion.tactica, Jugador::POSICIONES[:delantero])}
       - jugadores_titulares_por_posicion(@seleccion.tactica,@delanteros_titulares, Jugador::POSICIONES[:delantero]).each do |jugador|
         - if jugador.present?
-          %div.delantero.jugador-alineacion.anadir{:id => jugador.id}
-            %div{:style => escudo_equipo(jugador.equipo.nombre)}
-              %p.dorsal= jugador.dorsal
-            %p.name= jugador.nombre
+          = render :partial => "selecciones/tacticas/posicion_ocupada", :locals => {:jugador => jugador, :position_field => "delantero"}
         - else
-          %div.delantero.jugador-alineacion
-            %div{:style => escudo_equipo}
+          = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "delantero"}
     .clear
 
+#hide_portero{:style => "display:none;"}
+  = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "portero"}
+#hide_defensa{:style => "display:none;"}
+  = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "defensa"}
+#hide_medio{:style => "display:none;"}
+  = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "medio"}
+#hide_delantero{:style => "display:none;"}
+  = render :partial => "selecciones/tacticas/posicion_vacante", :locals => {:position_field => "delantero"}
+
+:javascript
+   $(".remove-titular").click(function(){
+     id_remove = $(this).attr('id');
+     var id = id_remove.replace("delete_","");
+     var html_jugador = $('#'+id).html();
+     html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion port anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
+
+     if ($('#'+id).attr('class').indexOf("portero") >= 0){
+       $('#'+id).before($('#hide_portero').html());
+       $('.banco-portero').prepend(html_jugador);
+     } else if ($('#'+id).attr('class').indexOf("defensa") >= 0){
+       $('#'+id).before($('#hide_defensa').html());
+       $('.banco-defensa').prepend(html_jugador)
+     } else if ($('#'+id).attr('class').indexOf("medio") >= 0){
+       $('#'+id).before($('#hide_medio').html());
+       $('.banco-medio').prepend(html_jugador)
+     } else if ($('#'+id).attr('class').indexOf("delantero") >= 0){
+       $('#'+id).before($('#hide_delantero').html());
+       $('.banco-delantero').prepend(html_jugador)
+     }
+     $('#'+id).remove();
+     FutbolSoccerManager.initializeDragAndDrop();
+   });

@@ -1,0 +1,6 @@
+%div.jugador-alineacion.anadir{:id => jugador.id, :class => position_field}
+  %div{:style => escudo_equipo(jugador.equipo.nombre)}
+    %p.dorsal= jugador.dorsal
+  %p.name
+    = jugador.nombre
+    %span{:id=>"delete_#{jugador.id}",:class=> "remove-titular icon-remove"}
