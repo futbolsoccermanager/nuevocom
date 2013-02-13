@@ -1,0 +1,19 @@
+#formpeticion.modal.fade.out
+  = form_tag mercado_create_ofertas_path, :remote => true, :id => "formulariopeticion" do
+    .modal-header
+      %li.close.icon-white.icon-remove
+      %h2= t('mercado.negociar.titulo')
+    .modal-body
+      - if @error.present?
+        %p.text-error=@error
+      - else
+        %p
+          = raw t('mercado.negociar.texto', :jugador => @jugador.nombre, :user => @usuario.username)
+          = text_field_tag "oferta", '', :placeholder => t('mercado.oferta.placeholder'), :class => 'valofer input-medium'
+        = form_tag
+    .modal-footer
+      - if @error.present?
+        = link_to t('mercado.negociar.aceptar'), '#', :class => 'btn btn-danger btn-medium cerrar'
+      - else
+        = link_to t('mercado.negociar.aceptar'), '#', :class => 'btn btn-success btn-medium acepta'
+

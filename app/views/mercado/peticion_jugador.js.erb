@@ -1,0 +1,13 @@
+$("#main").before("<%= escape_javascript(render "peticion_jugador", :formats => [:html]) %>");
+
+$("#formpeticion").modal({
+    'keyboard' : true
+});
+
+$('.close, .cerrar').click(function(){
+    $('#formpeticion').modal('hide');
+});
+
+$('.close, .cerrar').click(function(){
+    $('#formulariopeticion').submit();
+});

@@ -7,6 +7,7 @@ Nuevocom::Application.routes.draw do
 
   resources :mercado do
     match "buscar" => 'mercado#buscarjugador', :as => :buscarjugador
+    match "peticion" => 'mercado#peticion_jugador', :as => :peticion
   end
   post "mercado/create_ofertas"
   match "mercado/:id_seleccion/index" => 'mercado#index', :as => :mercado

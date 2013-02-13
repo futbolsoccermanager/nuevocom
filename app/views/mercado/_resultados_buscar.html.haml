@@ -5,6 +5,7 @@
       %tr
         - grupo.each do |jugador|
           %td
+            - owner = seleccion_mercado_jugador(jugador, current_user.current_seleccion(session))
             %p.datos
               = image_tag "escudos/#{jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => jugador.equipo.nombre, :alt => jugador.equipo.nombre
               %br
@@ -12,7 +13,13 @@
               %br
               = formato_numero jugador.precio
               €
+              - if owner.present?
+                %br
+                %strong.text-warning= owner.nombre
               %br
               %strong= PuntosJugador.total_puntuacion(jugador.id).inspect
               = t('mercado.puntos')
+            - if owner.present?
+              %p.control-group
+                = link_to t('mercado.buscar.peticion'), mercado_peticion_path(:jugador => jugador.id), :remote => true, :class => 'btn btn-success btn-mini'
 

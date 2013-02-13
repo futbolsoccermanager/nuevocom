@@ -28,6 +28,7 @@ es:
     edit_account: "Cuenta"
     crear_equipo: 'Crear equipo'
     mi_equipo: 'Mi equipo'
+    info: "Información"
     dashboard:
       titulo: 'Acciones'
       fichajes:
@@ -135,6 +136,14 @@ es:
       puntos: 'Puntos'
       resultados: 'Jugadores encontrados'
       boton: "Buscar"
+      peticion: 'Negociar traspaso'
+    negociar:
+      titulo: "Negocia el traspaso del jugador"
+      texto: "Haz saber al usuario <i>%{user}</i> tu interés por <strong>%{jugador}</strong>."
+      oferta: "Oferta:"
+      no_negociable: "No puedes negociar por este jugador"
+      aceptar: "Aceptar"
+
   ofertas:
     enviadas: 'Ofertas realizadas'
     recibidas: 'Ofertas recibidas'

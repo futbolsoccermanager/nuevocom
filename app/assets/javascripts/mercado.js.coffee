@@ -25,4 +25,6 @@ $ ->
   $('#fetchplayers').click ->
     $("#form_buscajugador").submit()
     false
+
   true
+

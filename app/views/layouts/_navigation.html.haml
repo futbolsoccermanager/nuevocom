@@ -9,33 +9,24 @@
     - else
       %li
         = link_to current_user.current_seleccion(session).try(:nombre), plantilla_selecciones_path(:id_seleccion => current_user.current_seleccion(session).id)
+    %li
+      = link_to edit_user_registration_path do
+        %i.icon-user.icon-white
+        = t('menus.edit_account')
   - else
     %li
       = link_to(t('login.signin'), new_user_session_path, :remote => true)
-      =# link_to('Login', prueba_path, :remote => true)
-  - if user_signed_in?
-    %li
-      = link_to(t('menus.edit_account'), edit_user_registration_path)
-    %li
-      = link_to(t('menus.logout'), destroy_user_session_path, :method=>'delete')
-
-  - else
     %li
       = link_to(t('menus.signup'), new_user_registration_path)
 
-
-- if @mis_equipos.present?
-  %div{:class=>"btn-toolbar"}
-    %div{:class=>"btn-group"}
-      %button{:class=>"btn btn-small"}= 'Mis equipos'
-      %button{:class=>"btn btn-small dropdown-toggle",'data-toggle'=>"dropdown"}
-        %span{:class=>"caret"}
-      %ul{:class=>"dropdown-menu"}
-        - @mis_equipos.each do |e|
-          %li
-            = link_to e.nombre, change_selecciones_path(e.id), :remote => true
-
-
-
-
+%ul.nav.derecha
+  %li
+    = link_to '#' do
+      %i.icon-info-sign.icon-white
+      = t('menus.info')
+  - if user_signed_in?
+    %li
+      = link_to(destroy_user_session_path, :method=>'delete') do
+        %i.icon-remove-sign.icon-white
+        = t('menus.logout')
 

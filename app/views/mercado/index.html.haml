@@ -21,7 +21,6 @@
             €
             - if owner.present?
               %br
-              =# t('mercado.owner')
               %strong.text-warning= owner.nombre
             %br
             %strong= PuntosJugador.total_puntuacion(jm.jugador.id).inspect

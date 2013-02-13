@@ -21,7 +21,7 @@ class MercadoController < ApplicationController
 
   def create_ofertas
 
-    params.select{|par, val| par.starts_with?('oferta') && val.present?}.each do |puja|
+    params.select { |par, val| par.starts_with?('oferta') && val.present? }.each do |puja|
       oferta = Oferta.new :mercado_id => puja.first.delete('oferta_'), :seleccion_id => current_user.current_seleccion(session).id, :valor => puja.last.to_f, :estado => Oferta::PENDIENTE
 
       oferta.save_if_valid
@@ -36,10 +36,7 @@ class MercadoController < ApplicationController
 
   def new
     @jugadores = current_user.current_seleccion(session).jugadores
-
-    @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map{|x| x.id})
-
-    p @mercado
+    @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map { |x| x.id })
   end
 
   def create
@@ -48,7 +45,7 @@ class MercadoController < ApplicationController
 
     if @jugadores.include? jugador
       Mercado.create :fecha_inclusion => Time.now, :jugador_id => jugador.id, :liga_id => current_user.current_seleccion(session).liga.id
-      @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map{|x| x.id})
+      @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map { |x| x.id })
 
       flash[:notice] = I18n.t 'mercado.nuevo.realizado'
     else
@@ -65,7 +62,7 @@ class MercadoController < ApplicationController
     if @jugadores.include? jugador
       jmercado = Mercado.where(:jugador_id => jugador.id, :liga_id => current_user.current_seleccion(session).liga.id).first
       jmercado.destroy
-      @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map{|x| x.id})
+      @mercado = Mercado.where(:liga_id => current_user.current_seleccion(session).liga_id, :jugador_id => @jugadores.map { |x| x.id })
 
       flash[:notice] = I18n.t 'mercado.nuevo.realizado'
     else
@@ -98,9 +95,9 @@ class MercadoController < ApplicationController
     filtros[:precio] = (params['valor_minimo'].presence || Settings.mercado.valor.minimo).to_f..(params['valor_maximo'].presence || Settings.mercado.valor.maximo).to_f
 
     if params["busca_nombre"].present?
-      @jugadores = Jugador.scoped(:conditions => filtros.reject{|k,v| v.blank?}).where("nombre like ?", "%#{params['busca_nombre']}%").page(pagina)
+      @jugadores = Jugador.scoped(:conditions => filtros.reject { |k, v| v.blank? }).where("nombre like ?", "%#{params['busca_nombre']}%").page(pagina)
     else
-      @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?}).page(pagina)
+      @jugadores = Jugador.where(filtros.reject { |k, v| v.blank? }).page(pagina)
     end
 
     respond_to do |format|
@@ -109,4 +106,15 @@ class MercadoController < ApplicationController
     end
 
   end
+
+  def peticion_jugador
+    @jugador = Jugador.find(params[:jugador])
+    seleccion = @jugador.plantilla_selecciones.select { |x| x.seleccion.liga_id == current_user.current_seleccion(session).liga_id }.first.try(:seleccion)
+    if seleccion.blank? # || seleccion.user.id == current_user.id
+      @error = I18n.t('mercado.negociar.no_negociable')
+    else
+      @usuario = seleccion.user
+    end
+  end
+
 end
