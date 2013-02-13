@@ -7,3 +7,6 @@ mercado:
   valor:
     minimo: 200
     maximo: 200000000
+  puntos:
+    minimo: -200
+    maximo: 2000

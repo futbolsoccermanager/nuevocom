@@ -84,9 +84,24 @@ class MercadoController < ApplicationController
       filtros[:posicion] = params['jugador']['posicion']
     end
 
+    if params['puntos_minimo'].present? || params['puntos_maximo'].present?
+      arr_ids = []
+      pminimo = (params['puntos_minimo'].presence || Settings.mercado.puntos.minimo).to_i
+      pmaximo = (params['puntos_maximo'].presence || Settings.mercado.puntos.maximo).to_i
+
+      Jugador.select(:id).each do |j|
+        arr_ids << j.id if (pminimo..pmaximo).member? PuntosJugador.total_puntuacion(j.id)
+      end
+      filtros[:id] = arr_ids
+    end
+
     filtros[:precio] = (params['valor_minimo'].presence || Settings.mercado.valor.minimo).to_f..(params['valor_maximo'].presence || Settings.mercado.valor.maximo).to_f
 
-    @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?}).page(pagina)
+    if params["busca_nombre"].present?
+      @jugadores = Jugador.scoped(:conditions => filtros.reject{|k,v| v.blank?}).where("nombre like ?", "%#{params['busca_nombre']}%").page(pagina)
+    else
+      @jugadores = Jugador.where(filtros.reject{|k,v| v.blank?}).page(pagina)
+    end
 
     respond_to do |format|
       format.js
