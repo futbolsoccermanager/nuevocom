@@ -1,36 +1,19 @@
 %div.position-field.banco-portero
   - @porteros.each do |jugador|
-    %div.jugador-alineacion.port.anadir{:id => jugador.id}
-      %div{:style => escudo_equipo(jugador.equipo.nombre)}
-        %p.dorsal= jugador.dorsal
-      %p.name= jugador.nombre
-
+    = render :partial => "selecciones/jugador_banquillo", :locals => {:jugador => jugador, :position_field => "port"}
   .clear
 
 %div.position-field.banco-defensa
   - @defensas.each do |jugador|
-    %div.jugador-alineacion.def.anadir{:id => jugador.id}
-      %div{:style => escudo_equipo(jugador.equipo.nombre)}
-        %p.dorsal= jugador.dorsal
-      %p.name= jugador.nombre
-
+    = render :partial => "selecciones/jugador_banquillo", :locals => {:jugador => jugador, :position_field => "def"}
   .clear
 
 %div.position-field.banco-medio
   - @medios.each do |jugador|
-    %div.jugador-alineacion.med.anadir{:id => jugador.id}
-      %div{:style => escudo_equipo(jugador.equipo.nombre)}
-        %p.dorsal= jugador.dorsal
-      %p.name= jugador.nombre
-
+    = render :partial => "selecciones/jugador_banquillo", :locals => {:jugador => jugador, :position_field => "med"}
   .clear
 
 %div.position-field.banco-delantero
   - @delanteros.each do |jugador|
-    %div.jugador-alineacion.del.anadir{:id => jugador.id}
-      %div{:style => escudo_equipo(jugador.equipo.nombre)}
-        %p.dorsal= jugador.dorsal
-      %p.name= jugador.nombre
-
-
+    = render :partial => "selecciones/jugador_banquillo", :locals => {:jugador => jugador, :position_field => "del"}
   .clear

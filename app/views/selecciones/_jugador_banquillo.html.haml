@@ -2,5 +2,5 @@
   %div{:style => escudo_equipo(jugador.equipo.nombre)}
     %p.dorsal= jugador.dorsal
   %div
-    %span{:id=>"delete_#{jugador.id}",:class=> "remove-titular icon-remove"}
+    %span{:id=>"delete_#{jugador.id}",:class=> "remove-titular icon-remove", :style => "display:none"}
     %p.name= jugador.nombre

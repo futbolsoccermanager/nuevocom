@@ -47,24 +47,27 @@
 
 :javascript
    $(".remove-titular").click(function(){
-     id_remove = $(this).attr('id');
-     var id = id_remove.replace("delete_","");
-     var html_jugador = $('#'+id).html();
-     html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion port anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
-
-     if ($('#'+id).attr('class').indexOf("portero") >= 0){
-       $('#'+id).before($('#hide_portero').html());
-       $('.banco-portero').prepend(html_jugador);
-     } else if ($('#'+id).attr('class').indexOf("defensa") >= 0){
-       $('#'+id).before($('#hide_defensa').html());
-       $('.banco-defensa').prepend(html_jugador)
-     } else if ($('#'+id).attr('class').indexOf("medio") >= 0){
-       $('#'+id).before($('#hide_medio').html());
-       $('.banco-medio').prepend(html_jugador)
-     } else if ($('#'+id).attr('class').indexOf("delantero") >= 0){
-       $('#'+id).before($('#hide_delantero').html());
-       $('.banco-delantero').prepend(html_jugador)
-     }
-     $('#'+id).remove();
-     FutbolSoccerManager.initializeDragAndDrop();
+      id_remove = $(this).attr('id');
+      var id = id_remove.replace("delete_","");
+      var html_jugador = $('#'+id).html();
+      if ($('#'+id).attr('class').indexOf("portero") >= 0){
+        html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion port anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
+        $('#'+id).before($('#hide_portero').html());
+        $('.banco-portero').prepend(html_jugador);
+      } else if ($('#'+id).attr('class').indexOf("def") >= 0){
+        html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion def anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
+        $('#'+id).before($('#hide_defensa').html());
+        $('.banco-defensa').prepend(html_jugador);
+      } else if ($('#'+id).attr('class').indexOf("medio") >= 0){
+        html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion med anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
+        $('#'+id).before($('#hide_medio').html());
+        $('.banco-medio').prepend(html_jugador);
+      } else if ($('#'+id).attr('class').indexOf("delantero") >= 0){
+        html_jugador = "<div id=" + "'" + id + "'" + " class='jugador-alineacion del anadir ui-draggable' style='position: relative;'>" + html_jugador + "</div>";
+        $('#'+id).before($('#hide_delantero').html());
+        $('.banco-delantero').prepend(html_jugador);
+      }
+      $('span[id=delete_'+id+']').hide();
+      $('#'+id).remove();
+      FutbolSoccerManager.initializeDragAndDrop();
    });
