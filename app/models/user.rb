@@ -54,6 +54,11 @@ class User < ActiveRecord::Base
 
   acts_as_followable
 
+  scope :busqueda_texto, lambda { |str|
+    {:conditions => ['lower(username) like ? OR email like ?', %(%#{str.downcase}%),%(%#{str.downcase}%)]}
+  }
+
+
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     if login = conditions.delete(:login)

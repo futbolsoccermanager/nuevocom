@@ -3,7 +3,14 @@ Nuevocom::Application.routes.draw do
 
 
   resource :messages
-  resources :usuarios
+
+  resources :usuarios do
+    collection do
+      match 'search' => 'usuarios#search_usuario', :as => :search
+      match 'list' => 'usuarios#lista_usuarios', :as => :list
+      match 'seguir/:usuario_id' => 'usuarios#seguir_usuario', :as => :seguir
+    end
+  end
 
   resources :mercado do
     match "buscar" => 'mercado#buscarjugador', :as => :buscarjugador

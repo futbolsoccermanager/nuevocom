@@ -1,0 +1,8 @@
+<% if @lista_usuarios.present? %>
+$('#lista-users').html("<%= escape_javascript(render(:partial => "listado_users"))%>");
+<% end %>
+
+$('.follow').click(function(){
+    $(this).parent().submit();
+});
+

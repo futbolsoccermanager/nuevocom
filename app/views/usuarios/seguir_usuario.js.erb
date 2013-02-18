@@ -1,0 +1,12 @@
+<% if current_user.follows?(@usuario) %>
+$("#botfoll<%= @usuario.id %>").removeClass('btn-success');
+$("#botfoll<%= @usuario.id %>").addClass('btn-warning');
+
+$("#botfoll<%= @usuario.id %>").html('<span class="icon-minus"></span><%= t('usuarios.acciones.no_seguir') %>');
+
+<% else %>
+$("#botfoll<%= @usuario.id %>").addClass('btn-success');
+$("#botfoll<%= @usuario.id %>").removeClass('btn-warning');
+
+$("#botfoll<%= @usuario.id %>").html('<span class="icon-plus"></span> <%= t('usuarios.acciones.seguir') %>');
+<% end %>

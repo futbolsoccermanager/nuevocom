@@ -1,0 +1,10 @@
+es:
+  usuarios:
+    buscar:
+      titulo: 'Busca un usuario'
+      placeholder: 'Escribe el nombre del usuario'
+      encontrados: 'Usuarios encontrados'
+      equipos: "%{numequipos} equipos."
+    acciones:
+      seguir: 'Seguir'
+      no_seguir: 'Dejar de seguir'

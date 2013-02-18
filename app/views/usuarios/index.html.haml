@@ -1,2 +1,36 @@
 %h1 Usuarios#index
 %p Find me in app/views/usuarios/index.html.haml
+
+= form_tag list_usuarios_path, :method => :get, :id => "form_lista_users", :remote => true do
+  = text_field_tag :busca_usuario, '', :placeholder => t('usuarios.buscar.placeholder')
+  = button_tag t('usuarios.buscar.titulo'), :class => 'btn btn-primary', 'data-loading-text' => t('buttons.buscando')
+
+#lista-users
+
+= @siguiendo.inspect
+= @seguidores.inspect
+
+
+:javascript
+  $(function() {
+    $("#busca_usuario").autocomplete({
+      source: function(request, response) {
+        $.ajax({
+          url: "#{search_usuarios_path}",
+          type: 'POST',
+          dataType: "json",
+          data: {term: request.term},
+          success: function(data) {
+            response(data);
+          }
+        });
+      },
+      minLength: 2,
+      delay: 300,
+      select: function(event, ui) {
+        $("#busca_usuario").val(ui.item.label);
+        $('#form_lista_users').submit();
+        return false ;
+      }
+    });
+  });

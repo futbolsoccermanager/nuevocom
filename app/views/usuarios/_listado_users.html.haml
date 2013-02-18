@@ -1,0 +1,24 @@
+%h2= t('usuarios.buscar.encontrados')
+
+%table.table.fancy-celda
+  - @lista_usuarios.in_groups_of(3, false).each do |grupo|
+    %tr
+      - grupo.each do |usuario|
+        %td
+          %p.datos
+            %br
+            %strong= usuario.username
+            %br
+            = t('usuarios.buscar.equipos', :numequipos => usuario.selecciones.count)
+          %p.control-group
+            - if usuario.id != current_user.id
+              = form_tag seguir_usuarios_path(usuario.id), :remote => true, :id => "follow#{usuario.id}" do
+                - if current_user.follows?(usuario)
+                  %button.btn.btn-warning.btn-medium.makeofer.follow{:type => 'button', :id => "botfoll#{usuario.id}"}
+                    %span.icon-minus
+                    =t('usuarios.acciones.no_seguir')
+                - else
+                  %button.btn.btn-success.btn-medium.makeofer.follow{:type => 'button', :id => "botfoll#{usuario.id}"}
+                    %span.icon-plus
+                    =t('usuarios.acciones.seguir')
+
