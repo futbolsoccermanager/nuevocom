@@ -1,0 +1,9 @@
+$("#main").before("<%= escape_javascript(render "estadisticas/dato_jugador", :formats => [:html]) %>");
+
+$("#datos").modal({
+    'keyboard' : true
+});
+
+$('.close, .cerrar').click(function(){
+    $('#datos').modal('hide');
+});

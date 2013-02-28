@@ -9,7 +9,8 @@
             %p.datos
               = image_tag "escudos/#{jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => jugador.equipo.nombre, :alt => jugador.equipo.nombre
               %br
-              %strong= jugador.nombre
+              %strong
+                = link_to jugador.nombre, estadistica_jugador_path(jugador.id), :remote => true
               %br
               = formato_numero jugador.precio
               €

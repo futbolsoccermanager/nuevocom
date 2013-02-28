@@ -2,6 +2,8 @@ Nuevocom::Application.routes.draw do
 
 
 
+  match "estadisticas/dato_jugador/:jugador_id" => "estadisticas#dato_jugador", :as => :estadistica_jugador
+
   resource :messages
 
   resources :usuarios do
