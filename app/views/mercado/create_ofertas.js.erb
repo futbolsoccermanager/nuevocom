@@ -1,3 +1,5 @@
+$('#formpeticion').remove();
+
 $("#main").before("<%= escape_javascript(render "peticion_jugador", :formats => [:html]) %>");
 
 $("#formpeticion").modal({

@@ -1,10 +1,20 @@
 // Place all the styles related to the estadisticas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#datos{
+  width: 600px;;
+}
 .datos{
-  strong{
-    a{
-      color: #ffffff;
-    }
+  a{
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
+#divpuntos{
+  overflow: auto;
+  table.puntuaciones{
+    font-size: 10px;;
   }
 }

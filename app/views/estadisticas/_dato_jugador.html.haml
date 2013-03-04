@@ -3,7 +3,35 @@
     %li.close.icon-white.icon-remove
     %h2= @jugador.nombre
   .modal-body
-    %p sddcscs
-  .modal-footer
-    = link_to t('mercado.negociar.aceptar'), '#', :class => 'btn btn-success btn-medium cerrar'
+    %p
+      = image_tag "escudos/#{@jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => @jugador.equipo.nombre, :alt => @jugador.equipo.nombre
+      = "# #{@jugador.dorsal}"
+    %p
+      = t('jugadores.nombre')
+      %strong
+        = @jugador.nombre
+        = ' '
+        = @jugador.apellidos if @jugador.apellidos.present?
+    %p
+      = t('jugadores.puesto')
+      %strong= t("jugadores.puestos.#{@jugador.posicion.downcase}")
+    %p
+      = t('jugadores.valor')
+      %strong= formato_numero @jugador.precio
+    %p
+      = t('jugadores.total_puntos')
+      %strong= formato_numero PuntosJugador.total_puntuacion(@jugador.id)
+    %p
+      #divpuntos
+        %table.table.puntuaciones
+          %thead
+            %tr
+              - (1..38).each do |jornada|
+                %th= jornada
+          %tbody
+            %tr
+              - (1..38).each do |jornada|
+                %td= @puntos_jornadas[jornada.to_s] || '-'
+    .modal-footer
+      = link_to t('mercado.negociar.aceptar'), '#', :class => 'btn btn-success btn-medium cerrar'
 

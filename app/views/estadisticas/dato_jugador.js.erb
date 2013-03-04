@@ -1,3 +1,4 @@
+$('#datos').remove();
 $("#main").before("<%= escape_javascript(render "estadisticas/dato_jugador", :formats => [:html]) %>");
 
 $("#datos").modal({

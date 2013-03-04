@@ -6,12 +6,13 @@
           %p.datos
             = image_tag "escudos/#{j.equipo.nombre}.png", :width => 25, :height => 25, :title => j.equipo.nombre, :alt => j.equipo.nombre
             %br
-            %strong= j.nombre
+            %strong
+              = link_to j.nombre, estadistica_jugador_path(j.id), :remote => true
             %br
             = formato_numero j.precio
             €
             %br
-            %strong= PuntosJugador.total_puntuacion(j.id).inspect
+            %strong= PuntosJugador.total_puntuacion(j.id)
             = t('mercado.puntos')
           %p.control-group
             - if valor_mercado_from_jugador(j.id, @mercado)

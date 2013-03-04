@@ -17,8 +17,12 @@ class PuntosJugador
 
   scope :puntos_je, lambda { |jornada, jugadores|
     where(:jornada => jornada, :jugador_id =>  jugadores)
-    #{:conditions => ["num_jornada = ? and jugador_id IN  (?) ", jornada, jugadores]}
   }
+
+  scope :puntos_todos, lambda { |jugador_id|
+    where(:jugador_id =>  jugador_id)
+  }
+
 
   def codigo_resultado
     return 'G' if resultado_equipo == 2

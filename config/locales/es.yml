@@ -69,6 +69,15 @@ es:
       defensa: "Defensas"
       medio: "Medios"
       delantero: "Delanteros"
+    nombre: 'Nombre'
+    puesto: "Puesto"
+    valor: "Valor"
+    total_puntos: "Puntos Total"
+    puestos:
+      portero: "Portero"
+      defensa: "Defensa"
+      medio: "Medio"
+      delantero: "Delantero"
 
   ligas:
     elegir: "¿En qué liga quieres inscribir el equipo?"
