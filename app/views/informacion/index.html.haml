@@ -1,0 +1,7 @@
+%h1= t('info.index.titulo')
+%p= t('info.index.texto')
+
+%ul
+  - InformacionHelper::PAGINAS_INFO.each do |pag|
+    %li
+      = link_to raw(t("info.titulos.#{pag}")), informacion_path(pag)

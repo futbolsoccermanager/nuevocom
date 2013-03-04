@@ -1,0 +1,9 @@
+es:
+  info:
+    index:
+      titulo: "Información sobre el juego"
+      texto: "Desde aquí podrás acceder a toda la información y la ayuda sobre el juego y el resto de funcionalidades de la página."
+    titulos:
+      faq: 'Preguntas Frecuentes'
+      reglas: 'Reglas del Juego'
+      usuarios: 'Información acerca de los <strong>usuarios</strong> y sus funciones'
