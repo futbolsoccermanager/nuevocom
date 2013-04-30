@@ -12,6 +12,8 @@
       = render "/anuncios/lateralnoticias" if i%9 == 8
 
 - if @tweet_feeds.present?
+  = render '/layouts/follow_twitter'
   - @tweet_feeds.each_with_index do |tweet, i|
     %blockquote= raw tweet.text
     = render "/anuncios/lateralnoticias" if i%5 == 4
+
