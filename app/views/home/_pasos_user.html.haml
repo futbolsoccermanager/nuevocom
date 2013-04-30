@@ -1,0 +1,16 @@
+%h3= t('pasos.titulo')
+%p= raw t('pasos.texto')
+
+%ul
+  %li
+    = t('pasos.registro')
+    = image_tag 'Check-icon.png', :width => 30
+  %li
+    = link_to t('pasos.equipo'), new_selecciones_path
+    = link_to t('buttons.ir'), new_selecciones_path, :class => 'btn btn-info'
+  %li
+    = t('pasos.liga')
+    = image_tag 'Delete-icon.png', :width => 30
+  %li
+    = t('pasos.mercado')
+    = image_tag 'Delete-icon.png', :width => 30

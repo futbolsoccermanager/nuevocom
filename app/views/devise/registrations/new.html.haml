@@ -15,7 +15,7 @@
     = f.label :password_confirmation, t('login.password_confirmation')
     = f.password_field :password_confirmation
 
-  %div
-    = adscaptcha_tags
+  -#%div
+    =# adscaptcha_tags
   %div= f.submit t('login.signup'), :class => 'btn btn-primary'
 = render "devise/shared/links"

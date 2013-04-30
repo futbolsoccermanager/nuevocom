@@ -3,6 +3,8 @@
     = render 'dashboard'
   .dashboard
     = render 'select_equipos'
+- elsif user_signed_in?
+  = render 'home/pasos_user'
 - else
   %h1= t('index.titulo')
   %p= t('index.parrafo1')
@@ -10,6 +12,7 @@
   %p= raw t('index.parrafo3')
   %p= raw t('index.pasos')
 
+= render "/anuncios/central"
 - if @feed_hec.present?
   %h2= link_to @feed_hec.title, {:controller => 'home', :action => 'hablandoencuero'}
   - @feed_hec.entries.each_with_index do |entry, i|
