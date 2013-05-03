@@ -22,6 +22,11 @@ class Oferta < ActiveRecord::Base
   belongs_to :mercado
   belongs_to :seleccion
 
+  scope :activas, lambda {
+    {:conditions => ["estado = ?", PENDIENTE]}
+  }
+
+
   PENDIENTE =  'P'
   ACEPTADA = 'A'
   CADUCADA = 'C'
@@ -68,7 +73,12 @@ class Oferta < ActiveRecord::Base
 
     antigua = Oferta.where(:mercado_id => self.mercado_id, :seleccion_id => self.seleccion_id).first
     if  antigua.present?
-      antigua.valor = self.valor
+      if self.estado == CANCELADA
+        antigua.valor = 0
+        antigua.estado = CANCELADA
+      else
+        antigua.valor = self.valor
+      end
       antigua.fecha = Time.now
       antigua.save
 

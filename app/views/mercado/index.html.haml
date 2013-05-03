@@ -6,41 +6,5 @@
   = t('mercado.oferta.buscar')
 = link_to t('mercado.oferta.venta'), new_mercado_path, :class => 'btn btn-inverse'
 
-%table.table.fancy-celda
-  - @jugadores_mercado.in_groups_of(3, false).each do |grupo|
-    %tr
-      - grupo.each do |jm|
-        - owner = seleccion_mercado_jugador(jm.jugador, current_user.current_seleccion(session))
-        %td
-          %p.datos
-            = image_tag "escudos/#{jm.jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => jm.jugador.equipo.nombre, :alt => jm.jugador.equipo.nombre
-            %br
-              = link_to jm.jugador.nombre, estadistica_jugador_path(jm.jugador.id), :remote => true
-            %br
-            =formato_numero jm.jugador.precio
-            €
-            - if owner.present?
-              %br
-              %strong.text-warning= owner.nombre
-            %br
-            %strong= PuntosJugador.total_puntuacion(jm.jugador.id).inspect
-            = t('mercado.puntos')
-
-          = form_tag mercado_create_ofertas_path, :remote => true, :id => "formofer#{jm.id}" do
-            = hidden_field_tag :delflag
-            %p.control-group
-              = text_field_tag "oferta_#{jm.id}", @ofertas.select{|of| of.mercado_id == jm.id}.first.try(:valor), :placeholder => t('mercado.oferta.placeholder'), :class => 'valofer input-small', :disabled => (owner == current_user.current_seleccion(session))
-              %span.rem_oferta.icon-remove{:id => "delete_#{jm.id}"}
-              %br
-              - if @ofertas.select{|of| of.mercado_id == jm.id}.first.present?
-                %button.btn.btn-warning.btn-mini.makeofer{:type => 'button', :id => "make_#{jm.id}"}
-                  %span.icon-pencil
-                  =t('mercado.oferta.cambiar')
-                %br
-                %button.btn.btn-danger.btn-mini.delofer{:type => 'button', :id => "make_#{jm.id}"}
-                  %span.icon-trash
-                  =t('mercado.oferta.quitar')
-              - else
-                %button.btn.btn-success.btn-mini.makeofer{:type => 'button', :id => "make_#{jm.id}"}
-                  %span.icon-ok
-                  =t('mercado.oferta.realizar')
+%table.table.fancy-celda#datos_mercado
+  = render 'mercado/datos_merdado'

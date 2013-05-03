@@ -1,7 +1,3 @@
-$('#formpeticion').remove();
+$("#flash-app").html("<%= escape_javascript(render :partial => "layouts/messages")%>");
 
-$("#main").before("<%= escape_javascript(render "peticion_jugador", :formats => [:html]) %>");
-
-$("#formpeticion").modal({
-    'keyboard' : true
-});
+$("#datos_mercado").html("<%= escape_javascript(render "mercado/datos_merdado") %>");

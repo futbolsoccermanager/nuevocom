@@ -1,13 +1,7 @@
 class MercadoController < ApplicationController
+  before_filter :datos_ofertas, :only => [:index, :create_ofertas]
+
   def index
-    seleccion = Seleccion.find(params[:id_seleccion])
-
-    not_found if current_user != seleccion.user
-
-    liga_id = seleccion.liga_id
-    @jugadores_mercado = Mercado.where(:liga_id => liga_id)
-
-    @ofertas = seleccion.ofertas
 
     #todo mientras no se actualicen precios se mete a pelo
     @jugadores_mercado.each do |jm|
@@ -19,14 +13,29 @@ class MercadoController < ApplicationController
     end
   end
 
+  # crea una oferta de un jugador del mercado
+  # si ya existe, se modifica la existente en save_if_valid
+  # si aparece el flag delflag activado, se elimina
+  # devuelve un mensaje con los cambios realizados
   def create_ofertas
 
+
+
+    arr_ofertas = []
     params.select { |par, val| par.starts_with?('oferta') && val.present? }.each do |puja|
-      oferta = Oferta.new :mercado_id => puja.first.delete('oferta_'), :seleccion_id => current_user.current_seleccion(session).id, :valor => puja.last.to_f, :estado => Oferta::PENDIENTE
+      mid = puja.first.delete('oferta_')
+      eliminar = params["delflag#{mid}"] == '1'
+      oferta = Oferta.new :mercado_id => mid, :seleccion_id => current_user.current_seleccion(session).id, :valor => puja.last.to_f, :estado => Oferta::PENDIENTE
+      oferta.estado = Oferta::CANCELADA if eliminar
 
-      oferta.save_if_valid
-
+      oferta = oferta.save_if_valid
+      arr_ofertas << I18n.t('mercado.oferta.oferta_creada', {:jugador => oferta.mercado.jugador.nombre, :valor => oferta.valor})
     end
+
+    flash.notice = arr_ofertas.join '<br/>'
+
+    # actualizamos los datos
+    datos_ofertas
 
     respond_to do |format|
       format.js
@@ -117,4 +126,16 @@ class MercadoController < ApplicationController
     end
   end
 
+  private
+  def datos_ofertas
+    seleccion = Seleccion.find(params[:id_seleccion] || current_user.current_seleccion(session))
+
+    not_found if current_user != seleccion.user
+
+    liga_id = seleccion.liga_id
+    @jugadores_mercado = Mercado.where(:liga_id => liga_id)
+
+    @ofertas = seleccion.ofertas.activas
+
+  end
 end
