@@ -1,0 +1,33 @@
+#datos.modal.fade.out
+  .modal-header
+    %li.close.icon-white.icon-remove
+    %h2= @oferta.mercado.jugador.nombre
+  .modal-body
+    %p
+      = image_tag "escudos/#{@oferta.mercado.jugador.equipo.nombre}.png", :width => 25, :height => 25, :title => @oferta.mercado.jugador.equipo.nombre, :alt => @oferta.mercado.jugador.equipo.nombre
+      = "# #{@oferta.mercado.jugador.dorsal}"
+    %p
+      = t('jugadores.nombre')
+      %strong
+        = @oferta.mercado.jugador.nombre
+        = ' '
+        = @oferta.mercado.jugador.apellidos if @oferta.mercado.jugador.apellidos.present?
+    %p
+      = t('jugadores.puesto')
+      %strong= t("jugadores.puestos.#{@oferta.mercado.jugador.posicion.downcase}")
+    %p
+      = t('jugadores.valor')
+      %strong= formato_numero @oferta.mercado.jugador.precio
+    %p
+      = t('jugadores.total_puntos')
+      %strong= formato_numero PuntosJugador.total_puntuacion(@oferta.mercado.jugador.id)
+    %p
+      = t('ofertas.estado')
+      %strong= t("ofertas.estados.#{@oferta.estado}")
+      - if @oferta.estado != Oferta::CANCELADA
+        = t('ofertas.valor') + ':'
+        %strong= formato_numero @oferta.valor
+
+    .modal-footer
+      = link_to t('mercado.negociar.aceptar'), '#', :class => 'btn btn-success btn-medium cerrar'
+

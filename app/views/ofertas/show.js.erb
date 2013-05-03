@@ -1,0 +1,10 @@
+$('#datos').remove();
+$("#main").before("<%= escape_javascript(render "detalle_oferta", :formats => [:html]) %>");
+
+$("#datos").modal({
+    'keyboard' : true
+});
+
+$('.close, .cerrar').click(function(){
+    $('#datos').modal('hide');
+});

@@ -32,7 +32,7 @@ class MercadoController < ApplicationController
       arr_ofertas << I18n.t('mercado.oferta.oferta_creada', {:jugador => oferta.mercado.jugador.nombre, :valor => oferta.valor})
     end
 
-    flash.notice = arr_ofertas.join '<br/>'
+    flash.now[:notice] = arr_ofertas.join '<br/>'
 
     # actualizamos los datos
     datos_ofertas

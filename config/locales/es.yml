@@ -160,7 +160,16 @@ es:
     recibidas: 'Ofertas recibidas'
     jugador: 'Jugador'
     fecha: 'Fecha oferta'
+    fecha_cadu: 'Caduca el: '
     valor: 'Valor oferta'
+    estado: 'Estado:'
+    estados:
+      P:  'Pendiente'
+      A: 'Aceptada'
+      C: 'Caducada'
+      R: 'Rechazada'
+      X: 'Cancelada'
+
   index:
     titulo: "Fútbol Soccer Manager"
     parrafo1: "Llega la novedad en manager deportivos de la liga BBVA. Gran sistema de fichajes, novedoso sistema de puntuaciones, rapidez en cálculos, ...Regístrate y empieza a crear tu equipo, invita a tus amigos y competid en la misma liga. Podrás participar en varias ligas con la misma cuenta!"

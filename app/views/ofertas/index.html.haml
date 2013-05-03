@@ -10,11 +10,13 @@
     - @ofertas.each do |oferta|
       - clase = clase_oferta(oferta.estado)
       %tr{:class => clase}
-        %td= oferta.mercado.jugador.nombre
+        %td
+          = link_to oferta.mercado.jugador.nombre, estadistica_jugador_path(oferta.mercado.jugador.id), :remote => true
         %td= oferta.fecha
         %td= oferta.valor
         %td
-          %span.icon-info-sign
+          = link_to oferta_path(oferta), :remote => true do
+            %span.icon-info-sign
           - if oferta.estado == Oferta::PENDIENTE
             %span.icon-remove
 %h2= t('ofertas.recibidas')
